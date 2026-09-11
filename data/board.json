@@ -12,6 +12,7 @@
     "Take one of Allen / Lamar / Maye / Burrow \u2264 fight-to, then QB2.",
     "Take one of Gibbs / Bijan / Taylor / Cook \u2264 fight-to.",
     "Patience WRs: McConkey, Rice, Olave, DeVonta, Pickens, Flowers ($20\u201327).",
+    "Stash Kaelon Black ($3\u20136) as CMC cuff \u2014 priority late dart.",
     "Late: your darts + QB3 when others are broke. Always leave $1 \u00d7 open spots.",
     "AJB = PASS at any real price (IR \u22654 weeks)."
   ],
@@ -134,24 +135,6 @@
       "note": "Lead role while Henderson out."
     },
     {
-      "id": "kaelon-black",
-      "name": "Kaelon Black",
-      "pos": "RB",
-      "section": "rb",
-      "action": "dart",
-      "fight_to": "3-6",
-      "note": "Clear SF RB2 cuff."
-    },
-    {
-      "id": "jonah-coleman",
-      "name": "Jonah Coleman",
-      "pos": "RB",
-      "section": "darts",
-      "action": "dart",
-      "fight_to": "1-4",
-      "note": "Locked late dart."
-    },
-    {
       "id": "ladd-mcconkey",
       "name": "Ladd McConkey",
       "pos": "WR",
@@ -233,6 +216,47 @@
       "note": "IR \u22654 weeks (Schefter)."
     },
     {
+      "id": "jamarr-chase",
+      "name": "Ja'Marr Chase",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~50",
+      "note": "Nominate early to soak."
+    },
+    {
+      "id": "elite-wr-soak",
+      "name": "Puka / JSN / ARSB / Jefferson / Lamb",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "39-47",
+      "note": "Burn room cash before your WR value tier."
+    },
+    {
+      "id": "kaelon-black",
+      "name": "Kaelon Black",
+      "pos": "RB",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "3-6",
+      "note": "PRIORITY stash \u2014 SF RB2 (James inactive W1). CMC gets hurt often; handcuff you actually want.",
+      "aliases": [
+        "Black",
+        "K. Black",
+        "Kaelon"
+      ]
+    },
+    {
+      "id": "jonah-coleman",
+      "name": "Jonah Coleman",
+      "pos": "RB",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "1-4",
+      "note": "Locked late dart."
+    },
+    {
       "id": "jalen-coker",
       "name": "Jalen Coker",
       "pos": "WR",
@@ -294,24 +318,6 @@
       "action": "value",
       "fight_to": "3-5",
       "note": "Only-at \u2014 skip above $5."
-    },
-    {
-      "id": "jamarr-chase",
-      "name": "Ja'Marr Chase",
-      "pos": "WR",
-      "section": "soak",
-      "action": "soak",
-      "fight_to": "~50",
-      "note": "Nominate early to soak."
-    },
-    {
-      "id": "elite-wr-soak",
-      "name": "Puka / JSN / ARSB / Jefferson / Lamb",
-      "pos": "WR",
-      "section": "soak",
-      "action": "soak",
-      "fight_to": "39-47",
-      "note": "Burn room cash before your WR value tier."
     }
   ]
 }
