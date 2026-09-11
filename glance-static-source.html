@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BGN Draft Board — Nick</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --card: #1a1f29;
+    --text: #e8eaed;
+    --muted: #9aa3b2;
+    --yes: #1f6f4a;
+    --yes-border: #3dd68c;
+    --maybe: #6b5a1a;
+    --maybe-border: #e6c35c;
+    --pass: #5a1f2a;
+    --pass-border: #e85d75;
+    --soak: #1a3a5c;
+    --soak-border: #5b9fd4;
+    --dart: #3a2a5c;
+    --dart-border: #b794f6;
+    --accent: #7dd3fc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.25;
+  }
+  header {
+    position: sticky; top: 0; z-index: 20;
+    background: #0a0c10ee; backdrop-filter: blur(8px);
+    border-bottom: 1px solid #2a3140; padding: 10px 16px;
+  }
+  header .row { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: baseline; }
+  h1 { font-size: 1.05rem; margin: 0; font-weight: 700; }
+  .pill {
+    font-size: 0.8rem; padding: 4px 10px; border-radius: 999px;
+    background: #222833; color: var(--muted); border: 1px solid #333a4a;
+  }
+  .pill strong { color: var(--accent); }
+  .rules {
+    font-size: 0.85rem; color: var(--muted); margin-top: 6px;
+  }
+  .rules code { color: var(--accent); background: #1a2230; padding: 1px 6px; border-radius: 4px; }
+  nav {
+    display: flex; flex-wrap: wrap; gap: 8px; padding: 10px 16px 0;
+  }
+  nav a {
+    color: var(--accent); text-decoration: none; font-size: 0.8rem;
+    padding: 4px 10px; border: 1px solid #2a4058; border-radius: 6px; background: #15202e;
+  }
+  main { padding: 12px 16px 48px; max-width: 1200px; margin: 0 auto; }
+  h2 {
+    font-size: 0.95rem; margin: 22px 0 8px; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--muted); border-bottom: 1px solid #2a3140; padding-bottom: 4px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 8px;
+  }
+  .card {
+    background: var(--card); border-radius: 10px; padding: 10px 12px;
+    border-left: 4px solid #444;
+    display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; align-items: start;
+  }
+  .card.yes { border-left-color: var(--yes-border); background: linear-gradient(90deg, #12261c, var(--card) 40%); }
+  .card.maybe { border-left-color: var(--maybe-border); background: linear-gradient(90deg, #2a2410, var(--card) 40%); }
+  .card.pass { border-left-color: var(--pass-border); background: linear-gradient(90deg, #2a1218, var(--card) 40%); }
+  .card.soak { border-left-color: var(--soak-border); background: linear-gradient(90deg, #102030, var(--card) 40%); }
+  .card.dart { border-left-color: var(--dart-border); background: linear-gradient(90deg, #1e1530, var(--card) 40%); }
+  .name { font-weight: 700; font-size: 1.05rem; }
+  .meta { font-size: 0.75rem; color: var(--muted); }
+  .price {
+    font-size: 1.35rem; font-weight: 800; font-variant-numeric: tabular-nums;
+    text-align: right; line-height: 1;
+  }
+  .price small { display: block; font-size: 0.65rem; font-weight: 600; color: var(--muted); margin-top: 2px; }
+  .tag {
+    display: inline-block; font-size: 0.65rem; font-weight: 700; letter-spacing: 0.04em;
+    padding: 2px 6px; border-radius: 4px; margin-top: 2px;
+  }
+  .tag.yes { background: var(--yes); color: #b8f5d4; }
+  .tag.maybe { background: var(--maybe); color: #ffe9a8; }
+  .tag.pass { background: var(--pass); color: #ffc0cb; }
+  .tag.soak { background: var(--soak); color: #b8d9f5; }
+  .tag.dart { background: var(--dart); color: #e0d0ff; }
+  .note { grid-column: 1 / -1; font-size: 0.78rem; color: #c5cad3; margin-top: 2px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 4px; font-size: 0.75rem; }
+  .legend span { padding: 3px 8px; border-radius: 6px; border: 1px solid #333; }
+  .script {
+    background: var(--card); border-radius: 10px; padding: 12px 14px;
+    font-size: 0.9rem; border: 1px solid #2a3140;
+  }
+  .script ol { margin: 6px 0 0; padding-left: 1.2rem; }
+  .script li { margin: 4px 0; }
+  .alpha {
+    columns: 3; column-gap: 16px; font-size: 0.8rem;
+  }
+  @media (max-width: 700px) { .alpha { columns: 2; } }
+  .alpha div { break-inside: avoid; margin-bottom: 4px; padding: 2px 0; border-bottom: 1px solid #222833; }
+  .alpha b { font-variant-numeric: tabular-nums; color: var(--accent); }
+  footer { color: var(--muted); font-size: 0.75rem; margin-top: 28px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="row">
+    <h1>BGN Auction — Nick’s glance board</h1>
+    <span class="pill">$200 · SF · 0.5 PPR · 13 spots</span>
+    <span class="pill">Open max bid ≈ <strong>$188</strong></span>
+    <span class="pill">Max = <strong>cash − (open − 1)</strong></span>
+  </div>
+  <div class="rules">
+    Plan: <strong style="color:#fff">2 elite QBs + 1 RB1</strong>, then value WR/RB.
+    Fight-to numbers = your ceiling. Above that → <em>pass</em>. Text Ball sales after the fact; don’t wait on chat to bid.
+  </div>
+</header>
+
+<nav>
+  <a href="#plan">Plan</a>
+  <a href="#qb">QB</a>
+  <a href="#rb">RB</a>
+  <a href="#wr">WR</a>
+  <a href="#darts">Darts</a>
+  <a href="#pass">Pass / soak</a>
+  <a href="#alpha">A–Z</a>
+</nav>
+
+<main>
+<section id="plan">
+  <h2>Nomination script (don’t think — run this)</h2>
+  <div class="script">
+    <ol>
+      <li><strong>Early:</strong> Nominate elites you don’t need (Chase, Puka, JSN, Saquon) to soak cash.</li>
+      <li><strong>Take:</strong> One of Allen / Lamar / Maye / Burrow ≤ fight-to, then a second from that pool or Daniels/Caleb/Hurts/Herbert.</li>
+      <li><strong>Take:</strong> One of Gibbs / Bijan / Taylor / Cook ≤ fight-to.</li>
+      <li><strong>Patience WRs:</strong> McConkey, Rice, Olave, DeVonta, Pickens, Flowers in the $20–27 band.</li>
+      <li><strong>Late:</strong> Nominate your darts + QB3 once others are broke. Always leave $1 × open spots.</li>
+      <li><strong>AJB = pass</strong> at any real price (IR ≥4 weeks).</li>
+    </ol>
+  </div>
+  <div class="legend">
+    <span style="border-color:#3dd68c;color:#3dd68c">TAKE — fight to $</span>
+    <span style="border-color:#e6c35c;color:#e6c35c">VALUE — buy if cheap</span>
+    <span style="border-color:#b794f6;color:#b794f6">DART $1–4</span>
+    <span style="border-color:#5b9fd4;color:#5b9fd4">SOAK — nominate, don’t buy</span>
+    <span style="border-color:#e85d75;color:#e85d75">PASS</span>
+  </div>
+</section>
+
+<section id="qb">
+  <h2>QB — your board</h2>
+  <div class="grid">
+    <div class="card yes"><div><div class="name">Josh Allen</div><div class="meta">QB1</div><span class="tag yes">TAKE</span></div><div class="price">$55–58<small>fight-to</small></div><div class="note">Clear SF1. Don’t melt past ~$58.</div></div>
+    <div class="card yes"><div><div class="name">Lamar Jackson</div><div class="meta">QB1</div><span class="tag yes">TAKE</span></div><div class="price">$42–48<small>fight-to</small></div><div class="note">Elite tier with Maye/Burrow.</div></div>
+    <div class="card yes"><div><div class="name">Drake Maye</div><div class="meta">QB1</div><span class="tag yes">TAKE</span></div><div class="price">$42–48<small>fight-to</small></div><div class="note">AJB IR → soft −$3–5 if room panics; still take in band.</div></div>
+    <div class="card yes"><div><div class="name">Joe Burrow</div><div class="meta">QB1</div><span class="tag yes">TAKE</span></div><div class="price">$42–48<small>fight-to</small></div><div class="note">Healthy narrative supports tier.</div></div>
+    <div class="card maybe"><div><div class="name">Daniels / Caleb / Hurts / Herbert</div><div class="meta">QB2 pool</div><span class="tag maybe">VALUE</span></div><div class="price">~$25–35<small>if elites gone</small></div><div class="note">QB2 after elite leftovers dry up.</div></div>
+    <div class="card maybe"><div><div class="name">Purdy / Goff / Kyler</div><div class="meta">SF2 / mid</div><span class="tag maybe">VALUE</span></div><div class="price">$14–24<small>buy low</small></div><div class="note">Goff/Kyler = SF2 buys, not $1 darts. Purdy ~$24 post W1.</div></div>
+    <div class="card pass"><div><div class="name">Darnold</div><div class="meta">QB dart</div><span class="tag pass">PASS</span></div><div class="price">$0–3<small>only</small></div><div class="note">MRI OK but miss W2 — prefer healthy QB3.</div></div>
+  </div>
+</section>
+
+<section id="rb">
+  <h2>RB — your board</h2>
+  <div class="grid">
+    <div class="card yes"><div><div class="name">Jahmyr Gibbs</div><div class="meta">RB1</div><span class="tag yes">TAKE</span></div><div class="price">$62–65<small>fight-to</small></div><div class="note">Priority RB1 if bidding war stays sane.</div></div>
+    <div class="card yes"><div><div class="name">Bijan Robinson</div><div class="meta">RB1</div><span class="tag yes">TAKE</span></div><div class="price">$58–62<small>fight-to</small></div><div class="note">#2 overall path.</div></div>
+    <div class="card yes"><div><div class="name">Jonathan Taylor</div><div class="meta">RB1</div><span class="tag yes">TAKE</span></div><div class="price">$48–50<small>fight-to</small></div><div class="note">Third option in RB1 pool.</div></div>
+    <div class="card yes"><div><div class="name">James Cook</div><div class="meta">RB1</div><span class="tag yes">TAKE</span></div><div class="price">$45–48<small>fight-to</small></div><div class="note">Fourth RB1 — still title-path back.</div></div>
+    <div class="card maybe"><div><div class="name">CMC</div><div class="meta">RB</div><span class="tag maybe">VALUE</span></div><div class="price">$36–40<small>not full elite</small></div><div class="note">Black committee. Nominate early to soak nostalgia.</div></div>
+    <div class="card maybe"><div><div class="name">Rhamondre Stevenson</div><div class="meta">RB mid</div><span class="tag maybe">VALUE</span></div><div class="price">~$16<small>while Hend. out</small></div><div class="note">Lead role W1. Henderson only $1–5 dart.</div></div>
+    <div class="card dart"><div><div class="name">Kaelon Black</div><div class="meta">CMC cuff</div><span class="tag dart">DART</span></div><div class="price">$3–6<small>want</small></div><div class="note">Clear SF RB2; Jordan James inactive W1.</div></div>
+    <div class="card dart"><div><div class="name">Jonah Coleman</div><div class="meta">late dart</div><span class="tag dart">DART</span></div><div class="price">$1–4<small>locked</small></div><div class="note">On your vetted late list.</div></div>
+  </div>
+</section>
+
+<section id="wr">
+  <h2>WR — primary then stretch</h2>
+  <div class="grid">
+    <div class="card yes"><div><div class="name">Ladd McConkey</div><div class="meta">WR primary</div><span class="tag yes">TAKE</span></div><div class="price">$20–27<small>band</small></div><div class="note">Lead WR value after QB/RB spends.</div></div>
+    <div class="card yes"><div><div class="name">Rashee Rice</div><div class="meta">WR primary</div><span class="tag yes">TAKE</span></div><div class="price">$20–27</div></div>
+    <div class="card yes"><div><div class="name">Chris Olave</div><div class="meta">WR primary</div><span class="tag yes">TAKE</span></div><div class="price">$20–27</div></div>
+    <div class="card yes"><div><div class="name">DeVonta Smith</div><div class="meta">WR primary</div><span class="tag yes">TAKE</span></div><div class="price">$20–27</div></div>
+    <div class="card yes"><div><div class="name">George Pickens</div><div class="meta">WR primary</div><span class="tag yes">TAKE</span></div><div class="price">$20–27</div></div>
+    <div class="card yes"><div><div class="name">Zay Flowers</div><div class="meta">WR primary</div><span class="tag yes">TAKE</span></div><div class="price">$20–27</div></div>
+    <div class="card maybe"><div><div class="name">Nabers / Higgins / Nico / London</div><div class="meta">WR stretch</div><span class="tag maybe">VALUE</span></div><div class="price">$22–30<small>don’t stretch past</small></div><div class="note">Upside only inside this band.</div></div>
+    <div class="card maybe"><div><div class="name">Mike Evans</div><div class="meta">WR mid</div><span class="tag maybe">VALUE</span></div><div class="price">$15–18<small>role locked</small></div><div class="note">6/49/1 in SF debut — not a pure dart anymore.</div></div>
+    <div class="card pass"><div><div class="name">A.J. Brown</div><div class="meta">WR</div><span class="tag pass">PASS</span></div><div class="price">$0<small>IR ≥4 wks</small></div><div class="note">Schefter/NFL IR. Let someone else overpay.</div></div>
+  </div>
+</section>
+
+<section id="darts">
+  <h2>Late darts ($1–4) — nominate when room is broke</h2>
+  <div class="grid">
+    <div class="card dart"><div><div class="name">Jalen Coker</div><div class="meta">WR</div><span class="tag dart">DART</span></div><div class="price">$1–4</div></div>
+    <div class="card dart"><div><div class="name">KC Concepcion</div><div class="meta">WR</div><span class="tag dart">DART</span></div><div class="price">$1–4</div></div>
+    <div class="card dart"><div><div class="name">Jayden Reed</div><div class="meta">WR</div><span class="tag dart">DART</span></div><div class="price">$1–4</div></div>
+    <div class="card dart"><div><div class="name">Matthew Golden</div><div class="meta">WR</div><span class="tag dart">DART</span></div><div class="price">$1–4</div></div>
+    <div class="card dart"><div><div class="name">Jonah Coleman</div><div class="meta">RB</div><span class="tag dart">DART</span></div><div class="price">$1–4</div></div>
+    <div class="card dart"><div><div class="name">Dalton Schultz</div><div class="meta">TE optional</div><span class="tag dart">DART</span></div><div class="price">$1–4</div></div>
+    <div class="card dart"><div><div class="name">NE fill-in WR (Doubs etc.)</div><div class="meta">AJB IR</div><span class="tag dart">DART</span></div><div class="price">$1–3</div><div class="note">Temp NE WR1 while Brown out.</div></div>
+    <div class="card maybe"><div><div class="name">Jordan Mason</div><div class="meta">RB</div><span class="tag maybe">ONLY-AT</span></div><div class="price">$3–5<small>only-at</small></div><div class="note">Skip above $5.</div></div>
+  </div>
+</section>
+
+<section id="pass">
+  <h2>Soak nominations (force others to spend)</h2>
+  <div class="grid">
+    <div class="card soak"><div><div class="name">Ja'Marr Chase</div><div class="meta">WR elite</div><span class="tag soak">SOAK</span></div><div class="price">~$50<small>market</small></div><div class="note">Nominate early unless he somehow falls into stretch nonsense (he won’t).</div></div>
+    <div class="card soak"><div><div class="name">Puka / JSN / ARSB / Jefferson / Lamb</div><div class="meta">WR elite</div><span class="tag soak">SOAK</span></div><div class="price">$39–47</div><div class="note">Burn room cash before your WR value tier.</div></div>
+    <div class="card soak"><div><div class="name">CMC (nostalgia)</div><div class="meta">RB</div><span class="tag soak">SOAK</span></div><div class="price">if &gt;$40</div><div class="note">Happy to let room pay 2019 money.</div></div>
+  </div>
+</section>
+
+<section id="alpha">
+  <h2>A–Z quick lookup (your fight-to / action)</h2>
+  <div class="alpha">
+    <div>A.J. Brown — <b>PASS / $0</b></div>
+    <div>Bijan Robinson — <b>TAKE $58–62</b></div>
+    <div>Brock Purdy — <b>VALUE ~$24</b></div>
+    <div>Chris Olave — <b>TAKE $20–27</b></div>
+    <div>CMC — <b>VALUE $36–40</b> (soak if &gt;$40)</div>
+    <div>Dalton Schultz — <b>DART $1–4</b></div>
+    <div>DeVonta Smith — <b>TAKE $20–27</b></div>
+    <div>Drake Maye — <b>TAKE $42–48</b></div>
+    <div>Drake London — <b>STRETCH $22–30</b></div>
+    <div>George Pickens — <b>TAKE $20–27</b></div>
+    <div>Jahmyr Gibbs — <b>TAKE $62–65</b></div>
+    <div>Jalen Coker — <b>DART $1–4</b></div>
+    <div>James Cook — <b>TAKE $45–48</b></div>
+    <div>Jayden Reed — <b>DART $1–4</b></div>
+    <div>Joe Burrow — <b>TAKE $42–48</b></div>
+    <div>Jonah Coleman — <b>DART $1–4</b></div>
+    <div>Jonathan Taylor — <b>TAKE $48–50</b></div>
+    <div>Jordan Mason — <b>ONLY $3–5</b></div>
+    <div>Josh Allen — <b>TAKE $55–58</b></div>
+    <div>Kaelon Black — <b>DART $3–6</b></div>
+    <div>KC Concepcion — <b>DART $1–4</b></div>
+    <div>Kyler Murray — <b>SF2 buy</b> (not dart)</div>
+    <div>Ladd McConkey — <b>TAKE $20–27</b></div>
+    <div>Lamar Jackson — <b>TAKE $42–48</b></div>
+    <div>Malik Nabers — <b>STRETCH $22–30</b></div>
+    <div>Matthew Golden — <b>DART $1–4</b></div>
+    <div>Mike Evans — <b>VALUE $15–18</b></div>
+    <div>Nico Collins — <b>STRETCH $22–30</b></div>
+    <div>Rashee Rice — <b>TAKE $20–27</b></div>
+    <div>Tee Higgins — <b>STRETCH $22–30</b></div>
+    <div>Zay Flowers — <b>TAKE $20–27</b></div>
+  </div>
+</section>
+
+<footer>
+  Desktop file: BGN-GLANCE-BOARD.html · Full market pack still in BGN-Saturday-Auction-Pack.md ·
+  Text Ball: “Player $X won/lost” after sales — he tracks room; you bid from this board.
+</footer>
+</main>
+</body>
+</html>

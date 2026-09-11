@@ -1,0 +1,317 @@
+{
+  "league": {
+    "name": "Bountygate Nation",
+    "budget": 200,
+    "spots": 13,
+    "scoring": "0.5 PPR Superflex",
+    "opening_max_bid": 188
+  },
+  "plan": "2 elite QBs + 1 RB1 \u2192 value WR. Bid from this board; text Ball sales on phone.",
+  "script": [
+    "Early: nominate elites you don\u2019t need (Chase, Puka, JSN, ARSB) to soak cash.",
+    "Take one of Allen / Lamar / Maye / Burrow \u2264 fight-to, then QB2.",
+    "Take one of Gibbs / Bijan / Taylor / Cook \u2264 fight-to.",
+    "Patience WRs: McConkey, Rice, Olave, DeVonta, Pickens, Flowers ($20\u201327).",
+    "Late: your darts + QB3 when others are broke. Always leave $1 \u00d7 open spots.",
+    "AJB = PASS at any real price (IR \u22654 weeks)."
+  ],
+  "players": [
+    {
+      "id": "josh-allen",
+      "name": "Josh Allen",
+      "pos": "QB",
+      "section": "qb",
+      "action": "take",
+      "fight_to": "55-58",
+      "note": "Clear SF1. Don\u2019t melt past ~$58."
+    },
+    {
+      "id": "lamar-jackson",
+      "name": "Lamar Jackson",
+      "pos": "QB",
+      "section": "qb",
+      "action": "take",
+      "fight_to": "42-48",
+      "note": "Elite tier with Maye/Burrow."
+    },
+    {
+      "id": "drake-maye",
+      "name": "Drake Maye",
+      "pos": "QB",
+      "section": "qb",
+      "action": "take",
+      "fight_to": "42-48",
+      "note": "AJB IR \u2192 soft \u2212$3\u20135 if room panics; still take in band."
+    },
+    {
+      "id": "joe-burrow",
+      "name": "Joe Burrow",
+      "pos": "QB",
+      "section": "qb",
+      "action": "take",
+      "fight_to": "42-48",
+      "note": "Healthy narrative supports tier."
+    },
+    {
+      "id": "qb2-pool",
+      "name": "Daniels / Caleb / Hurts / Herbert",
+      "pos": "QB",
+      "section": "qb",
+      "action": "value",
+      "fight_to": "25-35",
+      "note": "QB2 after elite leftovers dry up."
+    },
+    {
+      "id": "mid-sf",
+      "name": "Purdy / Goff / Kyler",
+      "pos": "QB",
+      "section": "qb",
+      "action": "value",
+      "fight_to": "14-24",
+      "note": "Goff/Kyler = SF2 buys, not $1 darts. Purdy ~$24 post W1."
+    },
+    {
+      "id": "sam-darnold",
+      "name": "Sam Darnold",
+      "pos": "QB",
+      "section": "qb",
+      "action": "pass",
+      "fight_to": "0-3",
+      "note": "MRI OK but miss W2 \u2014 prefer healthy QB3."
+    },
+    {
+      "id": "jahmyr-gibbs",
+      "name": "Jahmyr Gibbs",
+      "pos": "RB",
+      "section": "rb",
+      "action": "take",
+      "fight_to": "62-65",
+      "note": "Priority RB1 if bidding war stays sane."
+    },
+    {
+      "id": "bijan-robinson",
+      "name": "Bijan Robinson",
+      "pos": "RB",
+      "section": "rb",
+      "action": "take",
+      "fight_to": "58-62",
+      "note": "#2 overall path."
+    },
+    {
+      "id": "jonathan-taylor",
+      "name": "Jonathan Taylor",
+      "pos": "RB",
+      "section": "rb",
+      "action": "take",
+      "fight_to": "48-50",
+      "note": "Third option in RB1 pool."
+    },
+    {
+      "id": "james-cook",
+      "name": "James Cook",
+      "pos": "RB",
+      "section": "rb",
+      "action": "take",
+      "fight_to": "45-48",
+      "note": "Fourth RB1 \u2014 still title-path back."
+    },
+    {
+      "id": "cmc",
+      "name": "Christian McCaffrey",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "36-40",
+      "note": "Black committee. Nominate early to soak nostalgia if >$40."
+    },
+    {
+      "id": "rhamondre",
+      "name": "Rhamondre Stevenson",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "~16",
+      "note": "Lead role while Henderson out."
+    },
+    {
+      "id": "kaelon-black",
+      "name": "Kaelon Black",
+      "pos": "RB",
+      "section": "rb",
+      "action": "dart",
+      "fight_to": "3-6",
+      "note": "Clear SF RB2 cuff."
+    },
+    {
+      "id": "jonah-coleman",
+      "name": "Jonah Coleman",
+      "pos": "RB",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "1-4",
+      "note": "Locked late dart."
+    },
+    {
+      "id": "ladd-mcconkey",
+      "name": "Ladd McConkey",
+      "pos": "WR",
+      "section": "wr",
+      "action": "take",
+      "fight_to": "20-27",
+      "note": "Lead WR value after QB/RB spends."
+    },
+    {
+      "id": "rashee-rice",
+      "name": "Rashee Rice",
+      "pos": "WR",
+      "section": "wr",
+      "action": "take",
+      "fight_to": "20-27",
+      "note": ""
+    },
+    {
+      "id": "chris-olave",
+      "name": "Chris Olave",
+      "pos": "WR",
+      "section": "wr",
+      "action": "take",
+      "fight_to": "20-27",
+      "note": ""
+    },
+    {
+      "id": "devonta-smith",
+      "name": "DeVonta Smith",
+      "pos": "WR",
+      "section": "wr",
+      "action": "take",
+      "fight_to": "20-27",
+      "note": ""
+    },
+    {
+      "id": "george-pickens",
+      "name": "George Pickens",
+      "pos": "WR",
+      "section": "wr",
+      "action": "take",
+      "fight_to": "20-27",
+      "note": ""
+    },
+    {
+      "id": "zay-flowers",
+      "name": "Zay Flowers",
+      "pos": "WR",
+      "section": "wr",
+      "action": "take",
+      "fight_to": "20-27",
+      "note": ""
+    },
+    {
+      "id": "wr-stretch",
+      "name": "Nabers / Higgins / Nico / London",
+      "pos": "WR",
+      "section": "wr",
+      "action": "value",
+      "fight_to": "22-30",
+      "note": "Stretch cap \u2014 don\u2019t go past."
+    },
+    {
+      "id": "mike-evans",
+      "name": "Mike Evans",
+      "pos": "WR",
+      "section": "wr",
+      "action": "value",
+      "fight_to": "15-18",
+      "note": "Role locked in SF debut."
+    },
+    {
+      "id": "aj-brown",
+      "name": "A.J. Brown",
+      "pos": "WR",
+      "section": "wr",
+      "action": "pass",
+      "fight_to": "0",
+      "note": "IR \u22654 weeks (Schefter)."
+    },
+    {
+      "id": "jalen-coker",
+      "name": "Jalen Coker",
+      "pos": "WR",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "1-4",
+      "note": ""
+    },
+    {
+      "id": "kc-concepcion",
+      "name": "KC Concepcion",
+      "pos": "WR",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "1-4",
+      "note": ""
+    },
+    {
+      "id": "jayden-reed",
+      "name": "Jayden Reed",
+      "pos": "WR",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "1-4",
+      "note": ""
+    },
+    {
+      "id": "matthew-golden",
+      "name": "Matthew Golden",
+      "pos": "WR",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "1-4",
+      "note": ""
+    },
+    {
+      "id": "dalton-schultz",
+      "name": "Dalton Schultz",
+      "pos": "TE",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "1-4",
+      "note": "Optional."
+    },
+    {
+      "id": "ne-fill-in",
+      "name": "NE fill-in WR (Doubs etc.)",
+      "pos": "WR",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "1-3",
+      "note": "Temp NE WR1 while Brown out."
+    },
+    {
+      "id": "jordan-mason",
+      "name": "Jordan Mason",
+      "pos": "RB",
+      "section": "darts",
+      "action": "value",
+      "fight_to": "3-5",
+      "note": "Only-at \u2014 skip above $5."
+    },
+    {
+      "id": "jamarr-chase",
+      "name": "Ja'Marr Chase",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~50",
+      "note": "Nominate early to soak."
+    },
+    {
+      "id": "elite-wr-soak",
+      "name": "Puka / JSN / ARSB / Jefferson / Lamb",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "39-47",
+      "note": "Burn room cash before your WR value tier."
+    }
+  ]
+}

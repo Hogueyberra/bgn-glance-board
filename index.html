@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0f1115" />
+  <title>BGN Glance Board</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="row">
+      <h1>BGN Auction — glance board</h1>
+      <span class="pill">Cash <strong id="cash">$200</strong></span>
+      <span class="pill hot">Max bid <strong id="maxbid">$188</strong></span>
+      <span class="pill">Open <strong id="open">13</strong></span>
+      <span class="pill">Spent <strong id="spent">$0</strong></span>
+    </div>
+    <div id="live-msg" class="live-msg">Loading live state…</div>
+  </header>
+
+  <nav>
+    <a href="#plan">Plan</a>
+    <a href="#live">Live</a>
+    <a href="#qb">QB</a>
+    <a href="#rb">RB</a>
+    <a href="#wr">WR</a>
+    <a href="#darts">Darts</a>
+    <a href="#soak">Soak</a>
+    <a href="#alpha">A–Z</a>
+  </nav>
+
+  <main>
+    <section id="plan">
+      <h2>Nomination script</h2>
+      <div class="script">
+        <p id="plan-text"></p>
+        <ol id="script-list"></ol>
+      </div>
+      <div class="legend">
+        <span style="border-color:#3dd68c;color:#3dd68c">TAKE</span>
+        <span style="border-color:#e6c35c;color:#e6c35c">VALUE</span>
+        <span style="border-color:#b794f6;color:#b794f6">DART</span>
+        <span style="border-color:#5b9fd4;color:#5b9fd4">SOAK</span>
+        <span style="border-color:#e85d75;color:#e85d75">PASS</span>
+      </div>
+    </section>
+
+    <section id="live">
+      <h2>Live tracker</h2>
+      <div class="panel">
+        <h3>Your roster</h3>
+        <table class="roster-table">
+          <thead><tr><th>Player</th><th>Pos</th><th>$</th></tr></thead>
+          <tbody id="roster-body"></tbody>
+        </table>
+      </div>
+      <div class="panel">
+        <h3>Sale log</h3>
+        <table class="sales-table">
+          <thead><tr><th>Player</th><th>$</th><th>Winner</th></tr></thead>
+          <tbody id="sales-body"></tbody>
+        </table>
+        <form id="manual-sale" class="local-form">
+          <label>Player<input name="player" required placeholder="Name" /></label>
+          <label>Price<input name="price" type="number" min="0" required /></label>
+          <label>Winner
+            <select name="mine">
+              <option value="yes">I won</option>
+              <option value="no">Room</option>
+            </select>
+          </label>
+          <button type="submit">Add local</button>
+          <button type="button" id="clear-local" style="background:#5a1f2a">Clear local</button>
+        </form>
+        <p style="font-size:0.75rem;color:#9aa3b2;margin:8px 0 0">
+          Local adds stay on this laptop instantly. Ball’s phone updates land via <code>live.json</code> within ~5s (no page rebuild).
+        </p>
+      </div>
+      <div class="panel">
+        <h3>Tips from Ball</h3>
+        <ul id="tips"></ul>
+      </div>
+    </section>
+
+    <section id="qb"><h2>QB</h2><div class="grid" id="grid-qb"></div></section>
+    <section id="rb"><h2>RB</h2><div class="grid" id="grid-rb"></div></section>
+    <section id="wr"><h2>WR</h2><div class="grid" id="grid-wr"></div></section>
+    <section id="darts"><h2>Late darts</h2><div class="grid" id="grid-darts"></div></section>
+    <section id="soak"><h2>Soak nominations</h2><div class="grid" id="grid-soak"></div></section>
+
+    <section id="alpha-sec">
+      <h2 id="alpha-heading">A–Z</h2>
+      <div class="alpha" id="alpha"></div>
+    </section>
+
+    <footer>
+      Bountygate Nation · GitHub Pages · live.json polled every 5s · text Ball on phone: “Gibbs 63 won”
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
