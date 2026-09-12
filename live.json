@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T23:50:35Z",
+  "updated_at": "2026-09-12T23:53:03Z",
   "message": "TLaw $49 David. Purdy board fix.",
   "nick": {
     "cash": 43,
@@ -28,9 +28,9 @@
     {
       "team": 1,
       "name": "David",
-      "cash": 91,
-      "spent": 109,
-      "open_spots": 10,
+      "cash": 75,
+      "spent": 125,
+      "open_spots": 9,
       "roster": [
         {
           "player": "Brock Purdy",
@@ -46,6 +46,11 @@
           "player": "Trevor Lawrence",
           "pos": "QB",
           "price": 49
+        },
+        {
+          "player": "Mike Evans",
+          "pos": "WR",
+          "price": 16
         }
       ]
     },
@@ -605,12 +610,22 @@
       "pos": "QB",
       "at": "2026-09-12T23:50:35Z",
       "manager": "Rich"
+    },
+    {
+      "player": "Mike Evans",
+      "price": 16,
+      "winner": "David",
+      "mine": false,
+      "pos": "WR",
+      "at": "2026-09-12T23:53:03Z",
+      "manager": "David"
     }
   ],
   "tips": [
     "NEXT 3: (1) McConkey pay $20 (2) DeVonta/Pickens pay $19 (3) Black $5 / cheap RB2 $12\u201313",
     "Purdy removed \u2014 group cards split so drafted QBs drop off.",
     "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
-    "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5"
+    "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
+    "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black $5 / Higgins-Nico $16"
   ]
 }
