@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-12T22:32:27Z",
-  "message": "Gibbs gone at $67. Bijan is RB1 priority.",
+  "updated_at": "2026-09-12T22:36:37Z",
+  "message": "Bijan gone $68 to Wes. JT/Cook are RB1 path.",
   "nick": {
     "cash": 92,
     "spent": 108,
@@ -64,9 +64,9 @@
     {
       "team": 4,
       "name": "Wes",
-      "cash": 91,
-      "spent": 109,
-      "open_spots": 11,
+      "cash": 23,
+      "spent": 177,
+      "open_spots": 10,
       "roster": [
         {
           "player": "Puka Nacua",
@@ -77,6 +77,11 @@
           "player": "Lamar Jackson",
           "pos": "QB",
           "price": 55
+        },
+        {
+          "player": "Bijan Robinson",
+          "pos": "RB",
+          "price": 68
         }
       ]
     },
@@ -287,6 +292,15 @@
       "pos": "RB",
       "at": "2026-09-12T22:32:27Z",
       "manager": "Mike"
+    },
+    {
+      "player": "Bijan Robinson",
+      "price": 68,
+      "winner": "Wes",
+      "mine": false,
+      "pos": "RB",
+      "at": "2026-09-12T22:36:37Z",
+      "manager": "Wes"
     }
   ],
   "tips": [
@@ -302,6 +316,7 @@
     "NEXT 3: (1) Gibbs ~$50\u201355 (2) Bijan ~$50\u201355 (3) Taylor/Cook on discount",
     "NEXT 3: (1) Gibbs ~$50\u201355 (2) Bijan ~$50\u201355 (3) Taylor/Cook on discount \u2014 Burrow/Daniels = soak",
     "NEXT 3: (1) Bijan ~$50\u201355 (2) Taylor \u2264$48 (3) Cook \u2264$45 or soft Achane/Hampton/Chase Brown/Henry",
-    "NEXT 3: (1) Bijan ~$50\u201355 (2) Taylor \u2264$48 (3) Cook \u2264$45 / soft mid RBs"
+    "NEXT 3: (1) Bijan ~$50\u201355 (2) Taylor \u2264$48 (3) Cook \u2264$45 / soft mid RBs",
+    "NEXT 3: (1) Taylor \u2264$48 (2) Cook \u2264$45 (3) CMC/Achane/Hampton/Chase Brown/Henry soft \u2014 don't panic"
   ]
 }
