@@ -4,8 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#0f1115" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
   <title>BGN Glance Board</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=2" />
 </head>
 <body>
   <header>
@@ -65,13 +66,27 @@
           <label>Player<input name="player" required placeholder="Name" list="player-suggest" /></label>
           <datalist id="player-suggest"></datalist>
           <label>Price<input name="price" type="number" min="0" required /></label>
-          <label>Manager
+          <label class="manager-label">Manager
             <select name="manager" id="manager-select" required>
-              <option value="">Select…</option>
+              <option value="">Select manager…</option>
+              <option value="David">David</option>
+              <option value="Rich">Rich</option>
+              <option value="Jeff">Jeff</option>
+              <option value="Wes">Wes</option>
+              <option value="Mike">Mike</option>
+              <option value="Kyle">Kyle</option>
+              <option value="Ryan">Ryan</option>
+              <option value="Alex">Alex</option>
+              <option value="Nick">Nick (you)</option>
+              <option value="Sean">Sean</option>
+              <option value="Patrick">Patrick</option>
+              <option value="Adam">Adam</option>
             </select>
           </label>
-          <button type="submit">Add local</button>
-          <button type="button" id="clear-local" style="background:#5a1f2a">Clear local</button>
+          <div class="btn-row">
+            <button type="submit">Add local</button>
+            <button type="button" id="clear-local" style="background:#5a1f2a">Clear local</button>
+          </div>
         </form>
         <p style="font-size:0.75rem;color:#9aa3b2;margin:8px 0 0">
           Local adds stay on this laptop instantly. Ball’s phone updates land via <code>live.json</code> within ~5s (no page rebuild).
@@ -98,6 +113,6 @@
       Bountygate Nation · GitHub Pages · live.json polled every 5s · text Ball on phone: “Gibbs 63 won”
     </footer>
   </main>
-  <script src="app.js"></script>
+  <script src="app.js?v=2"></script>
 </body>
 </html>
