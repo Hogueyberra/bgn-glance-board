@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T23:44:09Z",
+  "updated_at": "2026-09-12T23:47:47Z",
   "message": "TLaw $49 David. Purdy board fix.",
   "nick": {
     "cash": 43,
@@ -186,14 +186,19 @@
     {
       "team": 8,
       "name": "Alex",
-      "cash": 151,
-      "spent": 49,
-      "open_spots": 12,
+      "cash": 128,
+      "spent": 72,
+      "open_spots": 11,
       "roster": [
         {
           "player": "Saquon Barkley",
           "pos": "RB",
           "price": 49
+        },
+        {
+          "player": "Ladd McConkey",
+          "pos": "WR",
+          "price": 23
         }
       ]
     },
@@ -577,10 +582,20 @@
       "pos": "QB",
       "at": "2026-09-12T23:44:09Z",
       "manager": "David"
+    },
+    {
+      "player": "Ladd McConkey",
+      "price": 23,
+      "winner": "Alex",
+      "mine": false,
+      "pos": "WR",
+      "at": "2026-09-12T23:47:47Z",
+      "manager": "Alex"
     }
   ],
   "tips": [
     "NEXT 3: (1) McConkey pay $20 (2) DeVonta/Pickens pay $19 (3) Black $5 / cheap RB2 $12\u201313",
-    "Purdy removed \u2014 group cards split so drafted QBs drop off."
+    "Purdy removed \u2014 group cards split so drafted QBs drop off.",
+    "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5"
   ]
 }
