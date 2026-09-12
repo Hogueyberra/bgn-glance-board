@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-12T22:51:35Z",
-  "message": "Bijan gone $68 to Wes. JT/Cook are RB1 path.",
+  "updated_at": "2026-09-12T22:52:48Z",
+  "message": "ARSB corrected to $53 Kyle. Nick hunting RB1 (JT/Cook).",
   "nick": {
     "cash": 92,
     "spent": 108,
@@ -102,14 +102,14 @@
     {
       "team": 6,
       "name": "Kyle",
-      "cash": 142,
-      "spent": 58,
+      "cash": 147,
+      "spent": 53,
       "open_spots": 12,
       "roster": [
         {
           "player": "Amon-Ra St. Brown",
           "pos": "WR",
-          "price": 58
+          "price": 53
         }
       ]
     },
@@ -310,7 +310,7 @@
     },
     {
       "player": "Amon-Ra St. Brown",
-      "price": 58,
+      "price": 53,
       "winner": "Kyle",
       "mine": false,
       "pos": "WR",
