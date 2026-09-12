@@ -9,6 +9,7 @@
   "plan": "2 elite QBs + 1 RB1 \u2192 value WR. Bid from this board; text Ball sales on phone.",
   "script": [
     "Early: nominate elites you don\u2019t need (Chase, Puka, JSN, ARSB) to soak cash.",
+    "Always have a soak ready: elite WR (Chase/Puka/JSN/ARSB/JJ/Lamb), hype RB (Saquon/Henry/Achane/Jeanty), TE tax (Bowers/McBride), or leftover SF QB once you\u2019re set.",
     "Take one of Allen / Lamar / Maye / Burrow \u2264 fight-to, then QB2.",
     "Take one of Gibbs / Bijan / Taylor / Cook \u2264 fight-to.",
     "Patience WRs: McConkey, Rice, Olave, DeVonta, Pickens, Flowers ($20\u201327).",
@@ -216,24 +217,6 @@
       "note": "IR \u22654 weeks (Schefter)."
     },
     {
-      "id": "jamarr-chase",
-      "name": "Ja'Marr Chase",
-      "pos": "WR",
-      "section": "soak",
-      "action": "soak",
-      "fight_to": "~50",
-      "note": "Nominate early to soak."
-    },
-    {
-      "id": "elite-wr-soak",
-      "name": "Puka / JSN / ARSB / Jefferson / Lamb",
-      "pos": "WR",
-      "section": "soak",
-      "action": "soak",
-      "fight_to": "39-47",
-      "note": "Burn room cash before your WR value tier."
-    },
-    {
       "id": "kaelon-black",
       "name": "Kaelon Black",
       "pos": "RB",
@@ -318,6 +301,312 @@
       "action": "value",
       "fight_to": "3-5",
       "note": "Only-at \u2014 skip above $5."
+    },
+    {
+      "id": "jamarr-chase",
+      "name": "Ja'Marr Chase",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~50",
+      "note": "Nominate early. Only buy if crashes into stretch nonsense."
+    },
+    {
+      "id": "puka-nacua",
+      "name": "Puka Nacua",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~44",
+      "note": "Elite WR soak."
+    },
+    {
+      "id": "jsn",
+      "name": "Jaxon Smith-Njigba",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~41",
+      "note": "Hot name \u2014 burn cash."
+    },
+    {
+      "id": "arsb",
+      "name": "Amon-Ra St. Brown",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~40",
+      "note": "Safe elite WR soak."
+    },
+    {
+      "id": "justin-jefferson",
+      "name": "Justin Jefferson",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~39",
+      "note": "Name-brand soak."
+    },
+    {
+      "id": "ceedee-lamb",
+      "name": "CeeDee Lamb",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~37",
+      "note": "Soak unless somehow <$28."
+    },
+    {
+      "id": "aj-brown-soak",
+      "name": "A.J. Brown",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "pass",
+      "note": "IR \u2014 nominate only if room will overpay nostalgia; you PASS."
+    },
+    {
+      "id": "nico-collins-soak",
+      "name": "Nico Collins",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~30",
+      "note": "If you\u2019re not buying stretch tier \u2014 soak mid-WR money."
+    },
+    {
+      "id": "tee-higgins-soak",
+      "name": "Tee Higgins",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~27",
+      "note": "Stretch you might skip \u2014 fine soak."
+    },
+    {
+      "id": "drake-london-soak",
+      "name": "Drake London",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~28",
+      "note": "QB mess \u2014 room may still pay; let them."
+    },
+    {
+      "id": "malik-nabers-soak",
+      "name": "Malik Nabers",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~28",
+      "note": "Q/knee noise \u2014 soak if bids stay rich."
+    },
+    {
+      "id": "garrett-wilson",
+      "name": "Garrett Wilson",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~22",
+      "note": "Mid WR soak between your targets."
+    },
+    {
+      "id": "tyreek-or-adams",
+      "name": "Davante Adams",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~20",
+      "note": "Name soak in the $18\u201325 band."
+    },
+    {
+      "id": "jameson-williams",
+      "name": "Jameson Williams",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~20",
+      "note": "Boom soak \u2014 room loves him."
+    },
+    {
+      "id": "tet-mcmillan",
+      "name": "Tetairoa McMillan",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~21",
+      "note": "Rookie hype soak."
+    },
+    {
+      "id": "egbuka",
+      "name": "Emeka Egbuka",
+      "pos": "WR",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~18",
+      "note": "Buzz soak."
+    },
+    {
+      "id": "saquon",
+      "name": "Saquon Barkley",
+      "pos": "RB",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~39",
+      "note": "If you already have RB1 \u2014 classic soak."
+    },
+    {
+      "id": "cmc-soak",
+      "name": "Christian McCaffrey",
+      "pos": "RB",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~39",
+      "note": "Nominate to soak nostalgia; buy only \u2264$40."
+    },
+    {
+      "id": "derrick-henry",
+      "name": "Derrick Henry",
+      "pos": "RB",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~35",
+      "note": "Age/TD soak \u2014 burns mid budgets."
+    },
+    {
+      "id": "achane",
+      "name": "De'Von Achane",
+      "pos": "RB",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~36",
+      "note": "Boom RB soak if not your RB1."
+    },
+    {
+      "id": "hampton",
+      "name": "Omarion Hampton",
+      "pos": "RB",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~35",
+      "note": "Hype RB soak."
+    },
+    {
+      "id": "chase-brown",
+      "name": "Chase Brown",
+      "pos": "RB",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~32",
+      "note": "Solid RB soak between tiers."
+    },
+    {
+      "id": "kenneth-walker",
+      "name": "Kenneth Walker",
+      "pos": "RB",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~33",
+      "note": "Mid RB soak."
+    },
+    {
+      "id": "kyren",
+      "name": "Kyren Williams",
+      "pos": "RB",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~25",
+      "note": "Committee noise \u2014 still draws $."
+    },
+    {
+      "id": "jeanty",
+      "name": "Ashton Jeanty",
+      "pos": "RB",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~36",
+      "note": "Rookie hype soak."
+    },
+    {
+      "id": "love-rb",
+      "name": "Jeremiyah Love",
+      "pos": "RB",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~26",
+      "note": "Volatile \u2014 let room pay."
+    },
+    {
+      "id": "bowers",
+      "name": "Brock Bowers",
+      "pos": "TE",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~33",
+      "note": "TE1 tax \u2014 great soak if you\u2019re streaming TE."
+    },
+    {
+      "id": "mcbride",
+      "name": "Trey McBride",
+      "pos": "TE",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~28",
+      "note": "TE2 soak."
+    },
+    {
+      "id": "loveland",
+      "name": "Colston Loveland",
+      "pos": "TE",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~22",
+      "note": "TE hype soak."
+    },
+    {
+      "id": "hurts-soak",
+      "name": "Jalen Hurts",
+      "pos": "QB",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~31",
+      "note": "After you have QB1+2 \u2014 nominate to soak SF money."
+    },
+    {
+      "id": "herbert-soak",
+      "name": "Justin Herbert",
+      "pos": "QB",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~29",
+      "note": "SF soak once you\u2019re set at QB."
+    },
+    {
+      "id": "dak-soak",
+      "name": "Dak Prescott",
+      "pos": "QB",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~28",
+      "note": "Mid-SF soak."
+    },
+    {
+      "id": "mahomes-soak",
+      "name": "Patrick Mahomes",
+      "pos": "QB",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~23",
+      "note": "Name soak; room still pays."
+    },
+    {
+      "id": "lawrence-soak",
+      "name": "Trevor Lawrence",
+      "pos": "QB",
+      "section": "soak",
+      "action": "soak",
+      "fight_to": "~25",
+      "note": "SF depth soak."
     }
   ]
 }
