@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T23:11:53Z",
+  "updated_at": "2026-09-12T23:15:27Z",
   "message": "Olave $32 Sean. Board shows your-pay vs market.",
   "nick": {
     "cash": 43,
@@ -207,10 +207,16 @@
     {
       "team": 11,
       "name": "Patrick",
-      "cash": 200,
-      "spent": 0,
-      "open_spots": 13,
-      "roster": []
+      "cash": 153,
+      "spent": 47,
+      "open_spots": 12,
+      "roster": [
+        {
+          "player": "Joe Burrow",
+          "pos": "QB",
+          "price": 47
+        }
+      ]
     },
     {
       "team": 12,
@@ -421,10 +427,20 @@
       "pos": "WR",
       "at": "2026-09-12T23:11:53Z",
       "manager": "Sean"
+    },
+    {
+      "player": "Joe Burrow",
+      "price": 47,
+      "winner": "Patrick",
+      "mine": false,
+      "pos": "QB",
+      "at": "2026-09-12T23:15:27Z",
+      "manager": "Patrick"
     }
   ],
   "tips": [
     "YOUR PAY = budget bid with $43/max $34. MKT = old fight-to.",
-    "NEXT 3: (1) McConkey/Rice/DeVonta/Pickens/Flowers pay ~$18\u201320 (2) Black pay $5 (3) cheap RB2 pay $8\u201313"
+    "NEXT 3: (1) McConkey/Rice/DeVonta/Pickens/Flowers pay ~$18\u201320 (2) Black pay $5 (3) cheap RB2 pay $8\u201313",
+    "NEXT 3: (1) McConkey/Rice pay $20 (2) Black pay $5 (3) Kyren/Stevenson/Breece pay $12\u201313"
   ]
 }
