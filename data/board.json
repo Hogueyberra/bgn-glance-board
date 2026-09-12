@@ -82,60 +82,6 @@
       "note": "MRI OK but miss W2 \u2014 prefer healthy QB3."
     },
     {
-      "id": "jahmyr-gibbs",
-      "name": "Jahmyr Gibbs",
-      "pos": "RB",
-      "section": "rb",
-      "action": "take",
-      "fight_to": "62-65",
-      "note": "Priority RB1 if bidding war stays sane."
-    },
-    {
-      "id": "bijan-robinson",
-      "name": "Bijan Robinson",
-      "pos": "RB",
-      "section": "rb",
-      "action": "take",
-      "fight_to": "58-62",
-      "note": "#2 overall path."
-    },
-    {
-      "id": "jonathan-taylor",
-      "name": "Jonathan Taylor",
-      "pos": "RB",
-      "section": "rb",
-      "action": "take",
-      "fight_to": "48-50",
-      "note": "Third option in RB1 pool."
-    },
-    {
-      "id": "james-cook",
-      "name": "James Cook",
-      "pos": "RB",
-      "section": "rb",
-      "action": "take",
-      "fight_to": "45-48",
-      "note": "Fourth RB1 \u2014 still title-path back."
-    },
-    {
-      "id": "cmc",
-      "name": "Christian McCaffrey",
-      "pos": "RB",
-      "section": "rb",
-      "action": "value",
-      "fight_to": "36-40",
-      "note": "Black committee. Nominate early to soak nostalgia if >$40."
-    },
-    {
-      "id": "rhamondre",
-      "name": "Rhamondre Stevenson",
-      "pos": "RB",
-      "section": "rb",
-      "action": "value",
-      "fight_to": "~16",
-      "note": "Lead role while Henderson out."
-    },
-    {
       "id": "ladd-mcconkey",
       "name": "Ladd McConkey",
       "pos": "WR",
@@ -607,6 +553,339 @@
       "action": "soak",
       "fight_to": "~25",
       "note": "SF depth soak."
+    },
+    {
+      "id": "bijan-robinson",
+      "name": "Bijan Robinson",
+      "pos": "RB",
+      "section": "rb",
+      "action": "take",
+      "fight_to": "58-62",
+      "note": "PRIORITY RB1. Fight ~$50\u201355."
+    },
+    {
+      "id": "jahmyr-gibbs",
+      "name": "Jahmyr Gibbs",
+      "pos": "RB",
+      "section": "rb",
+      "action": "take",
+      "fight_to": "62-65",
+      "note": "PRIORITY RB1 now. Fight ~$50\u201355 (not $60s). Cash $92."
+    },
+    {
+      "id": "james-cook",
+      "name": "James Cook",
+      "pos": "RB",
+      "section": "rb",
+      "action": "take",
+      "fight_to": "45-48",
+      "note": "Discount buy ~$42\u201345 if Gibbs/Bijan gone."
+    },
+    {
+      "id": "jonathan-taylor",
+      "name": "Jonathan Taylor",
+      "pos": "RB",
+      "section": "rb",
+      "action": "take",
+      "fight_to": "48-50",
+      "note": "Only on discount ~$43\u201348. Don't chase $50+."
+    },
+    {
+      "id": "jeanty-rb",
+      "name": "Ashton Jeanty",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "30-36",
+      "note": "Rookie hype \u2014 value only."
+    },
+    {
+      "id": "breece-hall",
+      "name": "Breece Hall",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "20-24",
+      "note": "Volatility \u2014 championship upside if cheap."
+    },
+    {
+      "id": "irving",
+      "name": "Bucky Irving",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "16-22",
+      "note": "Pass-catch flex."
+    },
+    {
+      "id": "skattebo",
+      "name": "Cam Skattebo",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "16-22",
+      "note": "Upside mid."
+    },
+    {
+      "id": "chase-brown-rb",
+      "name": "Chase Brown",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "28-32",
+      "note": "Solid RB2 target after elite."
+    },
+    {
+      "id": "cmc",
+      "name": "Christian McCaffrey",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "36-40",
+      "note": "Black committee. Nominate early to soak nostalgia if >$40."
+    },
+    {
+      "id": "swift",
+      "name": "D'Andre Swift",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "14-18",
+      "note": "Committee flex."
+    },
+    {
+      "id": "montgomery",
+      "name": "David Montgomery",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "12-16",
+      "note": "TD flex."
+    },
+    {
+      "id": "achane-rb",
+      "name": "De'Von Achane",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "32-36",
+      "note": "Boom RB2/Flex \u2014 don't pay full hype."
+    },
+    {
+      "id": "derrick-henry-rb",
+      "name": "Derrick Henry",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "30-35",
+      "note": "TD dependent \u2014 fine RB2 if cheap."
+    },
+    {
+      "id": "javonte",
+      "name": "Javonte Williams",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "18-23",
+      "note": "Mid RB2/Flex."
+    },
+    {
+      "id": "jaylen-warren",
+      "name": "Jaylen Warren",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "12-18",
+      "note": "Pass-catch committee."
+    },
+    {
+      "id": "kenneth-walker-rb",
+      "name": "Kenneth Walker",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "28-33",
+      "note": "RB2 \u2014 watch Charbs cuff later."
+    },
+    {
+      "id": "kyren-rb",
+      "name": "Kyren Williams",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "22-26",
+      "note": "Committee w/ Corum \u2014 discount RB2."
+    },
+    {
+      "id": "hampton-rb",
+      "name": "Omarion Hampton",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "30-35",
+      "note": "Hype \u2014 buy only under sticker."
+    },
+    {
+      "id": "judkins",
+      "name": "Quinshon Judkins",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "12-16",
+      "note": "Upside mid/late."
+    },
+    {
+      "id": "rhamondre",
+      "name": "Rhamondre Stevenson",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "~16",
+      "note": "Lead role while Henderson out."
+    },
+    {
+      "id": "saquon-take",
+      "name": "Saquon Barkley",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "36-40",
+      "note": "Only if RB1 pool gone and price soft. Else soak."
+    },
+    {
+      "id": "pollard",
+      "name": "Tony Pollard",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "10-15",
+      "note": "Volume flex."
+    },
+    {
+      "id": "etienne",
+      "name": "Travis Etienne",
+      "pos": "RB",
+      "section": "rb",
+      "action": "value",
+      "fight_to": "15-20",
+      "note": "Flex / RB3 band."
+    },
+    {
+      "id": "tuten",
+      "name": "Bhayshul Tuten",
+      "pos": "RB",
+      "section": "rb",
+      "action": "dart",
+      "fight_to": "3-8",
+      "note": "Rookie dart."
+    },
+    {
+      "id": "corum",
+      "name": "Blake Corum",
+      "pos": "RB",
+      "section": "rb",
+      "action": "dart",
+      "fight_to": "5-10",
+      "note": "Kyren cuff / committee."
+    },
+    {
+      "id": "hubbard",
+      "name": "Chuba Hubbard",
+      "pos": "RB",
+      "section": "rb",
+      "action": "dart",
+      "fight_to": "8-12",
+      "note": "Stable late RB."
+    },
+    {
+      "id": "jacory",
+      "name": "Jacory Croskey-Merritt",
+      "pos": "RB",
+      "section": "rb",
+      "action": "dart",
+      "fight_to": "8-14",
+      "note": "WAS opportunity dart."
+    },
+    {
+      "id": "price-rb",
+      "name": "Jadarian Price",
+      "pos": "RB",
+      "section": "rb",
+      "action": "dart",
+      "fight_to": "3-8",
+      "note": "SEA dart."
+    },
+    {
+      "id": "gainwell",
+      "name": "Kenny Gainwell",
+      "pos": "RB",
+      "section": "rb",
+      "action": "dart",
+      "fight_to": "1-4",
+      "note": "Pass-down scrap."
+    },
+    {
+      "id": "ray-davis",
+      "name": "Ray Davis",
+      "pos": "RB",
+      "section": "rb",
+      "action": "dart",
+      "fight_to": "2-6",
+      "note": "Cook cuff."
+    },
+    {
+      "id": "dowdle",
+      "name": "Rico Dowdle",
+      "pos": "RB",
+      "section": "rb",
+      "action": "dart",
+      "fight_to": "3-7",
+      "note": "Committee dart."
+    },
+    {
+      "id": "bigsby",
+      "name": "Tank Bigsby",
+      "pos": "RB",
+      "section": "rb",
+      "action": "dart",
+      "fight_to": "1-4",
+      "note": "Handcuff/lottery."
+    },
+    {
+      "id": "henderson-rb",
+      "name": "TreVeyon Henderson",
+      "pos": "RB",
+      "section": "rb",
+      "action": "dart",
+      "fight_to": "1-5",
+      "note": "Ankle \u2014 only deep dart; prefer Stevenson."
+    },
+    {
+      "id": "spears",
+      "name": "Tyjae Spears",
+      "pos": "RB",
+      "section": "rb",
+      "action": "dart",
+      "fight_to": "2-5",
+      "note": "Change-of-pace dart."
+    },
+    {
+      "id": "allgeier",
+      "name": "Tyler Allgeier",
+      "pos": "RB",
+      "section": "rb",
+      "action": "dart",
+      "fight_to": "3-7",
+      "note": "Bijan cuff \u2014 grab if you land Bijan."
+    },
+    {
+      "id": "charbonnet",
+      "name": "Zach Charbonnet",
+      "pos": "RB",
+      "section": "rb",
+      "action": "dart",
+      "fight_to": "4-8",
+      "note": "Walker cuff."
     }
   ]
 }
