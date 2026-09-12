@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-12T22:02:30Z",
-  "message": "Allen+Maye locked. Hunt RB1 (~$50\u201355).",
+  "updated_at": "2026-09-12T22:05:25Z",
+  "message": "Puka to Wes $54. Nick hunting RB1.",
   "nick": {
     "cash": 92,
     "spent": 108,
@@ -47,10 +47,16 @@
     {
       "team": 4,
       "name": "Wes",
-      "cash": 200,
-      "spent": 0,
-      "open_spots": 13,
-      "roster": []
+      "cash": 146,
+      "spent": 54,
+      "open_spots": 12,
+      "roster": [
+        {
+          "player": "Puka Nacua",
+          "pos": "WR",
+          "price": 54
+        }
+      ]
     },
     {
       "team": 5,
@@ -169,6 +175,15 @@
       "pos": "QB",
       "at": "2026-09-12T22:02:30Z",
       "manager": "Nick"
+    },
+    {
+      "player": "Puka Nacua",
+      "price": 54,
+      "winner": "Wes",
+      "mine": false,
+      "pos": "WR",
+      "at": "2026-09-12T22:05:25Z",
+      "manager": "Wes"
     }
   ],
   "tips": [
@@ -176,6 +191,7 @@
     "Format: Player $ Manager \u2014 Ball returns Next 3 + your cash/max + who\u2019s broke.",
     "NEXT 3: (1) Lamar \u2264$50 (2) Maye/Daniels/Burrow \u2264$40\u201342 (3) Gibbs/Bijan ~$50\u201355 \u2014 soak Chase/Puka/JSN",
     "NEXT 3: (1) Lamar \u2264$50 (2) Maye/Daniels/Burrow \u2264$40\u201342 (3) Gibbs/Bijan ~$50\u201355 \u2014 keep soaking Puka/JSN/ARSB",
-    "NEXT 3: (1) Gibbs ~$50\u201355 (2) Bijan ~$50\u201355 (3) Taylor/Cook only on discount \u2014 soak leftover elite QBs/WRs"
+    "NEXT 3: (1) Gibbs ~$50\u201355 (2) Bijan ~$50\u201355 (3) Taylor/Cook only on discount \u2014 soak leftover elite QBs/WRs",
+    "NEXT 3: (1) Gibbs ~$50\u201355 (2) Bijan ~$50\u201355 (3) Taylor/Cook on discount \u2014 soak JSN/ARSB/JJ/Saquon/Lamar"
   ]
 }
