@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-12T22:52:48Z",
-  "message": "ARSB corrected to $53 Kyle. Nick hunting RB1 (JT/Cook).",
+  "updated_at": "2026-09-12T22:56:04Z",
+  "message": "CMC locked $49. Hunt Black cuff + value WRs. Max $34.",
   "nick": {
-    "cash": 92,
-    "spent": 108,
-    "open_spots": 11,
-    "max_bid": 82,
+    "cash": 43,
+    "spent": 157,
+    "open_spots": 10,
+    "max_bid": 34,
     "roster": [
       {
         "player": "Josh Allen",
@@ -16,6 +16,11 @@
         "player": "Drake Maye",
         "pos": "QB",
         "price": 46
+      },
+      {
+        "player": "Christian McCaffrey",
+        "pos": "RB",
+        "price": 49
       }
     ]
   },
@@ -132,9 +137,9 @@
     {
       "team": 9,
       "name": "Nick",
-      "cash": 92,
-      "spent": 108,
-      "open_spots": 11,
+      "cash": 43,
+      "spent": 157,
+      "open_spots": 10,
       "roster": [
         {
           "player": "Josh Allen",
@@ -145,6 +150,11 @@
           "player": "Drake Maye",
           "pos": "QB",
           "price": 46
+        },
+        {
+          "player": "Christian McCaffrey",
+          "pos": "RB",
+          "price": 49
         }
       ]
     },
@@ -316,6 +326,15 @@
       "pos": "WR",
       "at": "2026-09-12T22:51:35Z",
       "manager": "Kyle"
+    },
+    {
+      "player": "Christian McCaffrey",
+      "price": 49,
+      "winner": "nick",
+      "mine": true,
+      "pos": "RB",
+      "at": "2026-09-12T22:56:04Z",
+      "manager": "Nick"
     }
   ],
   "tips": [
@@ -333,6 +352,7 @@
     "NEXT 3: (1) Bijan ~$50\u201355 (2) Taylor \u2264$48 (3) Cook \u2264$45 or soft Achane/Hampton/Chase Brown/Henry",
     "NEXT 3: (1) Bijan ~$50\u201355 (2) Taylor \u2264$48 (3) Cook \u2264$45 / soft mid RBs",
     "NEXT 3: (1) Taylor \u2264$48 (2) Cook \u2264$45 (3) CMC/Achane/Hampton/Chase Brown/Henry soft \u2014 don't panic",
-    "NEXT 3: (1) Taylor \u2264$48 (2) Cook \u2264$45 (3) CMC/Achane/Hampton/Chase Brown/Henry soft"
+    "NEXT 3: (1) Taylor \u2264$48 (2) Cook \u2264$45 (3) CMC/Achane/Hampton/Chase Brown/Henry soft",
+    "NEXT 3: (1) Kaelon Black $3\u20136 (2) McConkey/Rice/Olave/DeVonta/Pickens/Flowers ~$20\u201327 (3) cheap RB2 Kyren/Breece/Stevenson/Skattebo/Bucky"
   ]
 }
