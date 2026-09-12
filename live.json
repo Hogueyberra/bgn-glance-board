@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T23:15:27Z",
+  "updated_at": "2026-09-12T23:17:18Z",
   "message": "Olave $32 Sean. Board shows your-pay vs market.",
   "nick": {
     "cash": 43,
@@ -50,9 +50,9 @@
     {
       "team": 3,
       "name": "Jeff",
-      "cash": 81,
-      "spent": 119,
-      "open_spots": 10,
+      "cash": 42,
+      "spent": 158,
+      "open_spots": 9,
       "roster": [
         {
           "player": "Sam Darnold",
@@ -68,6 +68,11 @@
           "player": "Jonathan Taylor",
           "pos": "RB",
           "price": 55
+        },
+        {
+          "player": "Jayden Daniels",
+          "pos": "QB",
+          "price": 39
         }
       ]
     },
@@ -436,11 +441,21 @@
       "pos": "QB",
       "at": "2026-09-12T23:15:27Z",
       "manager": "Patrick"
+    },
+    {
+      "player": "Jayden Daniels",
+      "price": 39,
+      "winner": "Jeff",
+      "mine": false,
+      "pos": "QB",
+      "at": "2026-09-12T23:17:18Z",
+      "manager": "Jeff"
     }
   ],
   "tips": [
     "YOUR PAY = budget bid with $43/max $34. MKT = old fight-to.",
     "NEXT 3: (1) McConkey/Rice/DeVonta/Pickens/Flowers pay ~$18\u201320 (2) Black pay $5 (3) cheap RB2 pay $8\u201313",
+    "NEXT 3: (1) McConkey/Rice pay $20 (2) Black pay $5 (3) Kyren/Stevenson/Breece pay $12\u201313",
     "NEXT 3: (1) McConkey/Rice pay $20 (2) Black pay $5 (3) Kyren/Stevenson/Breece pay $12\u201313"
   ]
 }
