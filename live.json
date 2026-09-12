@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T22:23:29Z",
+  "updated_at": "2026-09-12T22:26:33Z",
   "message": "Puka to Wes $54. Nick hunting RB1.",
   "nick": {
     "cash": 92,
@@ -64,14 +64,19 @@
     {
       "team": 4,
       "name": "Wes",
-      "cash": 146,
-      "spent": 54,
-      "open_spots": 12,
+      "cash": 91,
+      "spent": 109,
+      "open_spots": 11,
       "roster": [
         {
           "player": "Puka Nacua",
           "pos": "WR",
           "price": 54
+        },
+        {
+          "player": "Lamar Jackson",
+          "pos": "QB",
+          "price": 55
         }
       ]
     },
@@ -243,6 +248,15 @@
       "pos": "QB",
       "at": "2026-09-12T22:23:29Z",
       "manager": "David"
+    },
+    {
+      "player": "Lamar Jackson",
+      "price": 55,
+      "winner": "Wes",
+      "mine": false,
+      "pos": "QB",
+      "at": "2026-09-12T22:26:33Z",
+      "manager": "Wes"
     }
   ],
   "tips": [
@@ -255,6 +269,7 @@
     "NEXT 3: (1) Gibbs ~$50\u201355 (2) Bijan ~$50\u201355 (3) Taylor/Cook on discount",
     "NEXT 3: (1) Gibbs ~$50\u201355 (2) Bijan ~$50\u201355 (3) Taylor/Cook on discount",
     "NEXT 3: (1) Gibbs ~$50\u201355 (2) Bijan ~$50\u201355 (3) Taylor/Cook on discount",
-    "NEXT 3: (1) Gibbs ~$50\u201355 (2) Bijan ~$50\u201355 (3) Taylor/Cook on discount"
+    "NEXT 3: (1) Gibbs ~$50\u201355 (2) Bijan ~$50\u201355 (3) Taylor/Cook on discount",
+    "NEXT 3: (1) Gibbs ~$50\u201355 (2) Bijan ~$50\u201355 (3) Taylor/Cook on discount \u2014 Burrow/Daniels = soak"
   ]
 }
