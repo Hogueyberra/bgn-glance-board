@@ -63,26 +63,81 @@
       "pay": "soak"
     },
     {
-      "id": "qb2-pool",
-      "name": "Daniels / Caleb / Hurts / Herbert",
+      "id": "jayden-daniels",
+      "name": "Jayden Daniels",
       "pos": "QB",
       "section": "qb",
-      "action": "value",
+      "action": "soak",
       "fight_to": "25-35",
-      "note": "QB2 after elite leftovers dry up.",
-      "team": "WAS/CHI/PHI/LAC",
-      "pay": "soak"
+      "pay": "soak",
+      "team": "WAS",
+      "note": "QB2 after elite leftovers dry up."
     },
     {
-      "id": "mid-sf",
-      "name": "Purdy / Goff / Kyler",
+      "id": "caleb-williams",
+      "name": "Caleb Williams",
+      "pos": "QB",
+      "section": "qb",
+      "action": "soak",
+      "fight_to": "25-35",
+      "pay": "soak",
+      "team": "CHI",
+      "note": "QB2 after elite leftovers dry up."
+    },
+    {
+      "id": "jalen-hurts-solo",
+      "name": "Jalen Hurts",
+      "pos": "QB",
+      "section": "qb",
+      "action": "soak",
+      "fight_to": "25-35",
+      "pay": "soak",
+      "team": "PHI",
+      "note": "QB2 after elite leftovers dry up."
+    },
+    {
+      "id": "justin-herbert-solo",
+      "name": "Justin Herbert",
+      "pos": "QB",
+      "section": "qb",
+      "action": "soak",
+      "fight_to": "25-35",
+      "pay": "soak",
+      "team": "LAC",
+      "note": "QB2 after elite leftovers dry up."
+    },
+    {
+      "id": "brock-purdy",
+      "name": "Brock Purdy",
       "pos": "QB",
       "section": "qb",
       "action": "value",
       "fight_to": "14-24",
-      "note": "Goff/Kyler = SF2 buys, not $1 darts. Purdy ~$24 post W1.",
-      "team": "SF/DET/MIN",
-      "pay": "8"
+      "pay": "8",
+      "team": "SF",
+      "note": "Goff/Kyler = SF2 buys, not $1 darts. Purdy ~$24 post W1."
+    },
+    {
+      "id": "jared-goff",
+      "name": "Jared Goff",
+      "pos": "QB",
+      "section": "qb",
+      "action": "value",
+      "fight_to": "14-24",
+      "pay": "8",
+      "team": "DET",
+      "note": "Goff/Kyler = SF2 buys, not $1 darts. Purdy ~$24 post W1."
+    },
+    {
+      "id": "kyler-murray",
+      "name": "Kyler Murray",
+      "pos": "QB",
+      "section": "qb",
+      "action": "value",
+      "fight_to": "14-24",
+      "pay": "8",
+      "team": "MIN",
+      "note": "Goff/Kyler = SF2 buys, not $1 darts. Purdy ~$24 post W1."
     },
     {
       "id": "sam-darnold",
@@ -162,15 +217,48 @@
       "pay": "18"
     },
     {
-      "id": "wr-stretch",
-      "name": "Nabers / Higgins / Nico / London",
+      "id": "malik-nabers-solo",
+      "name": "Malik Nabers",
       "pos": "WR",
       "section": "wr",
       "action": "value",
       "fight_to": "22-30",
-      "note": "Stretch cap \u2014 don\u2019t go past.",
-      "team": "NYG/CIN/HOU/ATL",
-      "pay": "16"
+      "pay": "15",
+      "team": "NYG",
+      "note": "Stretch cap \u2014 don\u2019t go past."
+    },
+    {
+      "id": "tee-higgins-solo",
+      "name": "Tee Higgins",
+      "pos": "WR",
+      "section": "wr",
+      "action": "value",
+      "fight_to": "22-30",
+      "pay": "16",
+      "team": "CIN",
+      "note": "Stretch cap \u2014 don\u2019t go past."
+    },
+    {
+      "id": "nico-collins-solo",
+      "name": "Nico Collins",
+      "pos": "WR",
+      "section": "wr",
+      "action": "value",
+      "fight_to": "22-30",
+      "pay": "16",
+      "team": "HOU",
+      "note": "Stretch cap \u2014 don\u2019t go past."
+    },
+    {
+      "id": "drake-london-solo",
+      "name": "Drake London",
+      "pos": "WR",
+      "section": "wr",
+      "action": "value",
+      "fight_to": "22-30",
+      "pay": "14",
+      "team": "ATL",
+      "note": "Stretch cap \u2014 don\u2019t go past."
     },
     {
       "id": "mike-evans",
@@ -363,61 +451,6 @@
       "note": "Soak unless somehow <$28.",
       "team": "DAL",
       "pay": "soak"
-    },
-    {
-      "id": "aj-brown-soak",
-      "name": "A.J. Brown",
-      "pos": "WR",
-      "section": "soak",
-      "action": "soak",
-      "fight_to": "pass",
-      "note": "IR \u2014 nominate only if room will overpay nostalgia; you PASS.",
-      "team": "NE",
-      "pay": "soak"
-    },
-    {
-      "id": "nico-collins-soak",
-      "name": "Nico Collins",
-      "pos": "WR",
-      "section": "soak",
-      "action": "soak",
-      "fight_to": "~30",
-      "note": "If you\u2019re not buying stretch tier \u2014 soak mid-WR money.",
-      "team": "HOU",
-      "pay": "16"
-    },
-    {
-      "id": "tee-higgins-soak",
-      "name": "Tee Higgins",
-      "pos": "WR",
-      "section": "soak",
-      "action": "soak",
-      "fight_to": "~27",
-      "note": "Stretch you might skip \u2014 fine soak.",
-      "team": "CIN",
-      "pay": "16"
-    },
-    {
-      "id": "drake-london-soak",
-      "name": "Drake London",
-      "pos": "WR",
-      "section": "soak",
-      "action": "soak",
-      "fight_to": "~28",
-      "note": "QB mess \u2014 room may still pay; let them.",
-      "team": "ATL",
-      "pay": "14"
-    },
-    {
-      "id": "malik-nabers-soak",
-      "name": "Malik Nabers",
-      "pos": "WR",
-      "section": "soak",
-      "action": "soak",
-      "fight_to": "~28",
-      "note": "Q/knee noise \u2014 soak if bids stay rich.",
-      "team": "NYG",
-      "pay": "15"
     },
     {
       "id": "garrett-wilson",
@@ -618,28 +651,6 @@
       "pay": "soak"
     },
     {
-      "id": "hurts-soak",
-      "name": "Jalen Hurts",
-      "pos": "QB",
-      "section": "soak",
-      "action": "soak",
-      "fight_to": "~31",
-      "note": "After you have QB1+2 \u2014 nominate to soak SF money.",
-      "team": "PHI",
-      "pay": "soak"
-    },
-    {
-      "id": "herbert-soak",
-      "name": "Justin Herbert",
-      "pos": "QB",
-      "section": "soak",
-      "action": "soak",
-      "fight_to": "~29",
-      "note": "SF soak once you\u2019re set at QB.",
-      "team": "LAC",
-      "pay": "soak"
-    },
-    {
       "id": "dak-soak",
       "name": "Dak Prescott",
       "pos": "QB",
@@ -717,17 +728,6 @@
       "pay": "?"
     },
     {
-      "id": "jeanty-rb",
-      "name": "Ashton Jeanty",
-      "pos": "RB",
-      "section": "rb",
-      "action": "value",
-      "fight_to": "30-36",
-      "note": "Rookie hype \u2014 value only.",
-      "team": "LV",
-      "pay": "?"
-    },
-    {
       "id": "breece-hall",
       "name": "Breece Hall",
       "pos": "RB",
@@ -761,28 +761,6 @@
       "pay": "10"
     },
     {
-      "id": "chase-brown-rb",
-      "name": "Chase Brown",
-      "pos": "RB",
-      "section": "rb",
-      "action": "value",
-      "fight_to": "28-32",
-      "note": "Solid RB2 target after elite.",
-      "team": "CIN",
-      "pay": "18"
-    },
-    {
-      "id": "cmc",
-      "name": "Christian McCaffrey",
-      "pos": "RB",
-      "section": "rb",
-      "action": "value",
-      "fight_to": "36-40",
-      "note": "Black committee. Nominate early to soak nostalgia if >$40.",
-      "team": "SF",
-      "pay": "\u2014"
-    },
-    {
       "id": "swift",
       "name": "D'Andre Swift",
       "pos": "RB",
@@ -803,28 +781,6 @@
       "note": "TD flex.",
       "team": "DET",
       "pay": "8"
-    },
-    {
-      "id": "achane-rb",
-      "name": "De'Von Achane",
-      "pos": "RB",
-      "section": "rb",
-      "action": "value",
-      "fight_to": "32-36",
-      "note": "Boom RB2/Flex \u2014 don't pay full hype.",
-      "team": "MIA",
-      "pay": "22"
-    },
-    {
-      "id": "derrick-henry-rb",
-      "name": "Derrick Henry",
-      "pos": "RB",
-      "section": "rb",
-      "action": "value",
-      "fight_to": "30-35",
-      "note": "TD dependent \u2014 fine RB2 if cheap.",
-      "team": "BAL",
-      "pay": "18"
     },
     {
       "id": "javonte",
@@ -849,39 +805,6 @@
       "pay": "9"
     },
     {
-      "id": "kenneth-walker-rb",
-      "name": "Kenneth Walker",
-      "pos": "RB",
-      "section": "rb",
-      "action": "value",
-      "fight_to": "28-33",
-      "note": "RB2 \u2014 watch Charbs cuff later.",
-      "team": "SEA",
-      "pay": "?"
-    },
-    {
-      "id": "kyren-rb",
-      "name": "Kyren Williams",
-      "pos": "RB",
-      "section": "rb",
-      "action": "value",
-      "fight_to": "22-26",
-      "note": "Committee w/ Corum \u2014 discount RB2.",
-      "team": "LAR",
-      "pay": "12"
-    },
-    {
-      "id": "hampton-rb",
-      "name": "Omarion Hampton",
-      "pos": "RB",
-      "section": "rb",
-      "action": "value",
-      "fight_to": "30-35",
-      "note": "Hype \u2014 buy only under sticker.",
-      "team": "LAC",
-      "pay": "20"
-    },
-    {
       "id": "judkins",
       "name": "Quinshon Judkins",
       "pos": "RB",
@@ -902,17 +825,6 @@
       "note": "Lead role while Henderson out.",
       "team": "NE",
       "pay": "13"
-    },
-    {
-      "id": "saquon-take",
-      "name": "Saquon Barkley",
-      "pos": "RB",
-      "section": "rb",
-      "action": "value",
-      "fight_to": "36-40",
-      "note": "Only if RB1 pool gone and price soft. Else soak.",
-      "team": "PHI",
-      "pay": "?"
     },
     {
       "id": "pollard",

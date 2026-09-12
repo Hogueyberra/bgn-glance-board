@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-12T23:41:04Z",
-  "message": "Olave $32 Sean. Board shows your-pay vs market.",
+  "updated_at": "2026-09-12T23:44:09Z",
+  "message": "TLaw $49 David. Purdy board fix.",
   "nick": {
     "cash": 43,
     "spent": 157,
@@ -28,9 +28,9 @@
     {
       "team": 1,
       "name": "David",
-      "cash": 140,
-      "spent": 60,
-      "open_spots": 11,
+      "cash": 91,
+      "spent": 109,
+      "open_spots": 10,
       "roster": [
         {
           "player": "Brock Purdy",
@@ -41,6 +41,11 @@
           "player": "Cam Skattebo",
           "pos": "RB",
           "price": 31
+        },
+        {
+          "player": "Trevor Lawrence",
+          "pos": "QB",
+          "price": 49
         }
       ]
     },
@@ -563,20 +568,19 @@
       "pos": "QB",
       "at": "2026-09-12T23:41:04Z",
       "manager": "Ryan"
+    },
+    {
+      "player": "Trevor Lawrence",
+      "price": 49,
+      "winner": "David",
+      "mine": false,
+      "pos": "QB",
+      "at": "2026-09-12T23:44:09Z",
+      "manager": "David"
     }
   ],
   "tips": [
-    "YOUR PAY = budget bid with $43/max $34. MKT = old fight-to.",
-    "NEXT 3: (1) McConkey/Rice/DeVonta/Pickens/Flowers pay ~$18\u201320 (2) Black pay $5 (3) cheap RB2 pay $8\u201313",
-    "NEXT 3: (1) McConkey/Rice pay $20 (2) Black pay $5 (3) Kyren/Stevenson/Breece pay $12\u201313",
-    "NEXT 3: (1) McConkey/Rice pay $20 (2) Black pay $5 (3) Kyren/Stevenson/Breece pay $12\u201313",
-    "NEXT 3: (1) McConkey pay $20 (2) DeVonta/Pickens pay $19 (3) Black $5 / Flowers $18",
-    "NEXT 3: (1) McConkey pay $20 (2) DeVonta/Pickens pay $19 (3) Black $5 / Flowers $18",
-    "NEXT 3: (1) McConkey pay $20 (2) DeVonta/Pickens pay $19 (3) Black $5 / Flowers $18",
-    "NEXT 3: (1) McConkey pay $20 (2) DeVonta/Pickens pay $19 (3) Black $5 / Flowers $18 / cheap RB2 $12\u201313",
-    "NEXT 3: (1) McConkey pay $20 (2) DeVonta/Pickens pay $19 (3) Black $5 / Kyren-Stevenson-Breece $12\u201313",
     "NEXT 3: (1) McConkey pay $20 (2) DeVonta/Pickens pay $19 (3) Black $5 / cheap RB2 $12\u201313",
-    "NEXT 3: (1) McConkey pay $20 (2) DeVonta/Pickens pay $19 (3) Black $5 / cheap RB2 $12\u201313",
-    "NEXT 3: (1) McConkey pay $20 (2) DeVonta/Pickens pay $19 (3) Black $5 / cheap RB2 $12\u201313"
+    "Purdy removed \u2014 group cards split so drafted QBs drop off."
   ]
 }

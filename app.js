@@ -78,16 +78,21 @@
   }
 
   function playerMatchesSold(player, soldMap) {
-    const ids = [player.name, ...(player.aliases || [])];
+    const parts = String(player.name || "").split(/\s*\/\s*/);
+    const ids = [player.name, ...parts, ...(player.aliases || [])];
     for (const id of ids) {
       const hit = soldMap.get(normalizeName(id));
       if (hit) return hit;
     }
-    // partial: card name contains sold name or vice versa
     const pname = normalizeName(player.name);
     for (const [k, v] of soldMap) {
       if (!k) continue;
       if (pname.includes(k) || k.includes(pname)) return v;
+      // "Brock Purdy" vs card text containing Purdy
+      for (const part of parts) {
+        const pn = normalizeName(part);
+        if (pn && (k.includes(pn) || pn.includes(k))) return v;
+      }
     }
     return null;
   }
