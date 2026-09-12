@@ -38,6 +38,7 @@ def main() -> int:
     p.add_argument("--player")
     p.add_argument("--price", type=int)
     p.add_argument("--winner", choices=["nick", "other"], default="other")
+    p.add_argument("--manager", help="Winner display name (Nick, David, ...)")
     p.add_argument("--pos", default="")
     p.add_argument("--tip")
     p.add_argument("--message")
@@ -64,7 +65,29 @@ def main() -> int:
             "pos": args.pos,
             "at": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         }
+        mgr = (args.manager or ("Nick" if args.winner == "nick" else "other")).strip()
+        if mgr.lower() == "nick":
+            args.winner = "nick"
+        sale["winner"] = "nick" if args.winner == "nick" else mgr
+        sale["manager"] = "Nick" if args.winner == "nick" else mgr
         data.setdefault("sold", []).append(sale)
+
+        room = data.setdefault("room", [])
+        target = None
+        for r in room:
+            if str(r.get("name", "")).lower() == ("nick" if args.winner == "nick" else mgr).lower():
+                target = r
+                break
+        if target is None and args.winner != "nick":
+            target = {"team": None, "name": mgr, "cash": 200, "spent": 0, "open_spots": 13, "roster": []}
+            room.append(target)
+        if target is not None:
+            target["roster"] = list(target.get("roster") or [])
+            target["roster"].append({"player": args.player, "pos": args.pos, "price": args.price})
+            target["spent"] = int(target.get("spent") or 0) + args.price
+            target["cash"] = int(target.get("cash") or 200) - args.price
+            target["open_spots"] = max(0, int(target.get("open_spots") or 13) - 1)
+
         if args.winner == "nick":
             nick["roster"] = list(nick.get("roster") or [])
             nick["roster"].append({"player": args.player, "pos": args.pos, "price": args.price})
