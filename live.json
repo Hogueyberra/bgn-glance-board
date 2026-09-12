@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T23:17:18Z",
+  "updated_at": "2026-09-12T23:19:18Z",
   "message": "Olave $32 Sean. Board shows your-pay vs market.",
   "nick": {
     "cash": 43,
@@ -193,9 +193,9 @@
     {
       "team": 10,
       "name": "Sean",
-      "cash": 123,
-      "spent": 77,
-      "open_spots": 11,
+      "cash": 92,
+      "spent": 108,
+      "open_spots": 10,
       "roster": [
         {
           "player": "Kenneth Walker",
@@ -206,6 +206,11 @@
           "player": "Chris Olave",
           "pos": "WR",
           "price": 32
+        },
+        {
+          "player": "Rashee Rice",
+          "pos": "WR",
+          "price": 31
         }
       ]
     },
@@ -450,12 +455,22 @@
       "pos": "QB",
       "at": "2026-09-12T23:17:18Z",
       "manager": "Jeff"
+    },
+    {
+      "player": "Rashee Rice",
+      "price": 31,
+      "winner": "Sean",
+      "mine": false,
+      "pos": "WR",
+      "at": "2026-09-12T23:19:18Z",
+      "manager": "Sean"
     }
   ],
   "tips": [
     "YOUR PAY = budget bid with $43/max $34. MKT = old fight-to.",
     "NEXT 3: (1) McConkey/Rice/DeVonta/Pickens/Flowers pay ~$18\u201320 (2) Black pay $5 (3) cheap RB2 pay $8\u201313",
     "NEXT 3: (1) McConkey/Rice pay $20 (2) Black pay $5 (3) Kyren/Stevenson/Breece pay $12\u201313",
-    "NEXT 3: (1) McConkey/Rice pay $20 (2) Black pay $5 (3) Kyren/Stevenson/Breece pay $12\u201313"
+    "NEXT 3: (1) McConkey/Rice pay $20 (2) Black pay $5 (3) Kyren/Stevenson/Breece pay $12\u201313",
+    "NEXT 3: (1) McConkey pay $20 (2) DeVonta/Pickens pay $19 (3) Black $5 / Flowers $18"
   ]
 }
