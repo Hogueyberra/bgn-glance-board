@@ -161,10 +161,14 @@
       el("div", { className: "meta", text: [player.pos, player.team].filter(Boolean).join(" · ") }),
       el("span", { className: `tag ${action}`, text: action.toUpperCase() }),
     ]);
+    const pay = player.pay != null ? String(player.pay) : "—";
     const price = el("div", { className: "price" }, [
-      document.createTextNode("$" + (player.fight_to || "—")),
+      document.createTextNode(pay === "soak" || pay === "—" || pay === "?" ? pay : "$" + pay),
     ]);
-    price.append(el("small", { text: "fight-to" }));
+    price.append(el("small", { text: "your pay" }));
+    if (player.fight_to) {
+      price.append(el("small", { text: "mkt $" + player.fight_to }));
+    }
     card.append(left, price);
     if (player.note) card.append(el("div", { className: "note", text: player.note }));
     if (sold) {
@@ -320,7 +324,7 @@
       alpha.append(
         el("div", {}, [
           document.createTextNode(`${p.name}${p.team ? " (" + p.team + ")" : ""} — `),
-          el("b", { text: `${(p.action || "").toUpperCase()} $${p.fight_to}` }),
+          el("b", { text: `${(p.action || "").toUpperCase()} pay $${p.pay ?? "?"} (mkt $${p.fight_to})` }),
         ])
       );
     }

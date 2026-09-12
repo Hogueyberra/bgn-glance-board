@@ -26,7 +26,8 @@
       "action": "take",
       "fight_to": "55-58",
       "note": "Clear SF1. Don\u2019t melt past ~$58.",
-      "team": "BUF"
+      "team": "BUF",
+      "pay": "?"
     },
     {
       "id": "lamar-jackson",
@@ -36,7 +37,8 @@
       "action": "take",
       "fight_to": "42-48",
       "note": "Elite tier with Maye/Burrow.",
-      "team": "BAL"
+      "team": "BAL",
+      "pay": "?"
     },
     {
       "id": "drake-maye",
@@ -46,7 +48,8 @@
       "action": "take",
       "fight_to": "42-48",
       "note": "AJB IR \u2192 soft \u2212$3\u20135 if room panics; still take in band.",
-      "team": "NE"
+      "team": "NE",
+      "pay": "?"
     },
     {
       "id": "joe-burrow",
@@ -56,7 +59,8 @@
       "action": "take",
       "fight_to": "42-48",
       "note": "Healthy narrative supports tier.",
-      "team": "CIN"
+      "team": "CIN",
+      "pay": "soak"
     },
     {
       "id": "qb2-pool",
@@ -66,7 +70,8 @@
       "action": "value",
       "fight_to": "25-35",
       "note": "QB2 after elite leftovers dry up.",
-      "team": "WAS/CHI/PHI/LAC"
+      "team": "WAS/CHI/PHI/LAC",
+      "pay": "soak"
     },
     {
       "id": "mid-sf",
@@ -76,7 +81,8 @@
       "action": "value",
       "fight_to": "14-24",
       "note": "Goff/Kyler = SF2 buys, not $1 darts. Purdy ~$24 post W1.",
-      "team": "SF/DET/MIN"
+      "team": "SF/DET/MIN",
+      "pay": "8"
     },
     {
       "id": "sam-darnold",
@@ -86,7 +92,8 @@
       "action": "pass",
       "fight_to": "0-3",
       "note": "MRI OK but miss W2 \u2014 prefer healthy QB3.",
-      "team": "SEA"
+      "team": "SEA",
+      "pay": "0"
     },
     {
       "id": "ladd-mcconkey",
@@ -96,7 +103,8 @@
       "action": "take",
       "fight_to": "20-27",
       "note": "Lead WR value after QB/RB spends.",
-      "team": "LAC"
+      "team": "LAC",
+      "pay": "20"
     },
     {
       "id": "rashee-rice",
@@ -106,7 +114,8 @@
       "action": "take",
       "fight_to": "20-27",
       "note": "",
-      "team": "KC"
+      "team": "KC",
+      "pay": "20"
     },
     {
       "id": "chris-olave",
@@ -116,7 +125,8 @@
       "action": "take",
       "fight_to": "20-27",
       "note": "",
-      "team": "NO"
+      "team": "NO",
+      "pay": "?"
     },
     {
       "id": "devonta-smith",
@@ -126,7 +136,8 @@
       "action": "take",
       "fight_to": "20-27",
       "note": "",
-      "team": "PHI"
+      "team": "PHI",
+      "pay": "19"
     },
     {
       "id": "george-pickens",
@@ -136,7 +147,8 @@
       "action": "take",
       "fight_to": "20-27",
       "note": "",
-      "team": "DAL"
+      "team": "DAL",
+      "pay": "19"
     },
     {
       "id": "zay-flowers",
@@ -146,7 +158,8 @@
       "action": "take",
       "fight_to": "20-27",
       "note": "",
-      "team": "BAL"
+      "team": "BAL",
+      "pay": "18"
     },
     {
       "id": "wr-stretch",
@@ -156,7 +169,8 @@
       "action": "value",
       "fight_to": "22-30",
       "note": "Stretch cap \u2014 don\u2019t go past.",
-      "team": "NYG/CIN/HOU/ATL"
+      "team": "NYG/CIN/HOU/ATL",
+      "pay": "16"
     },
     {
       "id": "mike-evans",
@@ -166,7 +180,8 @@
       "action": "value",
       "fight_to": "15-18",
       "note": "Role locked in SF debut.",
-      "team": "SF"
+      "team": "SF",
+      "pay": "17"
     },
     {
       "id": "aj-brown",
@@ -176,7 +191,8 @@
       "action": "pass",
       "fight_to": "0",
       "note": "IR \u22654 weeks (Schefter).",
-      "team": "NE"
+      "team": "NE",
+      "pay": "0"
     },
     {
       "id": "kaelon-black",
@@ -191,7 +207,8 @@
         "K. Black",
         "Kaelon"
       ],
-      "team": "SF"
+      "team": "SF",
+      "pay": "5"
     },
     {
       "id": "jonah-coleman",
@@ -201,7 +218,8 @@
       "action": "dart",
       "fight_to": "1-4",
       "note": "Locked late dart.",
-      "team": "DEN"
+      "team": "DEN",
+      "pay": "2"
     },
     {
       "id": "jalen-coker",
@@ -211,7 +229,8 @@
       "action": "dart",
       "fight_to": "1-4",
       "note": "",
-      "team": "CAR"
+      "team": "CAR",
+      "pay": "2"
     },
     {
       "id": "kc-concepcion",
@@ -221,7 +240,8 @@
       "action": "dart",
       "fight_to": "1-4",
       "note": "",
-      "team": "CLE"
+      "team": "CLE",
+      "pay": "2"
     },
     {
       "id": "jayden-reed",
@@ -231,7 +251,8 @@
       "action": "dart",
       "fight_to": "1-4",
       "note": "",
-      "team": "GB"
+      "team": "GB",
+      "pay": "2"
     },
     {
       "id": "matthew-golden",
@@ -241,7 +262,8 @@
       "action": "dart",
       "fight_to": "1-4",
       "note": "",
-      "team": "GB"
+      "team": "GB",
+      "pay": "2"
     },
     {
       "id": "dalton-schultz",
@@ -251,7 +273,8 @@
       "action": "dart",
       "fight_to": "1-4",
       "note": "Optional.",
-      "team": "HOU"
+      "team": "HOU",
+      "pay": "3"
     },
     {
       "id": "ne-fill-in",
@@ -261,7 +284,8 @@
       "action": "dart",
       "fight_to": "1-3",
       "note": "Temp NE WR1 while Brown out.",
-      "team": "NE"
+      "team": "NE",
+      "pay": "2"
     },
     {
       "id": "jordan-mason",
@@ -271,7 +295,8 @@
       "action": "value",
       "fight_to": "3-5",
       "note": "Only-at \u2014 skip above $5.",
-      "team": "MIN"
+      "team": "MIN",
+      "pay": "4"
     },
     {
       "id": "jamarr-chase",
@@ -281,7 +306,8 @@
       "action": "soak",
       "fight_to": "~50",
       "note": "Nominate early. Only buy if crashes into stretch nonsense.",
-      "team": "CIN"
+      "team": "CIN",
+      "pay": "soak"
     },
     {
       "id": "puka-nacua",
@@ -291,7 +317,8 @@
       "action": "soak",
       "fight_to": "~44",
       "note": "Elite WR soak.",
-      "team": "LAR"
+      "team": "LAR",
+      "pay": "soak"
     },
     {
       "id": "jsn",
@@ -301,7 +328,8 @@
       "action": "soak",
       "fight_to": "~41",
       "note": "Hot name \u2014 burn cash.",
-      "team": "SEA"
+      "team": "SEA",
+      "pay": "soak"
     },
     {
       "id": "arsb",
@@ -311,7 +339,8 @@
       "action": "soak",
       "fight_to": "~40",
       "note": "Safe elite WR soak.",
-      "team": "DET"
+      "team": "DET",
+      "pay": "soak"
     },
     {
       "id": "justin-jefferson",
@@ -321,7 +350,8 @@
       "action": "soak",
       "fight_to": "~39",
       "note": "Name-brand soak.",
-      "team": "MIN"
+      "team": "MIN",
+      "pay": "soak"
     },
     {
       "id": "ceedee-lamb",
@@ -331,7 +361,8 @@
       "action": "soak",
       "fight_to": "~37",
       "note": "Soak unless somehow <$28.",
-      "team": "DAL"
+      "team": "DAL",
+      "pay": "soak"
     },
     {
       "id": "aj-brown-soak",
@@ -341,7 +372,8 @@
       "action": "soak",
       "fight_to": "pass",
       "note": "IR \u2014 nominate only if room will overpay nostalgia; you PASS.",
-      "team": "NE"
+      "team": "NE",
+      "pay": "soak"
     },
     {
       "id": "nico-collins-soak",
@@ -351,7 +383,8 @@
       "action": "soak",
       "fight_to": "~30",
       "note": "If you\u2019re not buying stretch tier \u2014 soak mid-WR money.",
-      "team": "HOU"
+      "team": "HOU",
+      "pay": "16"
     },
     {
       "id": "tee-higgins-soak",
@@ -361,7 +394,8 @@
       "action": "soak",
       "fight_to": "~27",
       "note": "Stretch you might skip \u2014 fine soak.",
-      "team": "CIN"
+      "team": "CIN",
+      "pay": "16"
     },
     {
       "id": "drake-london-soak",
@@ -371,7 +405,8 @@
       "action": "soak",
       "fight_to": "~28",
       "note": "QB mess \u2014 room may still pay; let them.",
-      "team": "ATL"
+      "team": "ATL",
+      "pay": "14"
     },
     {
       "id": "malik-nabers-soak",
@@ -381,7 +416,8 @@
       "action": "soak",
       "fight_to": "~28",
       "note": "Q/knee noise \u2014 soak if bids stay rich.",
-      "team": "NYG"
+      "team": "NYG",
+      "pay": "15"
     },
     {
       "id": "garrett-wilson",
@@ -391,7 +427,8 @@
       "action": "soak",
       "fight_to": "~22",
       "note": "Mid WR soak between your targets.",
-      "team": "NYJ"
+      "team": "NYJ",
+      "pay": "12"
     },
     {
       "id": "tyreek-or-adams",
@@ -401,7 +438,8 @@
       "action": "soak",
       "fight_to": "~20",
       "note": "Name soak in the $18\u201325 band.",
-      "team": "LAR"
+      "team": "LAR",
+      "pay": "11"
     },
     {
       "id": "jameson-williams",
@@ -411,7 +449,8 @@
       "action": "soak",
       "fight_to": "~20",
       "note": "Boom soak \u2014 room loves him.",
-      "team": "DET"
+      "team": "DET",
+      "pay": "12"
     },
     {
       "id": "tet-mcmillan",
@@ -421,7 +460,8 @@
       "action": "soak",
       "fight_to": "~21",
       "note": "Rookie hype soak.",
-      "team": "CAR"
+      "team": "CAR",
+      "pay": "11"
     },
     {
       "id": "egbuka",
@@ -431,7 +471,8 @@
       "action": "soak",
       "fight_to": "~18",
       "note": "Buzz soak.",
-      "team": "TB"
+      "team": "TB",
+      "pay": "10"
     },
     {
       "id": "saquon",
@@ -441,7 +482,8 @@
       "action": "soak",
       "fight_to": "~39",
       "note": "If you already have RB1 \u2014 classic soak.",
-      "team": "PHI"
+      "team": "PHI",
+      "pay": "soak"
     },
     {
       "id": "cmc-soak",
@@ -451,7 +493,8 @@
       "action": "soak",
       "fight_to": "~39",
       "note": "Nominate to soak nostalgia; buy only \u2264$40.",
-      "team": "SF"
+      "team": "SF",
+      "pay": "\u2014"
     },
     {
       "id": "derrick-henry",
@@ -461,7 +504,8 @@
       "action": "soak",
       "fight_to": "~35",
       "note": "Age/TD soak \u2014 burns mid budgets.",
-      "team": "BAL"
+      "team": "BAL",
+      "pay": "18"
     },
     {
       "id": "achane",
@@ -471,7 +515,8 @@
       "action": "soak",
       "fight_to": "~36",
       "note": "Boom RB soak if not your RB1.",
-      "team": "MIA"
+      "team": "MIA",
+      "pay": "22"
     },
     {
       "id": "hampton",
@@ -481,7 +526,8 @@
       "action": "soak",
       "fight_to": "~35",
       "note": "Hype RB soak.",
-      "team": "LAC"
+      "team": "LAC",
+      "pay": "20"
     },
     {
       "id": "chase-brown",
@@ -491,7 +537,8 @@
       "action": "soak",
       "fight_to": "~32",
       "note": "Solid RB soak between tiers.",
-      "team": "CIN"
+      "team": "CIN",
+      "pay": "18"
     },
     {
       "id": "kenneth-walker",
@@ -501,7 +548,8 @@
       "action": "soak",
       "fight_to": "~33",
       "note": "Mid RB soak.",
-      "team": "SEA"
+      "team": "SEA",
+      "pay": "soak"
     },
     {
       "id": "kyren",
@@ -511,7 +559,8 @@
       "action": "soak",
       "fight_to": "~25",
       "note": "Committee noise \u2014 still draws $.",
-      "team": "LAR"
+      "team": "LAR",
+      "pay": "12"
     },
     {
       "id": "jeanty",
@@ -521,7 +570,8 @@
       "action": "soak",
       "fight_to": "~36",
       "note": "Rookie hype soak.",
-      "team": "LV"
+      "team": "LV",
+      "pay": "soak"
     },
     {
       "id": "love-rb",
@@ -531,7 +581,8 @@
       "action": "soak",
       "fight_to": "~26",
       "note": "Volatile \u2014 let room pay.",
-      "team": "ARI"
+      "team": "ARI",
+      "pay": "soak"
     },
     {
       "id": "bowers",
@@ -541,7 +592,8 @@
       "action": "soak",
       "fight_to": "~33",
       "note": "TE1 tax \u2014 great soak if you\u2019re streaming TE.",
-      "team": "LV"
+      "team": "LV",
+      "pay": "soak"
     },
     {
       "id": "mcbride",
@@ -551,7 +603,8 @@
       "action": "soak",
       "fight_to": "~28",
       "note": "TE2 soak.",
-      "team": "ARI"
+      "team": "ARI",
+      "pay": "soak"
     },
     {
       "id": "loveland",
@@ -561,7 +614,8 @@
       "action": "soak",
       "fight_to": "~22",
       "note": "TE hype soak.",
-      "team": "CHI"
+      "team": "CHI",
+      "pay": "soak"
     },
     {
       "id": "hurts-soak",
@@ -571,7 +625,8 @@
       "action": "soak",
       "fight_to": "~31",
       "note": "After you have QB1+2 \u2014 nominate to soak SF money.",
-      "team": "PHI"
+      "team": "PHI",
+      "pay": "soak"
     },
     {
       "id": "herbert-soak",
@@ -581,7 +636,8 @@
       "action": "soak",
       "fight_to": "~29",
       "note": "SF soak once you\u2019re set at QB.",
-      "team": "LAC"
+      "team": "LAC",
+      "pay": "soak"
     },
     {
       "id": "dak-soak",
@@ -591,7 +647,8 @@
       "action": "soak",
       "fight_to": "~28",
       "note": "Mid-SF soak.",
-      "team": "DAL"
+      "team": "DAL",
+      "pay": "soak"
     },
     {
       "id": "mahomes-soak",
@@ -601,7 +658,8 @@
       "action": "soak",
       "fight_to": "~23",
       "note": "Name soak; room still pays.",
-      "team": "KC"
+      "team": "KC",
+      "pay": "7"
     },
     {
       "id": "lawrence-soak",
@@ -611,7 +669,8 @@
       "action": "soak",
       "fight_to": "~25",
       "note": "SF depth soak.",
-      "team": "JAC"
+      "team": "JAC",
+      "pay": "6"
     },
     {
       "id": "bijan-robinson",
@@ -621,7 +680,8 @@
       "action": "take",
       "fight_to": "58-62",
       "note": "PRIORITY RB1. Fight ~$50\u201355.",
-      "team": "ATL"
+      "team": "ATL",
+      "pay": "?"
     },
     {
       "id": "jahmyr-gibbs",
@@ -631,7 +691,8 @@
       "action": "take",
       "fight_to": "62-65",
       "note": "PRIORITY RB1 now. Fight ~$50\u201355 (not $60s). Cash $92.",
-      "team": "DET"
+      "team": "DET",
+      "pay": "?"
     },
     {
       "id": "james-cook",
@@ -641,7 +702,8 @@
       "action": "take",
       "fight_to": "45-48",
       "note": "Discount buy ~$42\u201345 if Gibbs/Bijan gone.",
-      "team": "BUF"
+      "team": "BUF",
+      "pay": "?"
     },
     {
       "id": "jonathan-taylor",
@@ -651,7 +713,8 @@
       "action": "take",
       "fight_to": "48-50",
       "note": "Only on discount ~$43\u201348. Don't chase $50+.",
-      "team": "IND"
+      "team": "IND",
+      "pay": "?"
     },
     {
       "id": "jeanty-rb",
@@ -661,7 +724,8 @@
       "action": "value",
       "fight_to": "30-36",
       "note": "Rookie hype \u2014 value only.",
-      "team": "LV"
+      "team": "LV",
+      "pay": "?"
     },
     {
       "id": "breece-hall",
@@ -671,7 +735,8 @@
       "action": "value",
       "fight_to": "20-24",
       "note": "Volatility \u2014 championship upside if cheap.",
-      "team": "NYJ"
+      "team": "NYJ",
+      "pay": "12"
     },
     {
       "id": "irving",
@@ -681,7 +746,8 @@
       "action": "value",
       "fight_to": "16-22",
       "note": "Pass-catch flex.",
-      "team": "TB"
+      "team": "TB",
+      "pay": "11"
     },
     {
       "id": "skattebo",
@@ -691,7 +757,8 @@
       "action": "value",
       "fight_to": "16-22",
       "note": "Upside mid.",
-      "team": "NYG"
+      "team": "NYG",
+      "pay": "10"
     },
     {
       "id": "chase-brown-rb",
@@ -701,7 +768,8 @@
       "action": "value",
       "fight_to": "28-32",
       "note": "Solid RB2 target after elite.",
-      "team": "CIN"
+      "team": "CIN",
+      "pay": "18"
     },
     {
       "id": "cmc",
@@ -711,7 +779,8 @@
       "action": "value",
       "fight_to": "36-40",
       "note": "Black committee. Nominate early to soak nostalgia if >$40.",
-      "team": "SF"
+      "team": "SF",
+      "pay": "\u2014"
     },
     {
       "id": "swift",
@@ -721,7 +790,8 @@
       "action": "value",
       "fight_to": "14-18",
       "note": "Committee flex.",
-      "team": "CHI"
+      "team": "CHI",
+      "pay": "8"
     },
     {
       "id": "montgomery",
@@ -731,7 +801,8 @@
       "action": "value",
       "fight_to": "12-16",
       "note": "TD flex.",
-      "team": "DET"
+      "team": "DET",
+      "pay": "8"
     },
     {
       "id": "achane-rb",
@@ -741,7 +812,8 @@
       "action": "value",
       "fight_to": "32-36",
       "note": "Boom RB2/Flex \u2014 don't pay full hype.",
-      "team": "MIA"
+      "team": "MIA",
+      "pay": "22"
     },
     {
       "id": "derrick-henry-rb",
@@ -751,7 +823,8 @@
       "action": "value",
       "fight_to": "30-35",
       "note": "TD dependent \u2014 fine RB2 if cheap.",
-      "team": "BAL"
+      "team": "BAL",
+      "pay": "18"
     },
     {
       "id": "javonte",
@@ -761,7 +834,8 @@
       "action": "value",
       "fight_to": "18-23",
       "note": "Mid RB2/Flex.",
-      "team": "DAL"
+      "team": "DAL",
+      "pay": "11"
     },
     {
       "id": "jaylen-warren",
@@ -771,7 +845,8 @@
       "action": "value",
       "fight_to": "12-18",
       "note": "Pass-catch committee.",
-      "team": "PIT"
+      "team": "PIT",
+      "pay": "9"
     },
     {
       "id": "kenneth-walker-rb",
@@ -781,7 +856,8 @@
       "action": "value",
       "fight_to": "28-33",
       "note": "RB2 \u2014 watch Charbs cuff later.",
-      "team": "SEA"
+      "team": "SEA",
+      "pay": "?"
     },
     {
       "id": "kyren-rb",
@@ -791,7 +867,8 @@
       "action": "value",
       "fight_to": "22-26",
       "note": "Committee w/ Corum \u2014 discount RB2.",
-      "team": "LAR"
+      "team": "LAR",
+      "pay": "12"
     },
     {
       "id": "hampton-rb",
@@ -801,7 +878,8 @@
       "action": "value",
       "fight_to": "30-35",
       "note": "Hype \u2014 buy only under sticker.",
-      "team": "LAC"
+      "team": "LAC",
+      "pay": "20"
     },
     {
       "id": "judkins",
@@ -811,7 +889,8 @@
       "action": "value",
       "fight_to": "12-16",
       "note": "Upside mid/late.",
-      "team": "CLE"
+      "team": "CLE",
+      "pay": "8"
     },
     {
       "id": "rhamondre",
@@ -821,7 +900,8 @@
       "action": "value",
       "fight_to": "~16",
       "note": "Lead role while Henderson out.",
-      "team": "NE"
+      "team": "NE",
+      "pay": "13"
     },
     {
       "id": "saquon-take",
@@ -831,7 +911,8 @@
       "action": "value",
       "fight_to": "36-40",
       "note": "Only if RB1 pool gone and price soft. Else soak.",
-      "team": "PHI"
+      "team": "PHI",
+      "pay": "?"
     },
     {
       "id": "pollard",
@@ -841,7 +922,8 @@
       "action": "value",
       "fight_to": "10-15",
       "note": "Volume flex.",
-      "team": "TEN"
+      "team": "TEN",
+      "pay": "7"
     },
     {
       "id": "etienne",
@@ -851,7 +933,8 @@
       "action": "value",
       "fight_to": "15-20",
       "note": "Flex / RB3 band.",
-      "team": "JAC"
+      "team": "JAC",
+      "pay": "9"
     },
     {
       "id": "tuten",
@@ -861,7 +944,8 @@
       "action": "dart",
       "fight_to": "3-8",
       "note": "Rookie dart.",
-      "team": "JAC"
+      "team": "JAC",
+      "pay": "?"
     },
     {
       "id": "corum",
@@ -871,7 +955,8 @@
       "action": "dart",
       "fight_to": "5-10",
       "note": "Kyren cuff / committee.",
-      "team": "LAR"
+      "team": "LAR",
+      "pay": "4"
     },
     {
       "id": "hubbard",
@@ -881,7 +966,8 @@
       "action": "dart",
       "fight_to": "8-12",
       "note": "Stable late RB.",
-      "team": "CAR"
+      "team": "CAR",
+      "pay": "5"
     },
     {
       "id": "jacory",
@@ -891,7 +977,8 @@
       "action": "dart",
       "fight_to": "8-14",
       "note": "WAS opportunity dart.",
-      "team": "WAS"
+      "team": "WAS",
+      "pay": "6"
     },
     {
       "id": "price-rb",
@@ -901,7 +988,8 @@
       "action": "dart",
       "fight_to": "3-8",
       "note": "SEA dart.",
-      "team": "SEA"
+      "team": "SEA",
+      "pay": "3"
     },
     {
       "id": "gainwell",
@@ -911,7 +999,8 @@
       "action": "dart",
       "fight_to": "1-4",
       "note": "Pass-down scrap.",
-      "team": "PHI"
+      "team": "PHI",
+      "pay": "1"
     },
     {
       "id": "ray-davis",
@@ -921,7 +1010,8 @@
       "action": "dart",
       "fight_to": "2-6",
       "note": "Cook cuff.",
-      "team": "BUF"
+      "team": "BUF",
+      "pay": "1"
     },
     {
       "id": "dowdle",
@@ -931,7 +1021,8 @@
       "action": "dart",
       "fight_to": "3-7",
       "note": "Committee dart.",
-      "team": "CAR"
+      "team": "CAR",
+      "pay": "3"
     },
     {
       "id": "bigsby",
@@ -941,7 +1032,8 @@
       "action": "dart",
       "fight_to": "1-4",
       "note": "Handcuff/lottery.",
-      "team": "PHI"
+      "team": "PHI",
+      "pay": "1"
     },
     {
       "id": "henderson-rb",
@@ -951,7 +1043,8 @@
       "action": "dart",
       "fight_to": "1-5",
       "note": "Ankle \u2014 only deep dart; prefer Stevenson.",
-      "team": "NE"
+      "team": "NE",
+      "pay": "2"
     },
     {
       "id": "spears",
@@ -961,7 +1054,8 @@
       "action": "dart",
       "fight_to": "2-5",
       "note": "Change-of-pace dart.",
-      "team": "TEN"
+      "team": "TEN",
+      "pay": "2"
     },
     {
       "id": "allgeier",
@@ -971,7 +1065,8 @@
       "action": "dart",
       "fight_to": "3-7",
       "note": "Bijan cuff \u2014 grab if you land Bijan.",
-      "team": "ATL"
+      "team": "ATL",
+      "pay": "?"
     },
     {
       "id": "charbonnet",
@@ -981,7 +1076,8 @@
       "action": "dart",
       "fight_to": "4-8",
       "note": "Walker cuff.",
-      "team": "SEA"
+      "team": "SEA",
+      "pay": "2"
     }
   ]
 }
