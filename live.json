@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-11T17:28:21Z",
-  "message": "Pre-draft. Open on laptop; text Ball sales on phone.",
+  "updated_at": "2026-09-12T20:42:02Z",
+  "message": "Live mode: text Ball sales \u2192 he returns Next 3 targets + updates this board.",
   "nick": {
     "cash": 200,
     "spent": 0,
@@ -9,5 +9,8 @@
     "roster": []
   },
   "sold": [],
-  "tips": []
+  "tips": [
+    "NEXT 3: (1) Allen \u2264$58\u201360 (2) Lamar\u2264$50 / Maye\u00b7Burrow\u00b7Daniels\u2264$40\u201342 (3) Gibbs/Bijan ~$50\u201355 \u2014 not $60s",
+    "After each sale Ball refreshes this tip list with a new Next 3."
+  ]
 }
