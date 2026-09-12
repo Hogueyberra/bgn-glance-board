@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T22:10:19Z",
+  "updated_at": "2026-09-12T22:12:37Z",
   "message": "Puka to Wes $54. Nick hunting RB1.",
   "nick": {
     "cash": 92,
@@ -118,10 +118,16 @@
     {
       "team": 10,
       "name": "Sean",
-      "cash": 200,
-      "spent": 0,
-      "open_spots": 13,
-      "roster": []
+      "cash": 155,
+      "spent": 45,
+      "open_spots": 12,
+      "roster": [
+        {
+          "player": "Kenneth Walker",
+          "pos": "RB",
+          "price": 45
+        }
+      ]
     },
     {
       "team": 11,
@@ -199,6 +205,15 @@
       "pos": "QB",
       "at": "2026-09-12T22:10:19Z",
       "manager": "Jeff"
+    },
+    {
+      "player": "Kenneth Walker",
+      "price": 45,
+      "winner": "Sean",
+      "mine": false,
+      "pos": "RB",
+      "at": "2026-09-12T22:12:37Z",
+      "manager": "Sean"
     }
   ],
   "tips": [
@@ -208,6 +223,7 @@
     "NEXT 3: (1) Lamar \u2264$50 (2) Maye/Daniels/Burrow \u2264$40\u201342 (3) Gibbs/Bijan ~$50\u201355 \u2014 keep soaking Puka/JSN/ARSB",
     "NEXT 3: (1) Gibbs ~$50\u201355 (2) Bijan ~$50\u201355 (3) Taylor/Cook only on discount \u2014 soak leftover elite QBs/WRs",
     "NEXT 3: (1) Gibbs ~$50\u201355 (2) Bijan ~$50\u201355 (3) Taylor/Cook on discount \u2014 soak JSN/ARSB/JJ/Saquon/Lamar",
+    "NEXT 3: (1) Gibbs ~$50\u201355 (2) Bijan ~$50\u201355 (3) Taylor/Cook on discount",
     "NEXT 3: (1) Gibbs ~$50\u201355 (2) Bijan ~$50\u201355 (3) Taylor/Cook on discount"
   ]
 }
