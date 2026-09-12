@@ -1,12 +1,18 @@
 {
-  "updated_at": "2026-09-12T21:28:58Z",
-  "message": "Room loaded from wall board. Text: Player $ Manager (e.g. Gibbs 55 Nick).",
+  "updated_at": "2026-09-12T21:57:14Z",
+  "message": "Allen locked. Hunt QB2 + RB1.",
   "nick": {
-    "cash": 200,
-    "spent": 0,
-    "open_spots": 13,
-    "max_bid": 188,
-    "roster": []
+    "cash": 138,
+    "spent": 62,
+    "open_spots": 12,
+    "max_bid": 127,
+    "roster": [
+      {
+        "player": "Josh Allen",
+        "pos": "QB",
+        "price": 62
+      }
+    ]
   },
   "room": [
     {
@@ -76,10 +82,16 @@
     {
       "team": 9,
       "name": "Nick",
-      "cash": 200,
-      "spent": 0,
-      "open_spots": 13,
-      "roster": []
+      "cash": 138,
+      "spent": 62,
+      "open_spots": 12,
+      "roster": [
+        {
+          "player": "Josh Allen",
+          "pos": "QB",
+          "price": 62
+        }
+      ]
     },
     {
       "team": 10,
@@ -106,9 +118,20 @@
       "roster": []
     }
   ],
-  "sold": [],
+  "sold": [
+    {
+      "player": "Josh Allen",
+      "price": 62,
+      "winner": "nick",
+      "mine": true,
+      "pos": "QB",
+      "at": "2026-09-12T21:57:14Z",
+      "manager": "Nick"
+    }
+  ],
   "tips": [
     "NEXT 3: (1) Allen \u2264$58\u201360 (2) Lamar\u2264$50 / Maye\u00b7Burrow\u00b7Daniels\u2264$40\u201342 (3) Gibbs/Bijan ~$50\u201355",
-    "Format: Player $ Manager \u2014 Ball returns Next 3 + your cash/max + who\u2019s broke."
+    "Format: Player $ Manager \u2014 Ball returns Next 3 + your cash/max + who\u2019s broke.",
+    "NEXT 3: (1) Lamar \u2264$50 (2) Maye/Daniels/Burrow \u2264$40\u201342 (3) Gibbs/Bijan ~$50\u201355 \u2014 soak Chase/Puka/JSN"
   ]
 }
