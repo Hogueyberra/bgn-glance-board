@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-12T21:57:14Z",
-  "message": "Allen locked. Hunt QB2 + RB1.",
+  "updated_at": "2026-09-12T21:59:45Z",
+  "message": "Chase soaked at $55. Nick still hunting QB2 + RB1.",
   "nick": {
     "cash": 138,
     "spent": 62,
@@ -116,6 +116,20 @@
       "spent": 0,
       "open_spots": 13,
       "roster": []
+    },
+    {
+      "team": null,
+      "name": "Room",
+      "cash": 145,
+      "spent": 55,
+      "open_spots": 12,
+      "roster": [
+        {
+          "player": "Ja'Marr Chase",
+          "pos": "WR",
+          "price": 55
+        }
+      ]
     }
   ],
   "sold": [
@@ -127,11 +141,21 @@
       "pos": "QB",
       "at": "2026-09-12T21:57:14Z",
       "manager": "Nick"
+    },
+    {
+      "player": "Ja'Marr Chase",
+      "price": 55,
+      "winner": "Room",
+      "mine": false,
+      "pos": "WR",
+      "at": "2026-09-12T21:59:45Z",
+      "manager": "Room"
     }
   ],
   "tips": [
     "NEXT 3: (1) Allen \u2264$58\u201360 (2) Lamar\u2264$50 / Maye\u00b7Burrow\u00b7Daniels\u2264$40\u201342 (3) Gibbs/Bijan ~$50\u201355",
     "Format: Player $ Manager \u2014 Ball returns Next 3 + your cash/max + who\u2019s broke.",
-    "NEXT 3: (1) Lamar \u2264$50 (2) Maye/Daniels/Burrow \u2264$40\u201342 (3) Gibbs/Bijan ~$50\u201355 \u2014 soak Chase/Puka/JSN"
+    "NEXT 3: (1) Lamar \u2264$50 (2) Maye/Daniels/Burrow \u2264$40\u201342 (3) Gibbs/Bijan ~$50\u201355 \u2014 soak Chase/Puka/JSN",
+    "NEXT 3: (1) Lamar \u2264$50 (2) Maye/Daniels/Burrow \u2264$40\u201342 (3) Gibbs/Bijan ~$50\u201355 \u2014 keep soaking Puka/JSN/ARSB"
   ]
 }
