@@ -2,6 +2,40 @@
 (() => {
   const POLL_MS = 5000;
   const LOCAL_KEY = "bgn-local-overlay-v1";
+  const DEFAULT_MANAGERS = [
+    "David", "Rich", "Jeff", "Wes", "Mike", "Kyle",
+    "Ryan", "Alex", "Nick", "Sean", "Patrick", "Adam"
+  ];
+
+  function managerList() {
+    const fromLive = (state.live?.room || []).map((r) => r.name).filter(Boolean);
+    return fromLive.length ? fromLive : DEFAULT_MANAGERS;
+  }
+
+  function populateManagers() {
+    const sel = document.getElementById("manager-select");
+    if (!sel) return;
+    const current = sel.value;
+    sel.innerHTML = '<option value="">Select…</option>';
+    for (const name of managerList()) {
+      const opt = document.createElement("option");
+      opt.value = name;
+      opt.textContent = name === "Nick" ? "Nick (you)" : name;
+      sel.append(opt);
+    }
+    if (current) sel.value = current;
+  }
+
+  function populatePlayerSuggest() {
+    const list = document.getElementById("player-suggest");
+    if (!list || !state.board) return;
+    list.innerHTML = "";
+    for (const p of state.board.players || []) {
+      const opt = document.createElement("option");
+      opt.value = p.name;
+      list.append(opt);
+    }
+  }
 
   const state = {
     board: null,
@@ -70,6 +104,7 @@
       state.live = await fetchJson("live.json");
       state.lastSync = new Date();
       state.syncError = null;
+      populateManagers();
       render();
     } catch (err) {
       state.syncError = String(err.message || err);
@@ -133,13 +168,14 @@
     card.append(left, price);
     if (player.note) card.append(el("div", { className: "note", text: player.note }));
     if (sold) {
-      const mine = sold.mine || sold.winner === "nick";
+      const mine = sold.mine || sold.winner === "nick" || sold.manager === "Nick";
+      const mgr = sold.manager || (mine ? "Nick" : sold.winner) || "room";
       card.append(
         el("div", {
           className: `sold-badge${mine ? " mine" : ""}`,
           text: mine
-            ? `YOURS @ $${sold.price}${sold.local ? " (local)" : ""}`
-            : `SOLD $${sold.price}${sold.winner && sold.winner !== "other" ? " → " + sold.winner : ""}${sold.local ? " (local)" : ""}`,
+            ? `NICK @ $${sold.price}${sold.local ? " (local)" : ""}`
+            : `SOLD $${sold.price} → ${mgr}${sold.local ? " (local)" : ""}`,
         })
       );
     }
@@ -151,7 +187,7 @@
       onClick: () => promptSale(player, true),
     });
     const soldBtn = el("button", {
-      text: "Sold (room)",
+      text: "Sold → mgr",
       disabled: !!sold,
       onClick: () => promptSale(player, false),
     });
@@ -168,13 +204,23 @@
       alert("Enter a number");
       return;
     }
+    let manager = "Nick";
+    if (!mine) {
+      const names = managerList().filter((n) => n !== "Nick");
+      const picked = prompt(`Manager who won ${player.name}?\n${names.join(", ")}`, names[0] || "");
+      if (picked == null || !picked.trim()) return;
+      manager = picked.trim();
+      const match = managerList().find((n) => n.toLowerCase() === manager.toLowerCase());
+      if (match) manager = match;
+    }
     state.local.sold = state.local.sold || [];
     state.local.sold.push({
       player: player.name,
       pos: player.pos,
       price,
-      mine,
-      winner: mine ? "nick" : "other",
+      mine: manager === "Nick",
+      winner: manager === "Nick" ? "nick" : manager,
+      manager,
       at: new Date().toISOString(),
     });
     saveLocal();
@@ -243,7 +289,7 @@
           el("tr", {}, [
             el("td", { text: s.player }),
             el("td", { text: "$" + s.price }),
-            el("td", { text: s.mine || s.winner === "nick" ? "YOU" : s.winner || "room" }),
+            el("td", { text: s.manager || (s.mine || s.winner === "nick" ? "Nick" : s.winner) || "room" }),
           ])
         );
       });
@@ -288,22 +334,27 @@
       const fd = new FormData(e.target);
       const player = String(fd.get("player") || "").trim();
       const price = Number(fd.get("price"));
-      const mine = fd.get("mine") === "yes";
-      if (!player || !Number.isFinite(price)) return;
+      const manager = String(fd.get("manager") || "").trim();
+      if (!player || !Number.isFinite(price) || !manager) return;
+      const mine = manager === "Nick";
       state.local.sold = state.local.sold || [];
       state.local.sold.push({
         player,
         price,
         mine,
-        winner: mine ? "nick" : "other",
+        winner: mine ? "nick" : manager,
+        manager,
         at: new Date().toISOString(),
       });
       saveLocal();
       e.target.reset();
+      populateManagers();
       render();
     });
 
     state.board = await fetchJson("data/board.json");
+    populatePlayerSuggest();
+    populateManagers();
     document.getElementById("plan-text").textContent = state.board.plan || "";
     const script = document.getElementById("script-list");
     script.innerHTML = "";

@@ -58,16 +58,16 @@
       <div class="panel">
         <h3>Sale log</h3>
         <table class="sales-table">
-          <thead><tr><th>Player</th><th>$</th><th>Winner</th></tr></thead>
+          <thead><tr><th>Player</th><th>$</th><th>Manager</th></tr></thead>
           <tbody id="sales-body"></tbody>
         </table>
         <form id="manual-sale" class="local-form">
-          <label>Player<input name="player" required placeholder="Name" /></label>
+          <label>Player<input name="player" required placeholder="Name" list="player-suggest" /></label>
+          <datalist id="player-suggest"></datalist>
           <label>Price<input name="price" type="number" min="0" required /></label>
-          <label>Winner
-            <select name="mine">
-              <option value="yes">I won</option>
-              <option value="no">Room</option>
+          <label>Manager
+            <select name="manager" id="manager-select" required>
+              <option value="">Select…</option>
             </select>
           </label>
           <button type="submit">Add local</button>
