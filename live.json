@@ -1,16 +1,21 @@
 {
-  "updated_at": "2026-09-12T21:59:45Z",
-  "message": "Chase soaked at $55. Nick still hunting QB2 + RB1.",
+  "updated_at": "2026-09-12T22:02:30Z",
+  "message": "Allen+Maye locked. Hunt RB1 (~$50\u201355).",
   "nick": {
-    "cash": 138,
-    "spent": 62,
-    "open_spots": 12,
-    "max_bid": 127,
+    "cash": 92,
+    "spent": 108,
+    "open_spots": 11,
+    "max_bid": 82,
     "roster": [
       {
         "player": "Josh Allen",
         "pos": "QB",
         "price": 62
+      },
+      {
+        "player": "Drake Maye",
+        "pos": "QB",
+        "price": 46
       }
     ]
   },
@@ -82,14 +87,19 @@
     {
       "team": 9,
       "name": "Nick",
-      "cash": 138,
-      "spent": 62,
-      "open_spots": 12,
+      "cash": 92,
+      "spent": 108,
+      "open_spots": 11,
       "roster": [
         {
           "player": "Josh Allen",
           "pos": "QB",
           "price": 62
+        },
+        {
+          "player": "Drake Maye",
+          "pos": "QB",
+          "price": 46
         }
       ]
     },
@@ -150,12 +160,22 @@
       "pos": "WR",
       "at": "2026-09-12T21:59:45Z",
       "manager": "Room"
+    },
+    {
+      "player": "Drake Maye",
+      "price": 46,
+      "winner": "nick",
+      "mine": true,
+      "pos": "QB",
+      "at": "2026-09-12T22:02:30Z",
+      "manager": "Nick"
     }
   ],
   "tips": [
     "NEXT 3: (1) Allen \u2264$58\u201360 (2) Lamar\u2264$50 / Maye\u00b7Burrow\u00b7Daniels\u2264$40\u201342 (3) Gibbs/Bijan ~$50\u201355",
     "Format: Player $ Manager \u2014 Ball returns Next 3 + your cash/max + who\u2019s broke.",
     "NEXT 3: (1) Lamar \u2264$50 (2) Maye/Daniels/Burrow \u2264$40\u201342 (3) Gibbs/Bijan ~$50\u201355 \u2014 soak Chase/Puka/JSN",
-    "NEXT 3: (1) Lamar \u2264$50 (2) Maye/Daniels/Burrow \u2264$40\u201342 (3) Gibbs/Bijan ~$50\u201355 \u2014 keep soaking Puka/JSN/ARSB"
+    "NEXT 3: (1) Lamar \u2264$50 (2) Maye/Daniels/Burrow \u2264$40\u201342 (3) Gibbs/Bijan ~$50\u201355 \u2014 keep soaking Puka/JSN/ARSB",
+    "NEXT 3: (1) Gibbs ~$50\u201355 (2) Bijan ~$50\u201355 (3) Taylor/Cook only on discount \u2014 soak leftover elite QBs/WRs"
   ]
 }
