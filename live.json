@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T22:56:04Z",
+  "updated_at": "2026-09-12T22:57:42Z",
   "message": "CMC locked $49. Hunt Black cuff + value WRs. Max $34.",
   "nick": {
     "cash": 43,
@@ -121,10 +121,16 @@
     {
       "team": 7,
       "name": "Ryan",
-      "cash": 200,
-      "spent": 0,
-      "open_spots": 13,
-      "roster": []
+      "cash": 155,
+      "spent": 45,
+      "open_spots": 12,
+      "roster": [
+        {
+          "player": "Ashton Jeanty",
+          "pos": "RB",
+          "price": 45
+        }
+      ]
     },
     {
       "team": 8,
@@ -335,6 +341,15 @@
       "pos": "RB",
       "at": "2026-09-12T22:56:04Z",
       "manager": "Nick"
+    },
+    {
+      "player": "Ashton Jeanty",
+      "price": 45,
+      "winner": "Ryan",
+      "mine": false,
+      "pos": "RB",
+      "at": "2026-09-12T22:57:42Z",
+      "manager": "Ryan"
     }
   ],
   "tips": [
@@ -353,6 +368,7 @@
     "NEXT 3: (1) Bijan ~$50\u201355 (2) Taylor \u2264$48 (3) Cook \u2264$45 / soft mid RBs",
     "NEXT 3: (1) Taylor \u2264$48 (2) Cook \u2264$45 (3) CMC/Achane/Hampton/Chase Brown/Henry soft \u2014 don't panic",
     "NEXT 3: (1) Taylor \u2264$48 (2) Cook \u2264$45 (3) CMC/Achane/Hampton/Chase Brown/Henry soft",
-    "NEXT 3: (1) Kaelon Black $3\u20136 (2) McConkey/Rice/Olave/DeVonta/Pickens/Flowers ~$20\u201327 (3) cheap RB2 Kyren/Breece/Stevenson/Skattebo/Bucky"
+    "NEXT 3: (1) Kaelon Black $3\u20136 (2) McConkey/Rice/Olave/DeVonta/Pickens/Flowers ~$20\u201327 (3) cheap RB2 Kyren/Breece/Stevenson/Skattebo/Bucky",
+    "NEXT 3: (1) Value WR $18\u201324 (2) Black $3\u20136 (3) cheap RB2 $8\u201314"
   ]
 }
