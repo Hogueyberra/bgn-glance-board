@@ -158,7 +158,7 @@
     });
     const left = el("div", {}, [
       el("div", { className: "name", text: player.name }),
-      el("div", { className: "meta", text: player.pos || "" }),
+      el("div", { className: "meta", text: [player.pos, player.team].filter(Boolean).join(" · ") }),
       el("span", { className: `tag ${action}`, text: action.toUpperCase() }),
     ]);
     const price = el("div", { className: "price" }, [
@@ -319,7 +319,7 @@
       if (playerMatchesSold(p, soldMap)) continue;
       alpha.append(
         el("div", {}, [
-          document.createTextNode(`${p.name} — `),
+          document.createTextNode(`${p.name}${p.team ? " (" + p.team + ")" : ""} — `),
           el("b", { text: `${(p.action || "").toUpperCase()} $${p.fight_to}` }),
         ])
       );
