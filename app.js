@@ -259,7 +259,13 @@
       if (!host) continue;
       host.innerHTML = "";
       const players = state.board.players.filter((p) => p.section === section);
-      for (const p of players) host.append(cardFor(p, soldMap));
+      for (const p of players) {
+        if (playerMatchesSold(p, soldMap)) continue; // drafted — remove from board
+        host.append(cardFor(p, soldMap));
+      }
+      if (![...host.children].length) {
+        host.append(el("div", { className: "note", text: "None left in this tier" }));
+      }
     }
 
     // roster
@@ -310,9 +316,9 @@
     alpha.innerHTML = "";
     const sorted = [...state.board.players].sort((a, b) => a.name.localeCompare(b.name));
     for (const p of sorted) {
-      const sold = playerMatchesSold(p, soldMap);
+      if (playerMatchesSold(p, soldMap)) continue;
       alpha.append(
-        el("div", { className: sold ? "gone" : "" }, [
+        el("div", {}, [
           document.createTextNode(`${p.name} — `),
           el("b", { text: `${(p.action || "").toUpperCase()} $${p.fight_to}` }),
         ])
