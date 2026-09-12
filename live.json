@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T23:22:03Z",
+  "updated_at": "2026-09-12T23:23:29Z",
   "message": "Olave $32 Sean. Board shows your-pay vs market.",
   "nick": {
     "cash": 43,
@@ -109,14 +109,19 @@
     {
       "team": 5,
       "name": "Mike",
-      "cash": 183,
-      "spent": 17,
-      "open_spots": 12,
+      "cash": 137,
+      "spent": 63,
+      "open_spots": 11,
       "roster": [
         {
           "player": "Bhayshul Tuten",
           "pos": "RB",
           "price": 17
+        },
+        {
+          "player": "CeeDee Lamb",
+          "pos": "WR",
+          "price": 46
         }
       ]
     },
@@ -479,6 +484,15 @@
       "pos": "RB",
       "at": "2026-09-12T23:22:03Z",
       "manager": "Rich"
+    },
+    {
+      "player": "CeeDee Lamb",
+      "price": 46,
+      "winner": "Mike",
+      "mine": false,
+      "pos": "WR",
+      "at": "2026-09-12T23:23:29Z",
+      "manager": "Mike"
     }
   ],
   "tips": [
@@ -486,6 +500,7 @@
     "NEXT 3: (1) McConkey/Rice/DeVonta/Pickens/Flowers pay ~$18\u201320 (2) Black pay $5 (3) cheap RB2 pay $8\u201313",
     "NEXT 3: (1) McConkey/Rice pay $20 (2) Black pay $5 (3) Kyren/Stevenson/Breece pay $12\u201313",
     "NEXT 3: (1) McConkey/Rice pay $20 (2) Black pay $5 (3) Kyren/Stevenson/Breece pay $12\u201313",
+    "NEXT 3: (1) McConkey pay $20 (2) DeVonta/Pickens pay $19 (3) Black $5 / Flowers $18",
     "NEXT 3: (1) McConkey pay $20 (2) DeVonta/Pickens pay $19 (3) Black $5 / Flowers $18",
     "NEXT 3: (1) McConkey pay $20 (2) DeVonta/Pickens pay $19 (3) Black $5 / Flowers $18"
   ]
