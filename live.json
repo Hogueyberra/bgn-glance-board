@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T22:36:37Z",
+  "updated_at": "2026-09-12T22:51:35Z",
   "message": "Bijan gone $68 to Wes. JT/Cook are RB1 path.",
   "nick": {
     "cash": 92,
@@ -102,10 +102,16 @@
     {
       "team": 6,
       "name": "Kyle",
-      "cash": 200,
-      "spent": 0,
-      "open_spots": 13,
-      "roster": []
+      "cash": 142,
+      "spent": 58,
+      "open_spots": 12,
+      "roster": [
+        {
+          "player": "Amon-Ra St. Brown",
+          "pos": "WR",
+          "price": 58
+        }
+      ]
     },
     {
       "team": 7,
@@ -301,6 +307,15 @@
       "pos": "RB",
       "at": "2026-09-12T22:36:37Z",
       "manager": "Wes"
+    },
+    {
+      "player": "Amon-Ra St. Brown",
+      "price": 58,
+      "winner": "Kyle",
+      "mine": false,
+      "pos": "WR",
+      "at": "2026-09-12T22:51:35Z",
+      "manager": "Kyle"
     }
   ],
   "tips": [
@@ -317,6 +332,7 @@
     "NEXT 3: (1) Gibbs ~$50\u201355 (2) Bijan ~$50\u201355 (3) Taylor/Cook on discount \u2014 Burrow/Daniels = soak",
     "NEXT 3: (1) Bijan ~$50\u201355 (2) Taylor \u2264$48 (3) Cook \u2264$45 or soft Achane/Hampton/Chase Brown/Henry",
     "NEXT 3: (1) Bijan ~$50\u201355 (2) Taylor \u2264$48 (3) Cook \u2264$45 / soft mid RBs",
-    "NEXT 3: (1) Taylor \u2264$48 (2) Cook \u2264$45 (3) CMC/Achane/Hampton/Chase Brown/Henry soft \u2014 don't panic"
+    "NEXT 3: (1) Taylor \u2264$48 (2) Cook \u2264$45 (3) CMC/Achane/Hampton/Chase Brown/Henry soft \u2014 don't panic",
+    "NEXT 3: (1) Taylor \u2264$48 (2) Cook \u2264$45 (3) CMC/Achane/Hampton/Chase Brown/Henry soft"
   ]
 }
