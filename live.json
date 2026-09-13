@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T00:12:17Z",
+  "updated_at": "2026-09-13T00:15:20Z",
   "message": "TLaw $49 David. Purdy board fix.",
   "nick": {
     "cash": 43,
@@ -134,9 +134,9 @@
     {
       "team": 5,
       "name": "Mike",
-      "cash": 74,
-      "spent": 126,
-      "open_spots": 9,
+      "cash": 62,
+      "spent": 138,
+      "open_spots": 8,
       "roster": [
         {
           "player": "Bhayshul Tuten",
@@ -157,6 +157,11 @@
           "player": "A.J. Brown",
           "pos": "WR",
           "price": 14
+        },
+        {
+          "player": "DeVonta Smith",
+          "pos": "WR",
+          "price": 12
         }
       ]
     },
@@ -703,6 +708,15 @@
       "pos": "TE",
       "at": "2026-09-13T00:12:17Z",
       "manager": "David"
+    },
+    {
+      "player": "DeVonta Smith",
+      "price": 12,
+      "winner": "Mike",
+      "mine": false,
+      "pos": "WR",
+      "at": "2026-09-13T00:15:20Z",
+      "manager": "Mike"
     }
   ],
   "tips": [
@@ -711,6 +725,7 @@
     "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
     "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
     "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
-    "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5"
+    "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
+    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black $5 / Higgins-Nico $16 \u2014 confirm if Davante Adams not DeVonta"
   ]
 }
