@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T00:28:31Z",
+  "updated_at": "2026-09-13T00:30:54Z",
   "message": "TLaw $49 David. Purdy board fix.",
   "nick": {
     "cash": 43,
@@ -221,9 +221,9 @@
     {
       "team": 8,
       "name": "Alex",
-      "cash": 76,
-      "spent": 124,
-      "open_spots": 9,
+      "cash": 53,
+      "spent": 147,
+      "open_spots": 8,
       "roster": [
         {
           "player": "Saquon Barkley",
@@ -244,6 +244,11 @@
           "player": "Malik Nabers",
           "pos": "WR",
           "price": 24
+        },
+        {
+          "player": "Nico Collins",
+          "pos": "WR",
+          "price": 23
         }
       ]
     },
@@ -787,6 +792,15 @@
       "pos": "QB",
       "at": "2026-09-13T00:28:31Z",
       "manager": "Adam"
+    },
+    {
+      "player": "Nico Collins",
+      "price": 23,
+      "winner": "Alex",
+      "mine": false,
+      "pos": "WR",
+      "at": "2026-09-13T00:30:54Z",
+      "manager": "Alex"
     }
   ],
   "tips": [
@@ -801,6 +815,7 @@
     "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
     "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black $5 / Stevenson-Breece $12\u201313",
     "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
-    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5"
+    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
+    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black $5 / Higgins $16"
   ]
 }
