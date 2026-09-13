@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T02:23:16Z",
-  "message": "Players left by position updated on board (WR / RB / TE).",
+  "updated_at": "2026-09-13T02:23:43Z",
+  "message": "Pass/miss on Odunze. You $14 / max $6. NEXT: Worthy\u2264$6 \u00b7 Shakir/Pearsall $5 \u00b7 Kraft $3\u20134.",
   "nick": {
     "cash": 14,
     "spent": 186,
@@ -468,8 +468,8 @@
     },
     {
       "name": "Adam",
-      "cash": 21,
-      "spent": 179,
+      "cash": 16,
+      "spent": 184,
       "roster": [
         {
           "player": "Jahmyr Gibbs",
@@ -500,9 +500,14 @@
           "player": "Garrett Wilson",
           "pos": "WR",
           "price": 12
+        },
+        {
+          "player": "Rome Odunze",
+          "pos": "WR",
+          "price": 5
         }
       ],
-      "open_spots": 11
+      "open_spots": 10
     }
   ],
   "sold": [
@@ -1180,6 +1185,15 @@
       "pos": "WR",
       "at": "2026-09-13T02:20:32Z",
       "manager": "Rich"
+    },
+    {
+      "player": "Rome Odunze",
+      "price": 5,
+      "winner": "Adam",
+      "mine": false,
+      "pos": "WR",
+      "at": "2026-09-13T02:23:43Z",
+      "manager": "Adam"
     }
   ],
   "tips": [
@@ -1187,7 +1201,8 @@
     "LEFT board live: WR / RB / TE tabs \u2014 HUNT = \u2264$6",
     "WR hunt: Worthy $6 \u00b7 Godwin/Jeudy $6 \u00b7 Diggs/Pearsall/Shakir $5 \u00b7 Downs/Jennings $4",
     "TE hunt: Kraft $4 \u00b7 Schultz $3 \u00b7 Goedert/Kincaid/Likely $2",
-    "RB: Pacheco/Rhamondre \u2264$6 only if fall \u00b7 Black $1\u20133 late"
+    "RB: Pacheco/Rhamondre \u2264$6 only if fall \u00b7 Black $1\u20133 late",
+    "Odunze $5 Adam \u2014 in your max; missed. Stay on Worthy/Shakir/Kraft."
   ],
   "roster_spots": 14,
   "remaining_wrs": [
