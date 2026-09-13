@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T02:23:43Z",
-  "message": "Pass/miss on Odunze. You $14 / max $6. NEXT: Worthy\u2264$6 \u00b7 Shakir/Pearsall $5 \u00b7 Kraft $3\u20134.",
+  "updated_at": "2026-09-13T02:28:37Z",
+  "message": "Pass/miss on Kittle. You $14 / max $6. NEXT: Worthy\u2264$6 \u00b7 Shakir/Pearsall $5 \u00b7 Kraft $3\u20134.",
   "nick": {
     "cash": 14,
     "spent": 186,
@@ -468,8 +468,8 @@
     },
     {
       "name": "Adam",
-      "cash": 16,
-      "spent": 184,
+      "cash": 13,
+      "spent": 187,
       "roster": [
         {
           "player": "Jahmyr Gibbs",
@@ -505,9 +505,14 @@
           "player": "Rome Odunze",
           "pos": "WR",
           "price": 5
+        },
+        {
+          "player": "George Kittle",
+          "pos": "TE",
+          "price": 3
         }
       ],
-      "open_spots": 10
+      "open_spots": 9
     }
   ],
   "sold": [
@@ -1194,6 +1199,15 @@
       "pos": "WR",
       "at": "2026-09-13T02:23:43Z",
       "manager": "Adam"
+    },
+    {
+      "player": "George Kittle",
+      "price": 3,
+      "winner": "Adam",
+      "mine": false,
+      "pos": "TE",
+      "at": "2026-09-13T02:28:37Z",
+      "manager": "Adam"
     }
   ],
   "tips": [
@@ -1202,7 +1216,8 @@
     "WR hunt: Worthy $6 \u00b7 Godwin/Jeudy $6 \u00b7 Diggs/Pearsall/Shakir $5 \u00b7 Downs/Jennings $4",
     "TE hunt: Kraft $4 \u00b7 Schultz $3 \u00b7 Goedert/Kincaid/Likely $2",
     "RB: Pacheco/Rhamondre \u2264$6 only if fall \u00b7 Black $1\u20133 late",
-    "Odunze $5 Adam \u2014 in your max; missed. Stay on Worthy/Shakir/Kraft."
+    "Odunze $5 Adam \u2014 in your max; missed. Stay on Worthy/Shakir/Kraft.",
+    "Kittle $3 Adam \u2014 TE steal under your max; Kraft/Schultz still targets."
   ],
   "roster_spots": 14,
   "remaining_wrs": [
@@ -2141,14 +2156,6 @@
         "rank": 14,
         "player": "Sam LaPorta",
         "pay": 8,
-        "under_max": false,
-        "why": "Over max \u2014 pass",
-        "tag": "OVER"
-      },
-      {
-        "rank": 15,
-        "player": "George Kittle",
-        "pay": 7,
         "under_max": false,
         "why": "Over max \u2014 pass",
         "tag": "OVER"
