@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T02:02:46Z",
-  "message": "Next 3: Flowers $18 \u00b7 Black $5 \u00b7 Egbuka $12",
+  "updated_at": "2026-09-13T02:03:38Z",
+  "message": "Pass. You $34 / max $25. Next: Flowers / Black / Egbuka.",
   "nick": {
     "cash": 34,
     "spent": 166,
@@ -75,8 +75,8 @@
     },
     {
       "name": "Rich",
-      "cash": 85,
-      "spent": 115,
+      "cash": 69,
+      "spent": 131,
       "roster": [
         {
           "player": "Chase Brown",
@@ -92,9 +92,14 @@
           "player": "DeVonta Smith",
           "pos": "WR",
           "price": 20
+        },
+        {
+          "player": "Javonte Williams",
+          "pos": "RB",
+          "price": 16
         }
       ],
-      "open_spots": 13
+      "open_spots": 12
     },
     {
       "name": "Jeff",
@@ -1063,13 +1068,23 @@
       "pos": "RB",
       "at": "2026-09-13T02:01:36Z",
       "manager": "Adam"
+    },
+    {
+      "player": "Javonte Williams",
+      "price": 16,
+      "winner": "Rich",
+      "mine": false,
+      "pos": "RB",
+      "at": "2026-09-13T02:03:38Z",
+      "manager": "Rich"
     }
   ],
   "tips": [
     "NEED: 3 WR + TE + Black | $34 \u00b7 max $25",
     "HUNT: (1) Flowers $18 (2) Black $5 (3) Egbuka $12 \u2014 Nick prefers Egbuka > Higgins",
     "Alts: Wilson/BTJ $14 \u00b7 DK $13 \u00b7 Sutton/DJ/Higgins $12",
-    "TE Kraft/Schultz $1\u20133 last"
+    "TE Kraft/Schultz $1\u20133 last",
+    "Javonte $16 Rich \u2014 RB mid-tier; Black still $5 cuff."
   ],
   "roster_spots": 14,
   "remaining_wrs": [
