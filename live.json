@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T02:12:14Z",
-  "message": "Next 3: Worthy\u2264$6 \u00b7 Pearsall/Shakir $5 \u00b7 Kraft $3\u20134 (Black $1\u20133 late)",
+  "updated_at": "2026-09-13T02:12:37Z",
+  "message": "Pass. You $14 / max $6. NEXT: Worthy\u2264$6 \u00b7 Pearsall/Shakir $5 \u00b7 Kraft $3\u20134.",
   "nick": {
     "cash": 14,
     "spent": 186,
@@ -118,8 +118,8 @@
     },
     {
       "name": "Jeff",
-      "cash": 36,
-      "spent": 164,
+      "cash": 26,
+      "spent": 174,
       "roster": [
         {
           "player": "Sam Darnold",
@@ -150,9 +150,14 @@
           "player": "Aaron Rodgers",
           "pos": "QB",
           "price": 2
+        },
+        {
+          "player": "Breece Hall",
+          "pos": "RB",
+          "price": 10
         }
       ],
-      "open_spots": 12
+      "open_spots": 11
     },
     {
       "name": "Wes",
@@ -1124,13 +1129,23 @@
       "pos": "QB",
       "at": "2026-09-13T02:11:18Z",
       "manager": "Rich"
+    },
+    {
+      "player": "Breece Hall",
+      "price": 10,
+      "winner": "Jeff",
+      "mine": false,
+      "pos": "RB",
+      "at": "2026-09-13T02:12:37Z",
+      "manager": "Jeff"
     }
   ],
   "tips": [
     "You: $14 \u00b7 max $6 \u00b7 Flowers locked",
     "SHIFT: Black late at $1\u20133 \u2014 hunt better WR/TE \u2264$6 first",
     "HUNT: Worthy/Jeudy/Godwin/Diggs \u2264$6 \u00b7 Pearsall/Shakir $5 \u00b7 Downs/Jennings $4 \u00b7 Kraft $3\u20134",
-    "Then Black $1\u20133 + Reed/Coker/Golden darts"
+    "Then Black $1\u20133 + Reed/Coker/Golden darts",
+    "Breece $10 Jeff \u2014 over your max $6 anyway."
   ],
   "roster_spots": 14,
   "remaining_wrs": [
