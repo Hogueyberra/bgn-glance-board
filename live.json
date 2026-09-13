@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T02:12:37Z",
-  "message": "Pass. You $14 / max $6. NEXT: Worthy\u2264$6 \u00b7 Pearsall/Shakir $5 \u00b7 Kraft $3\u20134.",
+  "updated_at": "2026-09-13T02:15:10Z",
+  "message": "Positional hunt live. Next: Worthy\u2264$6 \u00b7 Shakir/Pearsall $5 \u00b7 Kraft $3-4",
   "nick": {
     "cash": 14,
     "spent": 186,
@@ -1141,11 +1141,10 @@
     }
   ],
   "tips": [
-    "You: $14 \u00b7 max $6 \u00b7 Flowers locked",
-    "SHIFT: Black late at $1\u20133 \u2014 hunt better WR/TE \u2264$6 first",
-    "HUNT: Worthy/Jeudy/Godwin/Diggs \u2264$6 \u00b7 Pearsall/Shakir $5 \u00b7 Downs/Jennings $4 \u00b7 Kraft $3\u20134",
-    "Then Black $1\u20133 + Reed/Coker/Golden darts",
-    "Breece $10 Jeff \u2014 over your max $6 anyway."
+    "You: $14 \u00b7 max $6 \u00b7 need WR/WR/TE (Black $1-3 late)",
+    "WR: Worthy/Godwin/Jeudy \u2264$6 \u00b7 Diggs/Pearsall/Shakir $5 \u00b7 Downs/Jennings/Doubs $4",
+    "TE: Kraft $4 \u00b7 Schultz $3 \u00b7 Goedert/Kincaid/Likely $2",
+    "RB: only Pacheco/Rhamondre/Jones \u2264$6 if they fall \u2014 Black $1-3 last"
   ],
   "roster_spots": 14,
   "remaining_wrs": [
@@ -1402,5 +1401,220 @@
       "Wan'Dale Robinson"
     ],
     "budget": "Max $6 / $14 cash / 9 open. Spend on 2 usable WRs + TE first; Black $1\u20133 last."
+  },
+  "hunt_by_pos": {
+    "budget": {
+      "cash": 14,
+      "max_bid": 6,
+      "open": 9
+    },
+    "have": [
+      "Josh Allen",
+      "Drake Maye",
+      "CMC",
+      "Bucky Irving",
+      "Zay Flowers"
+    ],
+    "need": "2+ WR, 1 TE, flex/BN; Black cuff late $1-3",
+    "WR": [
+      {
+        "rank": 1,
+        "player": "Xavier Worthy",
+        "pay": 6,
+        "why": "Highest upside still under max"
+      },
+      {
+        "rank": 2,
+        "player": "Chris Godwin",
+        "pay": 6,
+        "why": "Slot volume if healthy \u2014 crater only"
+      },
+      {
+        "rank": 3,
+        "player": "Jerry Jeudy",
+        "pay": 6,
+        "why": "Target share; buy \u2264$6"
+      },
+      {
+        "rank": 4,
+        "player": "Stefon Diggs",
+        "pay": 5,
+        "why": "Name brand only on discount"
+      },
+      {
+        "rank": 5,
+        "player": "Ricky Pearsall",
+        "pay": 5,
+        "why": "SF pathway with Purdy/CMC stack vibes"
+      },
+      {
+        "rank": 6,
+        "player": "Khalil Shakir",
+        "pay": 5,
+        "why": "BUF slot \u2014 safest WR2 under max"
+      },
+      {
+        "rank": 7,
+        "player": "Josh Downs",
+        "pay": 4,
+        "why": "IND slot volume"
+      },
+      {
+        "rank": 8,
+        "player": "Jauan Jennings",
+        "pay": 4,
+        "why": "Red zone / injury fill"
+      },
+      {
+        "rank": 9,
+        "player": "Romeo Doubs",
+        "pay": 4,
+        "why": "GB committee \u2014 cheap starter"
+      },
+      {
+        "rank": 10,
+        "player": "Michael Pittman Jr.",
+        "pay": 3,
+        "why": "Floor WR3"
+      },
+      {
+        "rank": 11,
+        "player": "Jakobi Meyers",
+        "pay": 3,
+        "why": "Possession depth"
+      },
+      {
+        "rank": 12,
+        "player": "Wan'Dale Robinson",
+        "pay": 3,
+        "why": "PPR sponge"
+      },
+      {
+        "rank": 13,
+        "player": "Jayden Reed",
+        "pay": 3,
+        "why": "Your dart shortlist \u2014 bump if role clear"
+      },
+      {
+        "rank": 14,
+        "player": "Jalen Coker",
+        "pay": 2,
+        "why": "Late dart"
+      },
+      {
+        "rank": 15,
+        "player": "Matthew Golden",
+        "pay": 2,
+        "why": "Late dart"
+      },
+      {
+        "rank": 16,
+        "player": "KC Concepcion",
+        "pay": 2,
+        "why": "Late dart"
+      }
+    ],
+    "TE": [
+      {
+        "rank": 1,
+        "player": "Tucker Kraft",
+        "pay": 4,
+        "why": "Best TE left \u2014 prefer over WR4"
+      },
+      {
+        "rank": 2,
+        "player": "Dalton Schultz",
+        "pay": 3,
+        "why": "Your $1-4 streamer pick"
+      },
+      {
+        "rank": 3,
+        "player": "Dallas Goedert",
+        "pay": 2,
+        "why": "Safe stream"
+      },
+      {
+        "rank": 4,
+        "player": "Dalton Kincaid",
+        "pay": 2,
+        "why": "BUF TE upside"
+      },
+      {
+        "rank": 5,
+        "player": "Isaiah Likely",
+        "pay": 2,
+        "why": "BAL dart"
+      },
+      {
+        "rank": 6,
+        "player": "Jake Ferguson / Hunter Henry / Jonnu",
+        "pay": 1,
+        "why": "Endgame $1 TE"
+      }
+    ],
+    "RB": [
+      {
+        "rank": 1,
+        "player": "Isiah Pacheco",
+        "pay": 6,
+        "why": "Best RB upside under max if he falls"
+      },
+      {
+        "rank": 2,
+        "player": "Rhamondre Stevenson",
+        "pay": 6,
+        "why": "Volume RB3/flex"
+      },
+      {
+        "rank": 3,
+        "player": "Aaron Jones",
+        "pay": 5,
+        "why": "Pass-down / goal-line juice"
+      },
+      {
+        "rank": 4,
+        "player": "Tyrone Tracy / Rico Dowdle",
+        "pay": 4,
+        "why": "Committee leads at a discount"
+      },
+      {
+        "rank": 5,
+        "player": "Zach Charbonnet",
+        "pay": 3,
+        "why": "Walker handcuff with standalone"
+      },
+      {
+        "rank": 6,
+        "player": "Tank Bigsby / Ray Davis",
+        "pay": 2,
+        "why": "Handcuff darts"
+      },
+      {
+        "rank": 7,
+        "player": "Kaelon Black",
+        "pay": 2,
+        "why": "CMC cuff \u2014 take $1-3 LATE after WR/TE"
+      },
+      {
+        "rank": 8,
+        "player": "Jordan Mason / Blake Corum",
+        "pay": 1,
+        "why": "SF committee scraps"
+      }
+    ],
+    "pass_over_max": [
+      "Egbuka",
+      "Higgins",
+      "Wilson",
+      "BTJ",
+      "DK",
+      "Sutton",
+      "DJ Moore",
+      "Tet",
+      "Ridley",
+      "McLaurin",
+      "any RB >$6"
+    ],
+    "spend_plan": "Ideal: WR \u2264$6 + WR \u2264$5 + TE \u2264$3 + Black $1-2 + rest $1s. Don't blow max on RB unless Pacheco/Rhamondre at $5-6 and you still get a WR2."
   }
 }
