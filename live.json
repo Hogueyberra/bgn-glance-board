@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T02:20:32Z",
-  "message": "Pass. You $14 / max $6. NEXT: Worthy\u2264$6 \u00b7 Pearsall/Shakir $5 \u00b7 Kraft $3\u20134.",
+  "updated_at": "2026-09-13T02:23:16Z",
+  "message": "Players left by position updated on board (WR / RB / TE).",
   "nick": {
     "cash": 14,
     "spent": 186,
@@ -1183,13 +1183,11 @@
     }
   ],
   "tips": [
-    "You: $14 \u00b7 max $6 \u00b7 need WR/WR/TE (Black $1-3 late)",
-    "WR: Worthy/Godwin/Jeudy \u2264$6 \u00b7 Diggs/Pearsall/Shakir $5 \u00b7 Downs/Jennings/Doubs $4",
-    "TE: Kraft $4 \u00b7 Schultz $3 \u00b7 Goedert/Kincaid/Likely $2",
-    "RB: only Pacheco/Rhamondre/Jones \u2264$6 if they fall \u2014 Black $1-3 last",
-    "Garrett Wilson $12 Adam \u2014 over your max $6.",
-    "Jadarian Price $5 Patrick \u2014 RB dart under your max; stay on Worthy/Shakir/Kraft.",
-    "Luther Burden $9 Rich \u2014 over your max $6."
+    "You: $14 \u00b7 max $6 \u00b7 Flowers locked",
+    "LEFT board live: WR / RB / TE tabs \u2014 HUNT = \u2264$6",
+    "WR hunt: Worthy $6 \u00b7 Godwin/Jeudy $6 \u00b7 Diggs/Pearsall/Shakir $5 \u00b7 Downs/Jennings $4",
+    "TE hunt: Kraft $4 \u00b7 Schultz $3 \u00b7 Goedert/Kincaid/Likely $2",
+    "RB: Pacheco/Rhamondre \u2264$6 only if fall \u00b7 Black $1\u20133 late"
   ],
   "roster_spots": 14,
   "remaining_wrs": [
@@ -1661,5 +1659,486 @@
       "any RB >$6"
     ],
     "spend_plan": "Ideal: WR \u2264$6 + WR \u2264$5 + TE \u2264$3 + Black $1-2 + rest $1s. Don't blow max on RB unless Pacheco/Rhamondre at $5-6 and you still get a WR2."
+  },
+  "remaining_by_pos": {
+    "WR": [
+      {
+        "rank": 1,
+        "player": "Xavier Worthy",
+        "pay": 6,
+        "under_max": true,
+        "why": "TOP TARGET under max",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 2,
+        "player": "Chris Godwin",
+        "pay": 6,
+        "under_max": true,
+        "why": "Crater only",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 3,
+        "player": "Jerry Jeudy",
+        "pay": 6,
+        "under_max": true,
+        "why": "Crater only",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 4,
+        "player": "Stefon Diggs",
+        "pay": 5,
+        "under_max": true,
+        "why": "Discount only",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 5,
+        "player": "Ricky Pearsall",
+        "pay": 5,
+        "under_max": true,
+        "why": "SF pathway",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 6,
+        "player": "Khalil Shakir",
+        "pay": 5,
+        "under_max": true,
+        "why": "Safest WR2 under max",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 7,
+        "player": "Josh Downs",
+        "pay": 4,
+        "under_max": true,
+        "why": "Slot volume",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 8,
+        "player": "Jauan Jennings",
+        "pay": 4,
+        "under_max": true,
+        "why": "Red zone",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 9,
+        "player": "Romeo Doubs",
+        "pay": 4,
+        "under_max": true,
+        "why": "GB committee",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 10,
+        "player": "Michael Pittman Jr.",
+        "pay": 3,
+        "under_max": true,
+        "why": "Floor",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 11,
+        "player": "Jakobi Meyers",
+        "pay": 3,
+        "under_max": true,
+        "why": "Possession",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 12,
+        "player": "Wan'Dale Robinson",
+        "pay": 3,
+        "under_max": true,
+        "why": "PPR sponge",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 13,
+        "player": "Jayden Reed",
+        "pay": 3,
+        "under_max": true,
+        "why": "Dart shortlist",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 14,
+        "player": "Jalen Coker",
+        "pay": 2,
+        "under_max": true,
+        "why": "Dart",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 15,
+        "player": "Matthew Golden",
+        "pay": 2,
+        "under_max": true,
+        "why": "Dart",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 16,
+        "player": "KC Concepcion",
+        "pay": 2,
+        "under_max": true,
+        "why": "Dart",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 17,
+        "player": "Darnell Mooney",
+        "pay": 2,
+        "under_max": true,
+        "why": "Filler",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 18,
+        "player": "Brandin Cooks",
+        "pay": 1,
+        "under_max": true,
+        "why": "Endgame",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 19,
+        "player": "Brian Thomas Jr.",
+        "pay": 14,
+        "under_max": false,
+        "why": "Over max",
+        "tag": "OVER"
+      },
+      {
+        "rank": 20,
+        "player": "DK Metcalf",
+        "pay": 13,
+        "under_max": false,
+        "why": "Over max",
+        "tag": "OVER"
+      },
+      {
+        "rank": 21,
+        "player": "Emeka Egbuka",
+        "pay": 12,
+        "under_max": false,
+        "why": "Over max \u2014 pass unless Black done & accept $1s",
+        "tag": "OVER"
+      },
+      {
+        "rank": 22,
+        "player": "Tee Higgins",
+        "pay": 12,
+        "under_max": false,
+        "why": "Over max",
+        "tag": "OVER"
+      },
+      {
+        "rank": 23,
+        "player": "Courtland Sutton",
+        "pay": 12,
+        "under_max": false,
+        "why": "Over max",
+        "tag": "OVER"
+      },
+      {
+        "rank": 24,
+        "player": "DJ Moore",
+        "pay": 12,
+        "under_max": false,
+        "why": "Over max",
+        "tag": "OVER"
+      },
+      {
+        "rank": 25,
+        "player": "Tetairoa McMillan",
+        "pay": 11,
+        "under_max": false,
+        "why": "Over max",
+        "tag": "OVER"
+      },
+      {
+        "rank": 26,
+        "player": "Calvin Ridley",
+        "pay": 11,
+        "under_max": false,
+        "why": "Over max",
+        "tag": "OVER"
+      },
+      {
+        "rank": 27,
+        "player": "Terry McLaurin",
+        "pay": 11,
+        "under_max": false,
+        "why": "Over max",
+        "tag": "OVER"
+      }
+    ],
+    "RB": [
+      {
+        "rank": 1,
+        "player": "Isiah Pacheco",
+        "pay": 6,
+        "under_max": true,
+        "why": "Best RB under max if falls",
+        "tag": "HUNT"
+      },
+      {
+        "rank": 2,
+        "player": "Rhamondre Stevenson",
+        "pay": 6,
+        "under_max": true,
+        "why": "Volume flex",
+        "tag": "HUNT"
+      },
+      {
+        "rank": 3,
+        "player": "Aaron Jones",
+        "pay": 5,
+        "under_max": true,
+        "why": "Pass-down / GL",
+        "tag": "HUNT"
+      },
+      {
+        "rank": 4,
+        "player": "Alvin Kamara",
+        "pay": 6,
+        "under_max": true,
+        "why": "Only if cratered",
+        "tag": "HUNT"
+      },
+      {
+        "rank": 5,
+        "player": "Joe Mixon",
+        "pay": 5,
+        "under_max": true,
+        "why": "Volume if healthy",
+        "tag": "HUNT"
+      },
+      {
+        "rank": 6,
+        "player": "Tyrone Tracy",
+        "pay": 4,
+        "under_max": true,
+        "why": "Committee lead",
+        "tag": "HUNT"
+      },
+      {
+        "rank": 7,
+        "player": "Rico Dowdle",
+        "pay": 4,
+        "under_max": true,
+        "why": "Committee lead",
+        "tag": "HUNT"
+      },
+      {
+        "rank": 8,
+        "player": "Zach Charbonnet",
+        "pay": 3,
+        "under_max": true,
+        "why": "Walker cuff + standalone",
+        "tag": "HUNT"
+      },
+      {
+        "rank": 9,
+        "player": "Tank Bigsby",
+        "pay": 2,
+        "under_max": true,
+        "why": "Handcuff dart",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 10,
+        "player": "Ray Davis",
+        "pay": 2,
+        "under_max": true,
+        "why": "Cook cuff",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 11,
+        "player": "Kaelon Black",
+        "pay": 2,
+        "under_max": true,
+        "why": "CMC cuff \u2014 $1\u20133 LATE",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 12,
+        "player": "Jordan Mason",
+        "pay": 1,
+        "under_max": true,
+        "why": "SF scraps",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 13,
+        "player": "Blake Corum",
+        "pay": 1,
+        "under_max": true,
+        "why": "SF scraps",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 14,
+        "player": "Braelon Allen",
+        "pay": 2,
+        "under_max": true,
+        "why": "Jets depth",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 15,
+        "player": "Isaac Guerendo",
+        "pay": 1,
+        "under_max": true,
+        "why": "SF depth",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 16,
+        "player": "Kimani Vidal",
+        "pay": 1,
+        "under_max": true,
+        "why": "Dart",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 17,
+        "player": "Jaylen Wright",
+        "pay": 1,
+        "under_max": true,
+        "why": "Dart",
+        "tag": "DEPTH"
+      }
+    ],
+    "TE": [
+      {
+        "rank": 1,
+        "player": "Travis Kelce",
+        "pay": 6,
+        "under_max": true,
+        "why": "Only \u2264$6",
+        "tag": "HUNT"
+      },
+      {
+        "rank": 2,
+        "player": "Tucker Kraft",
+        "pay": 4,
+        "under_max": true,
+        "why": "BEST TE LEFT \u2014 prefer over WR4",
+        "tag": "HUNT"
+      },
+      {
+        "rank": 3,
+        "player": "Dalton Schultz",
+        "pay": 3,
+        "under_max": true,
+        "why": "Streamer pick",
+        "tag": "HUNT"
+      },
+      {
+        "rank": 4,
+        "player": "Kyle Pitts",
+        "pay": 3,
+        "under_max": true,
+        "why": "Upside dart",
+        "tag": "HUNT"
+      },
+      {
+        "rank": 5,
+        "player": "Dallas Goedert",
+        "pay": 2,
+        "under_max": true,
+        "why": "Safe stream",
+        "tag": "HUNT"
+      },
+      {
+        "rank": 6,
+        "player": "Dalton Kincaid",
+        "pay": 2,
+        "under_max": true,
+        "why": "BUF upside",
+        "tag": "HUNT"
+      },
+      {
+        "rank": 7,
+        "player": "Isaiah Likely",
+        "pay": 2,
+        "under_max": true,
+        "why": "BAL dart",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 8,
+        "player": "Jake Ferguson",
+        "pay": 1,
+        "under_max": true,
+        "why": "$1 TE",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 9,
+        "player": "Hunter Henry",
+        "pay": 1,
+        "under_max": true,
+        "why": "$1 TE",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 10,
+        "player": "Jonnu Smith",
+        "pay": 1,
+        "under_max": true,
+        "why": "$1 TE",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 11,
+        "player": "Mark Andrews",
+        "pay": 4,
+        "under_max": true,
+        "why": "Only if cheap",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 12,
+        "player": "David Njoku",
+        "pay": 2,
+        "under_max": true,
+        "why": "Stream",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 13,
+        "player": "Evan Engram",
+        "pay": 2,
+        "under_max": true,
+        "why": "Stream",
+        "tag": "DEPTH"
+      },
+      {
+        "rank": 14,
+        "player": "Sam LaPorta",
+        "pay": 8,
+        "under_max": false,
+        "why": "Over max \u2014 pass",
+        "tag": "OVER"
+      },
+      {
+        "rank": 15,
+        "player": "George Kittle",
+        "pay": 7,
+        "under_max": false,
+        "why": "Over max \u2014 pass",
+        "tag": "OVER"
+      }
+    ],
+    "updated_note": "Filtered vs live sold. Pay caps for Nick $14/max $6. HUNT = fits max."
   }
 }

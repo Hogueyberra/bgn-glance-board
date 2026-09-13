@@ -215,3 +215,49 @@ footer { color: var(--muted); font-size: 0.75rem; margin-top: 28px; }
 }
 .sale-log .sales-table thead, .sale-log .sales-table tbody { display: table; width: 100%; table-layout: fixed; }
 .sale-log-panel > h3 { display: none; }
+
+/* Players left by position */
+.left-note { color: var(--muted); font-size: 0.8rem; margin: 0 0 8px; }
+.left-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+@media (max-width: 900px) {
+  .left-cols { grid-template-columns: 1fr; }
+}
+.left-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 55vh;
+  overflow-y: auto;
+}
+.left-list li {
+  display: grid;
+  grid-template-columns: 1.4rem 1fr auto;
+  gap: 6px;
+  align-items: baseline;
+  padding: 6px 2px;
+  border-bottom: 1px solid #2a3140;
+  font-size: 0.85rem;
+}
+.left-list .rk { color: var(--muted); font-variant-numeric: tabular-nums; }
+.left-list .nm { font-weight: 600; }
+.left-list .pay { color: var(--accent); font-weight: 700; font-variant-numeric: tabular-nums; }
+.left-list .why { grid-column: 2 / -1; font-size: 0.7rem; color: #9aa3b2; margin-top: -2px; }
+.left-list li.over { opacity: 0.55; }
+.left-list li.over .nm { text-decoration: none; }
+.tag-hunt { color: #86efac; font-weight: 700; }
+.tag-over { color: #e85d75; font-weight: 700; }
+.left-badge {
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  padding: 1px 5px;
+  border-radius: 4px;
+  margin-left: 4px;
+}
+.left-badge.hunt { background: #143528; color: #86efac; }
+.left-badge.over { background: #3a1520; color: #e85d75; }
+.left-badge.depth { background: #1a2030; color: #9aa3b2; }

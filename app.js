@@ -263,7 +263,7 @@
       msg.innerHTML = `${state.live?.message || ""} <span class="sync">· synced ${sync}</span>`;
     }
 
-    for (const section of ["qb", "rb", "wr", "darts", "soak"]) {
+    for (const section of ["qb", "rb", "wr", "te", "darts", "soak"]) {
       const host = document.getElementById(`grid-${section}`);
       if (!host) continue;
       host.innerHTML = "";
@@ -290,6 +290,38 @@
     }
     if (!nick.roster.length) {
       rosterBody.append(el("tr", {}, [el("td", { colspan: "3", text: "No players yet" })]));
+    }
+
+
+    // players left by position (from live.json)
+    const leftMap = { WR: "left-wr", RB: "left-rb", TE: "left-te" };
+    const rem = state.live?.remaining_by_pos || {};
+    for (const [pos, elId] of Object.entries(leftMap)) {
+      const host = document.getElementById(elId);
+      if (!host) continue;
+      host.innerHTML = "";
+      const rows = rem[pos] || [];
+      if (!rows.length) {
+        host.append(el("li", { text: "None loaded — waiting on live.json" }));
+        continue;
+      }
+      for (const r of rows) {
+        const under = !!r.under_max;
+        const tag = r.tag || (under ? "HUNT" : "OVER");
+        const li = el("li", { className: under ? "hunt" : "over" });
+        li.append(
+          el("span", { className: "rk", text: String(r.rank) }),
+          el("span", { className: "nm", text: r.player }),
+          el("span", { className: "pay", text: "$" + r.pay }),
+        );
+        const why = el("div", { className: "why" });
+        why.append(
+          el("span", { className: `left-badge ${tag.toLowerCase()}`, text: tag }),
+          document.createTextNode(" " + (r.why || "")),
+        );
+        li.append(why);
+        host.append(li);
+      }
     }
 
     // sales log

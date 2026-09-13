@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#0f1115" />
   <meta http-equiv="Cache-Control" content="no-cache" />
   <title>BGN Glance Board</title>
-  <link rel="stylesheet" href="styles.css?v=12" />
+  <link rel="stylesheet" href="styles.css?v=13" />
 </head>
 <body>
   <header>
@@ -23,6 +23,8 @@
   <nav>
     <a href="#plan">Plan</a>
     <a href="#live">Live</a>
+    <a href="#left">Left</a>
+    <a href="#te">TE</a>
     <a href="#qb">QB</a>
     <a href="#rb">RB</a>
     <a href="#wr">WR</a>
@@ -103,9 +105,30 @@
       </div>
     </section>
 
+    
+    <section id="left">
+      <h2>Players left</h2>
+      <p class="left-note">Top remaining by position · <span class="tag-hunt">HUNT</span> fits your max · <span class="tag-over">OVER</span> still on board but above max</p>
+      <div class="left-cols">
+        <div class="panel left-col">
+          <h3>WR</h3>
+          <ol id="left-wr" class="left-list"></ol>
+        </div>
+        <div class="panel left-col">
+          <h3>RB</h3>
+          <ol id="left-rb" class="left-list"></ol>
+        </div>
+        <div class="panel left-col">
+          <h3>TE</h3>
+          <ol id="left-te" class="left-list"></ol>
+        </div>
+      </div>
+    </section>
+
     <section id="qb"><h2>QB</h2><div class="grid" id="grid-qb"></div></section>
     <section id="rb"><h2>RB</h2><div class="grid" id="grid-rb"></div></section>
     <section id="wr"><h2>WR</h2><div class="grid" id="grid-wr"></div></section>
+    <section id="te"><h2>TE</h2><div class="grid" id="grid-te"></div></section>
     <section id="darts"><h2>Late darts</h2><div class="grid" id="grid-darts"></div></section>
     <section id="soak"><h2>Soak nominations</h2><div class="grid" id="grid-soak"></div></section>
 
@@ -118,6 +141,6 @@
       Bountygate Nation · GitHub Pages · live.json polled every 5s · text Ball on phone: “Gibbs 63 won”
     </footer>
   </main>
-  <script src="app.js?v=12"></script>
+  <script src="app.js?v=13"></script>
 </body>
 </html>
