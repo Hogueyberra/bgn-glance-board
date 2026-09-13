@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T00:30:54Z",
+  "updated_at": "2026-09-13T00:34:02Z",
   "message": "TLaw $49 David. Purdy board fix.",
   "nick": {
     "cash": 43,
@@ -318,9 +318,9 @@
     {
       "team": 11,
       "name": "Patrick",
-      "cash": 95,
-      "spent": 105,
-      "open_spots": 10,
+      "cash": 60,
+      "spent": 140,
+      "open_spots": 9,
       "roster": [
         {
           "player": "Joe Burrow",
@@ -336,6 +336,11 @@
           "player": "Kyren Williams",
           "pos": "RB",
           "price": 25
+        },
+        {
+          "player": "De'Von Achane",
+          "pos": "RB",
+          "price": 35
         }
       ]
     },
@@ -801,6 +806,15 @@
       "pos": "WR",
       "at": "2026-09-13T00:30:54Z",
       "manager": "Alex"
+    },
+    {
+      "player": "De'Von Achane",
+      "price": 35,
+      "winner": "Patrick",
+      "mine": false,
+      "pos": "RB",
+      "at": "2026-09-13T00:34:02Z",
+      "manager": "Patrick"
     }
   ],
   "tips": [
@@ -816,6 +830,7 @@
     "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black $5 / Stevenson-Breece $12\u201313",
     "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
     "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
-    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black $5 / Higgins $16"
+    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black $5 / Higgins $16",
+    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black $5 / Stevenson-Breece $12\u201313"
   ]
 }
