@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T01:52:27Z",
-  "message": "Bucky locked. Cash updated. Still hunting Flowers / Black / Higgins.",
+  "updated_at": "2026-09-13T01:53:28Z",
+  "message": "Pass. You $34 / max $25. Next: Flowers / Black / Higgins.",
   "nick": {
     "cash": 34,
     "spent": 166,
@@ -92,8 +92,8 @@
     },
     {
       "name": "Jeff",
-      "cash": 42,
-      "spent": 158,
+      "cash": 38,
+      "spent": 162,
       "roster": [
         {
           "player": "Sam Darnold",
@@ -114,8 +114,14 @@
           "player": "Jayden Daniels",
           "pos": "QB",
           "price": 39
+        },
+        {
+          "player": "Jaylen Warren",
+          "pos": "RB",
+          "price": 4
         }
-      ]
+      ],
+      "open_spots": 13
     },
     {
       "name": "Wes",
@@ -990,6 +996,15 @@
       "pos": "RB",
       "at": "2026-09-13T01:52:27Z",
       "manager": "Nick"
+    },
+    {
+      "player": "Jaylen Warren",
+      "price": 4,
+      "winner": "Jeff",
+      "mine": false,
+      "pos": "RB",
+      "at": "2026-09-13T01:53:28Z",
+      "manager": "Jeff"
     }
   ],
   "tips": [
@@ -1006,7 +1021,8 @@
     "Judkins $11 Kyle \u2014 cheap RB market moving; Stevenson/Breece still on board.",
     "Jordan Love $13 Mike. Kyle's $26 Love = Jeremiyah (RB) \u2014 corrected.",
     "Warren $10 Patrick \u2014 TE mid-tier gone; Kraft/Schultz still $1\u20133 streamers.",
-    "YOU: Bucky Irving $9 \u2014 cheap RB2 locked under ~$11 pay."
+    "YOU: Bucky Irving $9 \u2014 cheap RB2 locked under ~$11 pay.",
+    "Jaylen Warren $4 Jeff \u2014 handcuff market; your Black still $5 priority."
   ],
   "roster_spots": 14
 }
