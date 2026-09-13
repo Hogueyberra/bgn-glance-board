@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T01:43:41Z",
-  "message": "Pass on Pickens. Still $43 / max $33. Next: Flowers / Black / Higgins.",
+  "updated_at": "2026-09-13T01:45:39Z",
+  "message": "Pass. Still $43 / max $33. Next: Flowers / Black / Higgins.",
   "nick": {
     "cash": 43,
     "spent": 157,
@@ -179,8 +179,8 @@
     },
     {
       "name": "Kyle",
-      "cash": 20,
-      "spent": 180,
+      "cash": 9,
+      "spent": 191,
       "roster": [
         {
           "player": "Amon-Ra St. Brown",
@@ -201,8 +201,14 @@
           "player": "Jordan Love",
           "pos": "QB",
           "price": 26
+        },
+        {
+          "player": "Quinshon Judkins",
+          "pos": "RB",
+          "price": 11
         }
-      ]
+      ],
+      "open_spots": 13
     },
     {
       "name": "Ryan",
@@ -927,6 +933,15 @@
       "pos": "WR",
       "at": "2026-09-13T01:43:41Z",
       "manager": "Mike"
+    },
+    {
+      "player": "Quinshon Judkins",
+      "price": 11,
+      "winner": "Kyle",
+      "mine": false,
+      "pos": "RB",
+      "at": "2026-09-13T01:45:39Z",
+      "manager": "Kyle"
     }
   ],
   "tips": [
@@ -939,7 +954,8 @@
     "London $28 Patrick \u2014 over your $14 pay; WR board thinning toward Pickens/Flowers.",
     "Baker $20 Alex \u2014 SF QB depth drying; you can still stream later.",
     "Kyler $21 Adam \u2014 SF2 buys still going; you can wait on cheap QB3.",
-    "Pickens $23 Mike \u2014 over your $19. Pivot: Flowers $18 / Black $5 / Higgins $16."
+    "Pickens $23 Mike \u2014 over your $19. Pivot: Flowers $18 / Black $5 / Higgins $16.",
+    "Judkins $11 Kyle \u2014 cheap RB market moving; Stevenson/Breece still on board."
   ],
   "roster_spots": 14
 }
