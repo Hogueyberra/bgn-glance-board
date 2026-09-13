@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T01:38:57Z",
+  "updated_at": "2026-09-13T01:41:37Z",
   "message": "Pass. Still $43 / max $33. Hunt Pickens / Flowers / Black.",
   "nick": {
     "cash": 43,
@@ -372,8 +372,8 @@
     },
     {
       "name": "Adam",
-      "cash": 64,
-      "spent": 136,
+      "cash": 43,
+      "spent": 157,
       "roster": [
         {
           "player": "Jahmyr Gibbs",
@@ -389,8 +389,14 @@
           "player": "Jaxson Dart",
           "pos": "QB",
           "price": 24
+        },
+        {
+          "player": "Kyler Murray",
+          "pos": "QB",
+          "price": 21
         }
-      ]
+      ],
+      "open_spots": 13
     }
   ],
   "sold": [
@@ -897,6 +903,15 @@
       "pos": "QB",
       "at": "2026-09-13T01:38:57Z",
       "manager": "Alex"
+    },
+    {
+      "player": "Kyler Murray",
+      "price": 21,
+      "winner": "Adam",
+      "mine": false,
+      "pos": "QB",
+      "at": "2026-09-13T01:41:37Z",
+      "manager": "Adam"
     }
   ],
   "tips": [
@@ -907,7 +922,8 @@
     "Montgomery $15 David \u2014 mid RB soak; your cheap RB2 targets still open.",
     "Bowers $15 Alex \u2014 TE1 steal; stream Kraft/Schultz $1\u20133 later.",
     "London $28 Patrick \u2014 over your $14 pay; WR board thinning toward Pickens/Flowers.",
-    "Baker $20 Alex \u2014 SF QB depth drying; you can still stream later."
+    "Baker $20 Alex \u2014 SF QB depth drying; you can still stream later.",
+    "Kyler $21 Adam \u2014 SF2 buys still going; you can wait on cheap QB3."
   ],
   "roster_spots": 14
 }
