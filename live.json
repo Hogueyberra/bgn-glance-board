@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T01:35:23Z",
+  "updated_at": "2026-09-13T01:37:45Z",
   "message": "Pass. Still $43 / max $33. Hunt Pickens / Flowers / Black.",
   "nick": {
     "cash": 43,
@@ -334,8 +334,8 @@
     },
     {
       "name": "Patrick",
-      "cash": 60,
-      "spent": 140,
+      "cash": 32,
+      "spent": 168,
       "roster": [
         {
           "player": "Joe Burrow",
@@ -356,8 +356,14 @@
           "player": "De'Von Achane",
           "pos": "RB",
           "price": 35
+        },
+        {
+          "player": "Drake London",
+          "pos": "WR",
+          "price": 28
         }
-      ]
+      ],
+      "open_spots": 13
     },
     {
       "name": "Adam",
@@ -868,6 +874,15 @@
       "pos": "TE",
       "at": "2026-09-13T01:35:23Z",
       "manager": "Alex"
+    },
+    {
+      "player": "Drake London",
+      "price": 28,
+      "winner": "Patrick",
+      "mine": false,
+      "pos": "WR",
+      "at": "2026-09-13T01:37:45Z",
+      "manager": "Patrick"
     }
   ],
   "tips": [
@@ -876,7 +891,8 @@
     "QC: Chase\u2192Ryan, Adams=Davante (not DeVonta), Love=Jordan QB.",
     "Daniel Jones $10 Alex \u2014 cheap QB2s going; you can wait.",
     "Montgomery $15 David \u2014 mid RB soak; your cheap RB2 targets still open.",
-    "Bowers $15 Alex \u2014 TE1 steal; stream Kraft/Schultz $1\u20133 later."
+    "Bowers $15 Alex \u2014 TE1 steal; stream Kraft/Schultz $1\u20133 later.",
+    "London $28 Patrick \u2014 over your $14 pay; WR board thinning toward Pickens/Flowers."
   ],
   "roster_spots": 14
 }
