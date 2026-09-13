@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T02:02:21Z",
-  "message": "Needs board: Flowers / Black / Higgins (pick one punch + Black).",
+  "updated_at": "2026-09-13T02:02:46Z",
+  "message": "Next 3: Flowers $18 \u00b7 Black $5 \u00b7 Egbuka $12",
   "nick": {
     "cash": 34,
     "spent": 166,
@@ -1066,11 +1066,10 @@
     }
   ],
   "tips": [
-    "NEED: 3 WR + TE + flex + Black cuff | $34 \u00b7 max $25",
-    "HUNT: (1) Flowers $18 (2) Black $5 (3) Higgins $16 \u2014 don't buy Flowers+Higgins both at pay",
-    "Alts: Wilson/BTJ $14 \u00b7 DK $13 \u00b7 Sutton/DJ $12 \u00b7 then Worthy\u2192$5 depth",
-    "TE stream Schultz/Kraft $1\u20133 last",
-    "Budget: punch+Black first, then one mid WR, then $1s"
+    "NEED: 3 WR + TE + Black | $34 \u00b7 max $25",
+    "HUNT: (1) Flowers $18 (2) Black $5 (3) Egbuka $12 \u2014 Nick prefers Egbuka > Higgins",
+    "Alts: Wilson/BTJ $14 \u00b7 DK $13 \u00b7 Sutton/DJ/Higgins $12",
+    "TE Kraft/Schultz $1\u20133 last"
   ],
   "roster_spots": 14,
   "remaining_wrs": [
@@ -1082,9 +1081,9 @@
     },
     {
       "name": "Tee Higgins",
-      "pay": 16,
-      "tier": "A",
-      "why": "TD upside; soft when Burrow healthy"
+      "pay": 12,
+      "tier": "B",
+      "why": "Only if Egbuka/Flowers miss \u2014 Nick prefers Egbuka"
     },
     {
       "name": "Garrett Wilson",
@@ -1136,9 +1135,9 @@
     },
     {
       "name": "Emeka Egbuka",
-      "pay": 10,
-      "tier": "B",
-      "why": "Buzz; treat as soft pay"
+      "pay": 12,
+      "tier": "A",
+      "why": "Nick preferred over Higgins \u2014 primary WR2/punch alt"
     },
     {
       "name": "Xavier Worthy",
@@ -1257,7 +1256,7 @@
         "pos": "WR",
         "pay": 18,
         "need": "WR1",
-        "why": "Best remaining punch that still fits"
+        "why": "Best remaining punch"
       },
       {
         "rank": 2,
@@ -1265,15 +1264,15 @@
         "pos": "RB",
         "pay": 5,
         "need": "CMC cuff",
-        "why": "Insurance on $49 CMC \u2014 non-negotiable stash"
+        "why": "Non-negotiable stash"
       },
       {
         "rank": 3,
-        "player": "Tee Higgins",
+        "player": "Emeka Egbuka",
         "pos": "WR",
-        "pay": 16,
-        "need": "WR1 alt",
-        "why": "If Flowers gone/over; don't stack with $18 Flowers"
+        "pay": 12,
+        "need": "WR2",
+        "why": "Nick prefers over Higgins"
       },
       {
         "rank": 4,
@@ -1281,7 +1280,7 @@
         "pos": "WR",
         "pay": 14,
         "need": "WR1/2",
-        "why": "Talent discount path"
+        "why": "Talent path"
       },
       {
         "rank": 5,
@@ -1289,99 +1288,39 @@
         "pos": "WR",
         "pay": 14,
         "need": "WR1/2",
-        "why": "Year-2 upside at your price"
+        "why": "Year-2 upside"
       }
     ],
     "next_wave": [
       {
         "player": "DK Metcalf",
-        "pos": "WR",
-        "pay": 13,
-        "why": "Ceiling WR2"
+        "pay": 13
+      },
+      {
+        "player": "Tee Higgins",
+        "pay": 12,
+        "why": "Demoted \u2014 backup to Egbuka"
       },
       {
         "player": "Courtland Sutton",
-        "pos": "WR",
-        "pay": 12,
-        "why": "Target share"
+        "pay": 12
       },
       {
         "player": "DJ Moore",
-        "pos": "WR",
-        "pay": 12,
-        "why": "Floor WR2"
+        "pay": 12
       },
       {
         "player": "Tetairoa McMillan",
-        "pos": "WR",
-        "pay": 11,
-        "why": "Only to pay \u2014 hype risk"
+        "pay": 11
       },
       {
         "player": "Calvin Ridley",
-        "pos": "WR",
-        "pay": 11,
-        "why": "TD equity"
+        "pay": 11
       },
       {
         "player": "Terry McLaurin",
-        "pos": "WR",
-        "pay": 11,
-        "why": "Safe WR2"
-      },
-      {
-        "player": "Emeka Egbuka",
-        "pos": "WR",
-        "pay": 10,
-        "why": "Soft pay only"
+        "pay": 11
       }
-    ],
-    "fill": [
-      {
-        "player": "Xavier Worthy",
-        "pay": 9
-      },
-      {
-        "player": "Jerry Jeudy / Godwin / Diggs",
-        "pay": 8
-      },
-      {
-        "player": "Ricky Pearsall",
-        "pay": 7
-      },
-      {
-        "player": "Shakir / Downs / Jennings",
-        "pay": 6
-      },
-      {
-        "player": "Doubs / Pittman / Meyers",
-        "pay": 5
-      }
-    ],
-    "stream_te": [
-      {
-        "player": "Dalton Schultz",
-        "pay": 3
-      },
-      {
-        "player": "Tucker Kraft",
-        "pay": 3
-      },
-      {
-        "player": "Dallas Goedert / Kincaid / Likely",
-        "pay": 2
-      }
-    ],
-    "darts": [
-      "Jayden Reed",
-      "Jalen Coker",
-      "Matthew Golden",
-      "KC Concepcion"
-    ],
-    "budget_paths": [
-      "Path A: Flowers \u2264$18 + Black $5 + WR2 \u2264$8 + TE $2 + rest $1s",
-      "Path B: Higgins/Wilson/BTJ \u2264$14\u201316 + Black $5 + WR2 \u2264$8\u201310 + TE $2 + $1s",
-      "Path C (miss punch): 2x WR from B/C tiers (~$10+$8) + Black $5 + TE + darts"
     ]
   }
 }
