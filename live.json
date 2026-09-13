@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T01:30:27Z",
+  "updated_at": "2026-09-13T01:32:55Z",
   "message": "Pass. Still $43 / max $33. Hunt Pickens / Flowers / Black.",
   "nick": {
     "cash": 43,
@@ -27,8 +27,8 @@
   "room": [
     {
       "name": "David",
-      "cash": 36,
-      "spent": 164,
+      "cash": 21,
+      "spent": 179,
       "roster": [
         {
           "player": "Brock Purdy",
@@ -59,8 +59,14 @@
           "player": "Jameson Williams",
           "pos": "WR",
           "price": 13
+        },
+        {
+          "player": "David Montgomery",
+          "pos": "RB",
+          "price": 15
         }
-      ]
+      ],
+      "open_spots": 13
     },
     {
       "name": "Rich",
@@ -839,13 +845,23 @@
       "pos": "QB",
       "at": "2026-09-13T01:30:27Z",
       "manager": "Alex"
+    },
+    {
+      "player": "David Montgomery",
+      "price": 15,
+      "winner": "David",
+      "mine": false,
+      "pos": "RB",
+      "at": "2026-09-13T01:32:55Z",
+      "manager": "David"
     }
   ],
   "tips": [
     "You: $43 cash \u00b7 max $33.",
     "NEXT 3: (1) Pickens $19 (2) Flowers $18 (3) Black $5",
     "QC: Chase\u2192Ryan, Adams=Davante (not DeVonta), Love=Jordan QB.",
-    "Daniel Jones $10 Alex \u2014 cheap QB2s going; you can wait."
+    "Daniel Jones $10 Alex \u2014 cheap QB2s going; you can wait.",
+    "Montgomery $15 David \u2014 mid RB soak; your cheap RB2 targets still open."
   ],
   "roster_spots": 14
 }
