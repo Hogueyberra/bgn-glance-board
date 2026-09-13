@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T00:26:40Z",
+  "updated_at": "2026-09-13T00:28:31Z",
   "message": "TLaw $49 David. Purdy board fix.",
   "nick": {
     "cash": 43,
@@ -337,9 +337,9 @@
     {
       "team": 12,
       "name": "Adam",
-      "cash": 88,
-      "spent": 112,
-      "open_spots": 11,
+      "cash": 64,
+      "spent": 136,
+      "open_spots": 10,
       "roster": [
         {
           "player": "Jahmyr Gibbs",
@@ -350,6 +350,11 @@
           "player": "Omarion Hampton",
           "pos": "RB",
           "price": 45
+        },
+        {
+          "player": "Jaxson Dart",
+          "pos": "QB",
+          "price": 24
         }
       ]
     },
@@ -773,6 +778,15 @@
       "pos": "QB",
       "at": "2026-09-13T00:26:40Z",
       "manager": "Ryan"
+    },
+    {
+      "player": "Jaxson Dart",
+      "price": 24,
+      "winner": "Adam",
+      "mine": false,
+      "pos": "QB",
+      "at": "2026-09-13T00:28:31Z",
+      "manager": "Adam"
     }
   ],
   "tips": [
@@ -786,6 +800,7 @@
     "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black $5 / Higgins-Nico $16",
     "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
     "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black $5 / Stevenson-Breece $12\u201313",
+    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
     "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5"
   ]
 }
