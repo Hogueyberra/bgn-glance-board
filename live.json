@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T01:41:37Z",
-  "message": "Pass. Still $43 / max $33. Hunt Pickens / Flowers / Black.",
+  "updated_at": "2026-09-13T01:43:41Z",
+  "message": "Pass on Pickens. Still $43 / max $33. Next: Flowers / Black / Higgins.",
   "nick": {
     "cash": 43,
     "spent": 157,
@@ -136,8 +136,8 @@
     },
     {
       "name": "Mike",
-      "cash": 44,
-      "spent": 156,
+      "cash": 21,
+      "spent": 179,
       "roster": [
         {
           "player": "Bhayshul Tuten",
@@ -168,8 +168,14 @@
           "player": "Matthew Stafford",
           "pos": "QB",
           "price": 18
+        },
+        {
+          "player": "George Pickens",
+          "pos": "WR",
+          "price": 23
         }
-      ]
+      ],
+      "open_spots": 13
     },
     {
       "name": "Kyle",
@@ -912,6 +918,15 @@
       "pos": "QB",
       "at": "2026-09-13T01:41:37Z",
       "manager": "Adam"
+    },
+    {
+      "player": "George Pickens",
+      "price": 23,
+      "winner": "Mike",
+      "mine": false,
+      "pos": "WR",
+      "at": "2026-09-13T01:43:41Z",
+      "manager": "Mike"
     }
   ],
   "tips": [
@@ -923,7 +938,8 @@
     "Bowers $15 Alex \u2014 TE1 steal; stream Kraft/Schultz $1\u20133 later.",
     "London $28 Patrick \u2014 over your $14 pay; WR board thinning toward Pickens/Flowers.",
     "Baker $20 Alex \u2014 SF QB depth drying; you can still stream later.",
-    "Kyler $21 Adam \u2014 SF2 buys still going; you can wait on cheap QB3."
+    "Kyler $21 Adam \u2014 SF2 buys still going; you can wait on cheap QB3.",
+    "Pickens $23 Mike \u2014 over your $19. Pivot: Flowers $18 / Black $5 / Higgins $16."
   ],
   "roster_spots": 14
 }
