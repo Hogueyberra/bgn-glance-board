@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T02:09:14Z",
-  "message": "Flowers locked. NEXT: Black $5 \u00b7 cheap WR \u2264$4 \u00b7 TE/darts $1\u20132",
+  "updated_at": "2026-09-13T02:11:18Z",
+  "message": "Pass. You $14 / max $6. NEXT: Black $5 \u00b7 cheap WR \u2264$4 \u00b7 TE/darts.",
   "nick": {
     "cash": 14,
     "spent": 186,
@@ -80,8 +80,8 @@
     },
     {
       "name": "Rich",
-      "cash": 58,
-      "spent": 142,
+      "cash": 40,
+      "spent": 160,
       "roster": [
         {
           "player": "Chase Brown",
@@ -107,9 +107,14 @@
           "player": "Travis Etienne",
           "pos": "RB",
           "price": 11
+        },
+        {
+          "player": "Tyler Shough",
+          "pos": "QB",
+          "price": 18
         }
       ],
-      "open_spots": 11
+      "open_spots": 10
     },
     {
       "name": "Jeff",
@@ -1110,13 +1115,23 @@
       "pos": "WR",
       "at": "2026-09-13T02:09:11Z",
       "manager": "Nick"
+    },
+    {
+      "player": "Tyler Shough",
+      "price": 18,
+      "winner": "Rich",
+      "mine": false,
+      "pos": "QB",
+      "at": "2026-09-13T02:11:18Z",
+      "manager": "Rich"
     }
   ],
   "tips": [
     "You: $14 \u00b7 max $6 \u00b7 Flowers+Bucky+CMC+QBs",
     "MUST: Black $5 (CMC cuff) \u2014 fits max",
     "WR2/3: only \u2264$4\u20135 (Shakir/Downs/Jennings/Pearsall/Doubs) + $1\u20132 TE + darts",
-    "PASS: Egbuka/Higgins/Wilson/BTJ \u2014 over new max unless Black already secured and you accept $1 roster"
+    "PASS: Egbuka/Higgins/Wilson/BTJ \u2014 over new max unless Black already secured and you accept $1 roster",
+    "Shough $18 Rich \u2014 QB dart; you stay on Black $5."
   ],
   "roster_spots": 14,
   "remaining_wrs": [
