@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T01:26:08Z",
+  "updated_at": "2026-09-13T01:28:46Z",
   "message": "Pass. Still $43 / max $33. Hunt Pickens / Flowers / Black.",
   "nick": {
     "cash": 43,
@@ -28,9 +28,9 @@
     {
       "team": 1,
       "name": "David",
-      "cash": 49,
-      "spent": 151,
-      "open_spots": 8,
+      "cash": 36,
+      "spent": 164,
+      "open_spots": 7,
       "roster": [
         {
           "player": "Brock Purdy",
@@ -56,6 +56,11 @@
           "player": "Trey McBride",
           "pos": "TE",
           "price": 26
+        },
+        {
+          "player": "Jameson Williams",
+          "pos": "WR",
+          "price": 13
         }
       ]
     },
@@ -843,13 +848,23 @@
       "pos": "QB",
       "at": "2026-09-13T01:26:08Z",
       "manager": "Mike"
+    },
+    {
+      "player": "Jameson Williams",
+      "price": 13,
+      "winner": "David",
+      "mine": false,
+      "pos": "WR",
+      "at": "2026-09-13T01:28:46Z",
+      "manager": "David"
     }
   ],
   "tips": [
     "Nick: $43 cash \u00b7 11 open \u00b7 max $33 (14-spot formula).",
     "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
     "Loveland $14 Ryan \u2014 TE market heating; streamers still $1\u20133 later.",
-    "Stafford $18 Mike \u2014 QB3 market moving; you can wait on cheap SF later."
+    "Stafford $18 Mike \u2014 QB3 market moving; you can wait on cheap SF later.",
+    "Jamo $13 David \u2014 WR mid-tier moving; still hunting Pickens/Flowers value."
   ],
   "roster_spots": 14
 }
