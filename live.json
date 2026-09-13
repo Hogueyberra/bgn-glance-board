@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T02:11:18Z",
-  "message": "Pass. You $14 / max $6. NEXT: Black $5 \u00b7 cheap WR \u2264$4 \u00b7 TE/darts.",
+  "updated_at": "2026-09-13T02:12:14Z",
+  "message": "Next 3: Worthy\u2264$6 \u00b7 Pearsall/Shakir $5 \u00b7 Kraft $3\u20134 (Black $1\u20133 late)",
   "nick": {
     "cash": 14,
     "spent": 186,
@@ -1127,11 +1127,10 @@
     }
   ],
   "tips": [
-    "You: $14 \u00b7 max $6 \u00b7 Flowers+Bucky+CMC+QBs",
-    "MUST: Black $5 (CMC cuff) \u2014 fits max",
-    "WR2/3: only \u2264$4\u20135 (Shakir/Downs/Jennings/Pearsall/Doubs) + $1\u20132 TE + darts",
-    "PASS: Egbuka/Higgins/Wilson/BTJ \u2014 over new max unless Black already secured and you accept $1 roster",
-    "Shough $18 Rich \u2014 QB dart; you stay on Black $5."
+    "You: $14 \u00b7 max $6 \u00b7 Flowers locked",
+    "SHIFT: Black late at $1\u20133 \u2014 hunt better WR/TE \u2264$6 first",
+    "HUNT: Worthy/Jeudy/Godwin/Diggs \u2264$6 \u00b7 Pearsall/Shakir $5 \u00b7 Downs/Jennings $4 \u00b7 Kraft $3\u20134",
+    "Then Black $1\u20133 + Reed/Coker/Golden darts"
   ],
   "roster_spots": 14,
   "remaining_wrs": [
@@ -1323,50 +1322,70 @@
     "priority": [
       {
         "rank": 1,
-        "player": "Kaelon Black",
-        "pos": "RB",
-        "pay": 5,
-        "need": "CMC cuff",
-        "why": "Fits max $6 \u2014 must get"
+        "player": "Xavier Worthy",
+        "pos": "WR",
+        "pay": 6,
+        "need": "WR2",
+        "why": "Best upside still under max"
       },
       {
         "rank": 2,
-        "player": "Khalil Shakir / Josh Downs / Jauan Jennings",
+        "player": "Jerry Jeudy / Chris Godwin / Stefon Diggs",
         "pos": "WR",
-        "pay": 4,
+        "pay": 6,
         "need": "WR2",
-        "why": "Cheap WR2 under max"
+        "why": "Name WRs only if they crater to \u2264$6"
       },
       {
         "rank": 3,
-        "player": "Ricky Pearsall / Romeo Doubs / Pittman / Meyers",
+        "player": "Ricky Pearsall",
         "pos": "WR",
-        "pay": 3,
+        "pay": 5,
+        "need": "WR2/3",
+        "why": "SF pathway; strong positional value"
+      },
+      {
+        "rank": 4,
+        "player": "Khalil Shakir",
+        "pos": "WR",
+        "pay": 5,
+        "need": "WR2",
+        "why": "BUF slot volume"
+      },
+      {
+        "rank": 5,
+        "player": "Josh Downs / Jauan Jennings",
+        "pos": "WR",
+        "pay": 4,
         "need": "WR3",
-        "why": "Depth under $4"
+        "why": "Solid cheap starters"
       }
     ],
-    "stream_te": [
+    "te": [
       {
-        "player": "Kraft / Schultz / Goedert / Kincaid / Likely",
+        "player": "Tucker Kraft",
+        "pay": 4,
+        "why": "Best streaming TE left \u2014 prefer over random WR4"
+      },
+      {
+        "player": "Dalton Schultz / Goedert / Kincaid / Likely",
         "pay": 2
+      }
+    ],
+    "cuff_late": [
+      {
+        "player": "Kaelon Black",
+        "pay": 2,
+        "why": "Nick: will be <$5 \u2014 take at $1\u20133 after WR/TE upgrades"
       }
     ],
     "darts": [
       "Jayden Reed",
       "Jalen Coker",
       "Matthew Golden",
-      "KC Concepcion"
+      "KC Concepcion",
+      "Wan'Dale Robinson"
     ],
-    "pass": [
-      "Egbuka",
-      "Higgins",
-      "Wilson",
-      "BTJ",
-      "DK",
-      "Sutton",
-      "DJ Moore"
-    ],
-    "note": "Egbuka $12 plan is dead at max $6 unless you skip Black (don't)."
+    "budget": "Max $6 / $14 cash / 9 open. Spend on 2 usable WRs + TE first; Black $1\u20133 last."
   }
 }
