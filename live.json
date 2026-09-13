@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T23:56:45Z",
+  "updated_at": "2026-09-13T00:01:54Z",
   "message": "TLaw $49 David. Purdy board fix.",
   "nick": {
     "cash": 43,
@@ -292,14 +292,19 @@
     {
       "team": 12,
       "name": "Adam",
-      "cash": 133,
-      "spent": 67,
-      "open_spots": 12,
+      "cash": 88,
+      "spent": 112,
+      "open_spots": 11,
       "roster": [
         {
           "player": "Jahmyr Gibbs",
           "pos": "RB",
           "price": 67
+        },
+        {
+          "player": "Omarion Hampton",
+          "pos": "RB",
+          "price": 45
         }
       ]
     },
@@ -633,6 +638,15 @@
       "pos": "RB",
       "at": "2026-09-12T23:56:45Z",
       "manager": "Kyle"
+    },
+    {
+      "player": "Omarion Hampton",
+      "price": 45,
+      "winner": "Adam",
+      "mine": false,
+      "pos": "RB",
+      "at": "2026-09-13T00:01:54Z",
+      "manager": "Adam"
     }
   ],
   "tips": [
@@ -641,6 +655,7 @@
     "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
     "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
     "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black $5 / Higgins-Nico $16",
-    "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5"
+    "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
+    "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black $5 / cheap RB2 $12\u201313"
   ]
 }
