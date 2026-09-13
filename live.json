@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T02:09:11Z",
-  "message": "Flowers locked. Cash tight. NEXT: Black $5, then cheap WR/TE darts.",
+  "updated_at": "2026-09-13T02:09:14Z",
+  "message": "Flowers locked. NEXT: Black $5 \u00b7 cheap WR \u2264$4 \u00b7 TE/darts $1\u20132",
   "nick": {
     "cash": 14,
     "spent": 186,
@@ -1113,111 +1113,117 @@
     }
   ],
   "tips": [
-    "NEED: 3 WR + TE + Black | $34 \u00b7 max $25",
-    "HUNT: (1) Flowers $18 (2) Black $5 (3) Egbuka $12 \u2014 Nick prefers Egbuka > Higgins",
-    "Alts: Wilson/BTJ $14 \u00b7 DK $13 \u00b7 Sutton/DJ/Higgins $12",
-    "TE Kraft/Schultz $1\u20133 last",
-    "Javonte $16 Rich \u2014 RB mid-tier; Black still $5 cuff.",
-    "Etienne $11 Rich \u2014 RB depth; stay on Flowers/Black/Egbuka.",
-    "YOU: Flowers $20 \u2014 WR1 locked (slight over $18). Max now tight \u2014 Black $5 next."
+    "You: $14 \u00b7 max $6 \u00b7 Flowers+Bucky+CMC+QBs",
+    "MUST: Black $5 (CMC cuff) \u2014 fits max",
+    "WR2/3: only \u2264$4\u20135 (Shakir/Downs/Jennings/Pearsall/Doubs) + $1\u20132 TE + darts",
+    "PASS: Egbuka/Higgins/Wilson/BTJ \u2014 over new max unless Black already secured and you accept $1 roster"
   ],
   "roster_spots": 14,
   "remaining_wrs": [
     {
-      "name": "Zay Flowers",
-      "pay": 18,
-      "tier": "A",
-      "why": "WR1 upside, fits stars-and-scrubs"
-    },
-    {
       "name": "Tee Higgins",
       "pay": 12,
       "tier": "B",
-      "why": "Only if Egbuka/Flowers miss \u2014 Nick prefers Egbuka"
+      "why": "Only if Egbuka/Flowers miss \u2014 Nick prefers Egbuka",
+      "note_cap": "was $12; only if someone else nominated and you pass"
     },
     {
       "name": "Garrett Wilson",
       "pay": 14,
       "tier": "B",
-      "why": "Talent; QB noise \u2014 buy only to pay"
+      "why": "Talent; QB noise \u2014 buy only to pay",
+      "note_cap": "was $14; only if someone else nominated and you pass"
     },
     {
       "name": "Brian Thomas Jr.",
       "pay": 14,
       "tier": "B",
-      "why": "Year-2 leap candidate"
+      "why": "Year-2 leap candidate",
+      "note_cap": "was $14; only if someone else nominated and you pass"
     },
     {
       "name": "DK Metcalf",
       "pay": 13,
       "tier": "B",
-      "why": "Ceiling plays; volatile week to week"
+      "why": "Ceiling plays; volatile week to week",
+      "note_cap": "was $13; only if someone else nominated and you pass"
     },
     {
       "name": "Courtland Sutton",
       "pay": 12,
       "tier": "B",
-      "why": "Target hog if healthy"
+      "why": "Target hog if healthy",
+      "note_cap": "was $12; only if someone else nominated and you pass"
     },
     {
       "name": "DJ Moore",
       "pay": 12,
       "tier": "B",
-      "why": "Still WR2 range in 0.5 PPR"
+      "why": "Still WR2 range in 0.5 PPR",
+      "note_cap": "was $12; only if someone else nominated and you pass"
     },
     {
       "name": "Tetairoa McMillan",
       "pay": 11,
       "tier": "B",
-      "why": "Rookie/early buzz \u2014 don't overpay hype"
+      "why": "Rookie/early buzz \u2014 don't overpay hype",
+      "note_cap": "was $11; only if someone else nominated and you pass"
     },
     {
       "name": "Calvin Ridley",
       "pay": 11,
       "tier": "B",
-      "why": "Deep threat / TD equity"
+      "why": "Deep threat / TD equity",
+      "note_cap": "was $11; only if someone else nominated and you pass"
     },
     {
       "name": "Terry McLaurin",
       "pay": 11,
       "tier": "B",
-      "why": "Floor WR2 if healthy"
+      "why": "Floor WR2 if healthy",
+      "note_cap": "was $11; only if someone else nominated and you pass"
     },
     {
       "name": "Emeka Egbuka",
       "pay": 12,
       "tier": "A",
-      "why": "Nick preferred over Higgins \u2014 primary WR2/punch alt"
+      "why": "Nick preferred over Higgins \u2014 primary WR2/punch alt",
+      "note_cap": "was $12; only if someone else nominated and you pass"
     },
     {
       "name": "Xavier Worthy",
       "pay": 9,
       "tier": "C",
-      "why": "Big-play dart with Mahomes"
+      "why": "Big-play dart with Mahomes",
+      "note_cap": "was $9; only if someone else nominated and you pass"
     },
     {
       "name": "Jerry Jeudy",
       "pay": 8,
       "tier": "C",
-      "why": "Target volume when healthy"
+      "why": "Target volume when healthy",
+      "note_cap": "was $8; only if someone else nominated and you pass"
     },
     {
       "name": "Chris Godwin",
       "pay": 8,
       "tier": "C",
-      "why": "Slot volume if back"
+      "why": "Slot volume if back",
+      "note_cap": "was $8; only if someone else nominated and you pass"
     },
     {
       "name": "Stefon Diggs",
       "pay": 8,
       "tier": "C",
-      "why": "Name brand \u2014 only at discount"
+      "why": "Name brand \u2014 only at discount",
+      "note_cap": "was $8; only if someone else nominated and you pass"
     },
     {
       "name": "Ricky Pearsall",
       "pay": 7,
       "tier": "C",
-      "why": "SF pathway with CMC/Purdy"
+      "why": "SF pathway with CMC/Purdy",
+      "note_cap": "was $7; only if someone else nominated and you pass"
     },
     {
       "name": "Jauan Jennings",
@@ -1302,75 +1308,50 @@
     "priority": [
       {
         "rank": 1,
-        "player": "Zay Flowers",
-        "pos": "WR",
-        "pay": 18,
-        "need": "WR1",
-        "why": "Best remaining punch"
-      },
-      {
-        "rank": 2,
         "player": "Kaelon Black",
         "pos": "RB",
         "pay": 5,
         "need": "CMC cuff",
-        "why": "Non-negotiable stash"
+        "why": "Fits max $6 \u2014 must get"
+      },
+      {
+        "rank": 2,
+        "player": "Khalil Shakir / Josh Downs / Jauan Jennings",
+        "pos": "WR",
+        "pay": 4,
+        "need": "WR2",
+        "why": "Cheap WR2 under max"
       },
       {
         "rank": 3,
-        "player": "Emeka Egbuka",
+        "player": "Ricky Pearsall / Romeo Doubs / Pittman / Meyers",
         "pos": "WR",
-        "pay": 12,
-        "need": "WR2",
-        "why": "Nick prefers over Higgins"
-      },
-      {
-        "rank": 4,
-        "player": "Garrett Wilson",
-        "pos": "WR",
-        "pay": 14,
-        "need": "WR1/2",
-        "why": "Talent path"
-      },
-      {
-        "rank": 5,
-        "player": "Brian Thomas Jr.",
-        "pos": "WR",
-        "pay": 14,
-        "need": "WR1/2",
-        "why": "Year-2 upside"
+        "pay": 3,
+        "need": "WR3",
+        "why": "Depth under $4"
       }
     ],
-    "next_wave": [
+    "stream_te": [
       {
-        "player": "DK Metcalf",
-        "pay": 13
-      },
-      {
-        "player": "Tee Higgins",
-        "pay": 12,
-        "why": "Demoted \u2014 backup to Egbuka"
-      },
-      {
-        "player": "Courtland Sutton",
-        "pay": 12
-      },
-      {
-        "player": "DJ Moore",
-        "pay": 12
-      },
-      {
-        "player": "Tetairoa McMillan",
-        "pay": 11
-      },
-      {
-        "player": "Calvin Ridley",
-        "pay": 11
-      },
-      {
-        "player": "Terry McLaurin",
-        "pay": 11
+        "player": "Kraft / Schultz / Goedert / Kincaid / Likely",
+        "pay": 2
       }
-    ]
+    ],
+    "darts": [
+      "Jayden Reed",
+      "Jalen Coker",
+      "Matthew Golden",
+      "KC Concepcion"
+    ],
+    "pass": [
+      "Egbuka",
+      "Higgins",
+      "Wilson",
+      "BTJ",
+      "DK",
+      "Sutton",
+      "DJ Moore"
+    ],
+    "note": "Egbuka $12 plan is dead at max $6 unless you skip Black (don't)."
   }
 }
