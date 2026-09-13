@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T01:28:46Z",
-  "message": "Pass. Still $43 / max $33. Hunt Pickens / Flowers / Black.",
+  "updated_at": "2026-09-13T01:29:04Z",
+  "message": "Pass on Jamo. Still hunting Pickens / Flowers / Black.",
   "nick": {
     "cash": 43,
     "spent": 157,
@@ -26,11 +26,9 @@
   },
   "room": [
     {
-      "team": 1,
       "name": "David",
       "cash": 36,
       "spent": 164,
-      "open_spots": 7,
       "roster": [
         {
           "player": "Brock Purdy",
@@ -65,11 +63,9 @@
       ]
     },
     {
-      "team": 2,
       "name": "Rich",
       "cash": 105,
       "spent": 95,
-      "open_spots": 11,
       "roster": [
         {
           "player": "Chase Brown",
@@ -84,11 +80,9 @@
       ]
     },
     {
-      "team": 3,
       "name": "Jeff",
       "cash": 42,
       "spent": 158,
-      "open_spots": 9,
       "roster": [
         {
           "player": "Sam Darnold",
@@ -113,11 +107,9 @@
       ]
     },
     {
-      "team": 4,
       "name": "Wes",
       "cash": 23,
       "spent": 177,
-      "open_spots": 10,
       "roster": [
         {
           "player": "Puka Nacua",
@@ -137,11 +129,9 @@
       ]
     },
     {
-      "team": 5,
       "name": "Mike",
       "cash": 44,
       "spent": 156,
-      "open_spots": 7,
       "roster": [
         {
           "player": "Bhayshul Tuten",
@@ -164,7 +154,7 @@
           "price": 14
         },
         {
-          "player": "DeVonta Smith",
+          "player": "Davante Adams",
           "pos": "WR",
           "price": 12
         },
@@ -176,11 +166,9 @@
       ]
     },
     {
-      "team": 6,
       "name": "Kyle",
       "cash": 20,
       "spent": 180,
-      "open_spots": 9,
       "roster": [
         {
           "player": "Amon-Ra St. Brown",
@@ -198,19 +186,22 @@
           "price": 51
         },
         {
-          "player": "Jeremiyah Love",
-          "pos": "RB",
+          "player": "Jordan Love",
+          "pos": "QB",
           "price": 26
         }
       ]
     },
     {
-      "team": 7,
       "name": "Ryan",
-      "cash": 72,
-      "spent": 128,
-      "open_spots": 9,
+      "cash": 17,
+      "spent": 183,
       "roster": [
+        {
+          "player": "Ja'Marr Chase",
+          "pos": "WR",
+          "price": 55
+        },
         {
           "player": "Ashton Jeanty",
           "pos": "RB",
@@ -234,11 +225,9 @@
       ]
     },
     {
-      "team": 8,
       "name": "Alex",
       "cash": 53,
       "spent": 147,
-      "open_spots": 8,
       "roster": [
         {
           "player": "Saquon Barkley",
@@ -268,11 +257,9 @@
       ]
     },
     {
-      "team": 9,
       "name": "Nick",
       "cash": 43,
       "spent": 157,
-      "open_spots": 10,
       "roster": [
         {
           "player": "Josh Allen",
@@ -292,11 +279,9 @@
       ]
     },
     {
-      "team": 10,
       "name": "Sean",
       "cash": 24,
       "spent": 176,
-      "open_spots": 7,
       "roster": [
         {
           "player": "Kenneth Walker",
@@ -331,11 +316,9 @@
       ]
     },
     {
-      "team": 11,
       "name": "Patrick",
       "cash": 60,
       "spent": 140,
-      "open_spots": 9,
       "roster": [
         {
           "player": "Joe Burrow",
@@ -360,11 +343,9 @@
       ]
     },
     {
-      "team": 12,
       "name": "Adam",
       "cash": 64,
       "spent": 136,
-      "open_spots": 10,
       "roster": [
         {
           "player": "Jahmyr Gibbs",
@@ -382,20 +363,6 @@
           "price": 24
         }
       ]
-    },
-    {
-      "team": null,
-      "name": "Room",
-      "cash": 145,
-      "spent": 55,
-      "open_spots": 12,
-      "roster": [
-        {
-          "player": "Ja'Marr Chase",
-          "pos": "WR",
-          "price": 55
-        }
-      ]
     }
   ],
   "sold": [
@@ -411,11 +378,11 @@
     {
       "player": "Ja'Marr Chase",
       "price": 55,
-      "winner": "Room",
+      "winner": "Ryan",
       "mine": false,
       "pos": "WR",
       "at": "2026-09-12T21:59:45Z",
-      "manager": "Room"
+      "manager": "Ryan"
     },
     {
       "player": "Drake Maye",
@@ -706,11 +673,11 @@
       "manager": "David"
     },
     {
-      "player": "Jeremiyah Love",
+      "player": "Jordan Love",
       "price": 26,
       "winner": "Kyle",
       "mine": false,
-      "pos": "RB",
+      "pos": "QB",
       "at": "2026-09-12T23:56:45Z",
       "manager": "Kyle"
     },
@@ -760,7 +727,7 @@
       "manager": "David"
     },
     {
-      "player": "DeVonta Smith",
+      "player": "Davante Adams",
       "price": 12,
       "winner": "Mike",
       "mine": false,
@@ -860,11 +827,9 @@
     }
   ],
   "tips": [
-    "Nick: $43 cash \u00b7 11 open \u00b7 max $33 (14-spot formula).",
-    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
-    "Loveland $14 Ryan \u2014 TE market heating; streamers still $1\u20133 later.",
-    "Stafford $18 Mike \u2014 QB3 market moving; you can wait on cheap SF later.",
-    "Jamo $13 David \u2014 WR mid-tier moving; still hunting Pickens/Flowers value."
+    "You: $43 cash \u00b7 max $33.",
+    "NEXT 3: (1) Pickens $19 (2) Flowers $18 (3) Black $5",
+    "QC: Chase\u2192Ryan, Adams=Davante (not DeVonta), Love=Jordan QB."
   ],
   "roster_spots": 14
 }
