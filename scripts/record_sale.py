@@ -47,7 +47,7 @@ def main() -> int:
     args = p.parse_args()
 
     data = load()
-    nick = data.setdefault("nick", {"cash": 200, "spent": 0, "open_spots": 13, "roster": []})
+    nick = data.setdefault("nick", {"cash": 200, "spent": 0, "open_spots": 14, "roster": []})
 
     if args.tip:
         data.setdefault("tips", []).append(args.tip)
@@ -79,21 +79,21 @@ def main() -> int:
                 target = r
                 break
         if target is None and args.winner != "nick":
-            target = {"team": None, "name": mgr, "cash": 200, "spent": 0, "open_spots": 13, "roster": []}
+            target = {"team": None, "name": mgr, "cash": 200, "spent": 0, "open_spots": 14, "roster": []}
             room.append(target)
         if target is not None:
             target["roster"] = list(target.get("roster") or [])
             target["roster"].append({"player": args.player, "pos": args.pos, "price": args.price})
             target["spent"] = int(target.get("spent") or 0) + args.price
             target["cash"] = int(target.get("cash") or 200) - args.price
-            target["open_spots"] = max(0, int(target.get("open_spots") or 13) - 1)
+            target["open_spots"] = max(0, int(target.get("open_spots") or 14) - 1)
 
         if args.winner == "nick":
             nick["roster"] = list(nick.get("roster") or [])
             nick["roster"].append({"player": args.player, "pos": args.pos, "price": args.price})
             nick["spent"] = int(nick.get("spent") or 0) + args.price
             nick["cash"] = int(nick.get("cash") or 200) - args.price
-            nick["open_spots"] = max(0, int(nick.get("open_spots") or 13) - 1)
+            nick["open_spots"] = max(0, int(nick.get("open_spots") or 14) - 1)
         nick["max_bid"] = max_bid(int(nick["cash"]), int(nick["open_spots"]))
         data["nick"] = nick
 

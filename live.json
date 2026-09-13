@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-13T00:34:02Z",
-  "message": "TLaw $49 David. Purdy board fix.",
+  "updated_at": "2026-09-13T00:45:18Z",
+  "message": "QC: league is 14 spots (sheet). Nick max bid = $33.",
   "nick": {
     "cash": 43,
     "spent": 157,
-    "open_spots": 10,
-    "max_bid": 34,
+    "open_spots": 11,
+    "max_bid": 33,
     "roster": [
       {
         "player": "Josh Allen",
@@ -818,19 +818,8 @@
     }
   ],
   "tips": [
-    "NEXT 3: (1) DeVonta/Pickens pay  (2) Flowers pay  (3) Black pay ",
-    "TE sleepers: Kraft , Warren , Goedert/Kincaid/Likely  \u2014 after WR+Black",
-    "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
-    "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
-    "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
-    "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
-    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black $5 / Higgins-Nico $16 \u2014 confirm if Davante Adams not DeVonta",
-    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black $5 / Higgins-Nico $16",
-    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
-    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black $5 / Stevenson-Breece $12\u201313",
-    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
-    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5",
-    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black $5 / Higgins $16",
-    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black $5 / Stevenson-Breece $12\u201313"
-  ]
+    "Nick: $43 cash \u00b7 11 open \u00b7 max $33 (14-spot formula).",
+    "NEXT 3: (1) Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5"
+  ],
+  "roster_spots": 14
 }

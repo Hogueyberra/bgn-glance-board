@@ -118,7 +118,7 @@
   }
 
   function effectiveNick() {
-    const n = state.live?.nick || { cash: 200, spent: 0, open_spots: 13, roster: [] };
+    const n = state.live?.nick || { cash: 200, spent: 0, open_spots: 14, roster: [] };
     // apply local wins not yet in live
     const liveNames = new Set((n.roster || []).map((r) => normalizeName(r.player)));
     let cash = n.cash;
