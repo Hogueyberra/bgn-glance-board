@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T02:15:10Z",
-  "message": "Positional hunt live. Next: Worthy\u2264$6 \u00b7 Shakir/Pearsall $5 \u00b7 Kraft $3-4",
+  "updated_at": "2026-09-13T02:17:48Z",
+  "message": "Pass. You $14 / max $6. NEXT: Worthy\u2264$6 \u00b7 Pearsall/Shakir $5 \u00b7 Kraft $3\u20134.",
   "nick": {
     "cash": 14,
     "spent": 186,
@@ -458,8 +458,8 @@
     },
     {
       "name": "Adam",
-      "cash": 33,
-      "spent": 167,
+      "cash": 21,
+      "spent": 179,
       "roster": [
         {
           "player": "Jahmyr Gibbs",
@@ -485,9 +485,14 @@
           "player": "D'Andre Swift",
           "pos": "RB",
           "price": 10
+        },
+        {
+          "player": "Garrett Wilson",
+          "pos": "WR",
+          "price": 12
         }
       ],
-      "open_spots": 12
+      "open_spots": 11
     }
   ],
   "sold": [
@@ -1138,13 +1143,23 @@
       "pos": "RB",
       "at": "2026-09-13T02:12:37Z",
       "manager": "Jeff"
+    },
+    {
+      "player": "Garrett Wilson",
+      "price": 12,
+      "winner": "Adam",
+      "mine": false,
+      "pos": "WR",
+      "at": "2026-09-13T02:17:48Z",
+      "manager": "Adam"
     }
   ],
   "tips": [
     "You: $14 \u00b7 max $6 \u00b7 need WR/WR/TE (Black $1-3 late)",
     "WR: Worthy/Godwin/Jeudy \u2264$6 \u00b7 Diggs/Pearsall/Shakir $5 \u00b7 Downs/Jennings/Doubs $4",
     "TE: Kraft $4 \u00b7 Schultz $3 \u00b7 Goedert/Kincaid/Likely $2",
-    "RB: only Pacheco/Rhamondre/Jones \u2264$6 if they fall \u2014 Black $1-3 last"
+    "RB: only Pacheco/Rhamondre/Jones \u2264$6 if they fall \u2014 Black $1-3 last",
+    "Garrett Wilson $12 Adam \u2014 over your max $6."
   ],
   "roster_spots": 14,
   "remaining_wrs": [

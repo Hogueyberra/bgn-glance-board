@@ -172,3 +172,46 @@ footer { color: var(--muted); font-size: 0.75rem; margin-top: 28px; }
   flex: 1;
   min-height: 44px;
 }
+
+/* Collapsible sale log — collapsed by default */
+.sale-log {
+  margin: 0;
+}
+.sale-log > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 0 6px;
+  user-select: none;
+}
+.sale-log > summary::-webkit-details-marker { display: none; }
+.sale-log > summary::before {
+  content: "▸";
+  color: var(--accent);
+  margin-right: 6px;
+  font-size: 0.9rem;
+}
+.sale-log[open] > summary::before { content: "▾"; }
+.sale-log-count {
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0;
+  color: #9aa3b2;
+  font-size: 0.75rem;
+}
+.sale-log .sales-table {
+  margin-top: 4px;
+  max-height: 40vh;
+  display: block;
+  overflow-y: auto;
+}
+.sale-log .sales-table thead, .sale-log .sales-table tbody { display: table; width: 100%; table-layout: fixed; }
+.sale-log-panel > h3 { display: none; }

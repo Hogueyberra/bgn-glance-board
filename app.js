@@ -311,6 +311,10 @@
     if (!sales.length) {
       salesBody.append(el("tr", {}, [el("td", { colspan: "3", text: "No sales yet" })]));
     }
+    const saleCount = document.getElementById("sale-log-count");
+    if (saleCount) {
+      saleCount.textContent = sales.length ? `${sales.length} sales · tap to expand` : "empty";
+    }
 
     // tips
     const tips = document.getElementById("tips");
