@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T01:37:45Z",
+  "updated_at": "2026-09-13T01:38:57Z",
   "message": "Pass. Still $43 / max $33. Hunt Pickens / Flowers / Black.",
   "nick": {
     "cash": 43,
@@ -232,8 +232,8 @@
     },
     {
       "name": "Alex",
-      "cash": 28,
-      "spent": 172,
+      "cash": 8,
+      "spent": 192,
       "roster": [
         {
           "player": "Saquon Barkley",
@@ -269,9 +269,14 @@
           "player": "Brock Bowers",
           "pos": "TE",
           "price": 15
+        },
+        {
+          "player": "Baker Mayfield",
+          "pos": "QB",
+          "price": 20
         }
       ],
-      "open_spots": 12
+      "open_spots": 11
     },
     {
       "name": "Nick",
@@ -883,6 +888,15 @@
       "pos": "WR",
       "at": "2026-09-13T01:37:45Z",
       "manager": "Patrick"
+    },
+    {
+      "player": "Baker Mayfield",
+      "price": 20,
+      "winner": "Alex",
+      "mine": false,
+      "pos": "QB",
+      "at": "2026-09-13T01:38:57Z",
+      "manager": "Alex"
     }
   ],
   "tips": [
@@ -892,7 +906,8 @@
     "Daniel Jones $10 Alex \u2014 cheap QB2s going; you can wait.",
     "Montgomery $15 David \u2014 mid RB soak; your cheap RB2 targets still open.",
     "Bowers $15 Alex \u2014 TE1 steal; stream Kraft/Schultz $1\u20133 later.",
-    "London $28 Patrick \u2014 over your $14 pay; WR board thinning toward Pickens/Flowers."
+    "London $28 Patrick \u2014 over your $14 pay; WR board thinning toward Pickens/Flowers.",
+    "Baker $20 Alex \u2014 SF QB depth drying; you can still stream later."
   ],
   "roster_spots": 14
 }
