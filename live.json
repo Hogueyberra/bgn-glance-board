@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T01:58:08Z",
-  "message": "Deep WR board updated. Primary: Flowers / DeVonta / Higgins. Hold $ for Black.",
+  "updated_at": "2026-09-13T01:59:57Z",
+  "message": "Pass on DeVonta. You $34 / max $25. Next: Flowers / Black / Higgins.",
   "nick": {
     "cash": 34,
     "spent": 166,
@@ -75,8 +75,8 @@
     },
     {
       "name": "Rich",
-      "cash": 105,
-      "spent": 95,
+      "cash": 85,
+      "spent": 115,
       "roster": [
         {
           "player": "Chase Brown",
@@ -87,8 +87,14 @@
           "player": "Justin Herbert",
           "pos": "QB",
           "price": 44
+        },
+        {
+          "player": "DeVonta Smith",
+          "pos": "WR",
+          "price": 20
         }
-      ]
+      ],
+      "open_spots": 13
     },
     {
       "name": "Jeff",
@@ -1034,6 +1040,15 @@
       "pos": "QB",
       "at": "2026-09-13T01:56:07Z",
       "manager": "Jeff"
+    },
+    {
+      "player": "DeVonta Smith",
+      "price": 20,
+      "winner": "Rich",
+      "mine": false,
+      "pos": "WR",
+      "at": "2026-09-13T01:59:57Z",
+      "manager": "Rich"
     }
   ],
   "tips": [
@@ -1041,7 +1056,8 @@
     "WR A: Flowers $18 \u00b7 DeVonta $17 \u00b7 Higgins $16",
     "WR B: Wilson/BTJ $14 \u00b7 DK $13 \u00b7 Sutton/DJ $12 \u00b7 Tet/Ridley/Scary $11 \u00b7 Egbuka $10",
     "WR C: Worthy $9 \u00b7 Jeudy/Godwin/Diggs $8 \u00b7 Pearsall $7 \u00b7 Shakir/Downs/Jennings $6 \u00b7 Doubs/Pittman/Meyers $5",
-    "Darts: Reed/Coker/Golden/Concepcion $1-3 \u00b7 still priority Black $5"
+    "Darts: Reed/Coker/Golden/Concepcion $1-3 \u00b7 still priority Black $5",
+    "DeVonta $20 Rich \u2014 over your $17. Still: Flowers $18 / Black $5 / Higgins $16."
   ],
   "roster_spots": 14,
   "remaining_wrs": [
