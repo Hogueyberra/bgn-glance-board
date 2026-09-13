@@ -1011,7 +1011,7 @@
       "fight_to": "7-10",
       "pay": "3",
       "team": "GB",
-      "note": "Fine $1\u20133 streamer."
+      "note": "Upper Hand #1 sleeper TE \u2014 prefer after WR/Black."
     },
     {
       "id": "tyler-warren",
@@ -1022,7 +1022,7 @@
       "fight_to": "12-17",
       "pay": "3",
       "team": "IND",
-      "note": "Hype \u2014 only deep dart."
+      "note": "Upper Hand #2 \u2014 hype dart $1\u20133 only."
     },
     {
       "id": "kyle-pitts",
@@ -1078,6 +1078,39 @@
       "pay": "1",
       "team": "DAL",
       "note": "Streamer."
+    },
+    {
+      "id": "dallas-goedert",
+      "name": "Dallas Goedert",
+      "pos": "TE",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "1-6",
+      "pay": "2",
+      "team": "PHI",
+      "note": "Upper Hand #3 \u2014 streamer $1\u20132."
+    },
+    {
+      "id": "dalton-kincaid",
+      "name": "Dalton Kincaid",
+      "pos": "TE",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "1-6",
+      "pay": "2",
+      "team": "BUF",
+      "note": "Upper Hand #4 \u2014 $1\u20132 dart."
+    },
+    {
+      "id": "isaiah-likely",
+      "name": "Isaiah Likely",
+      "pos": "TE",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "1-6",
+      "pay": "2",
+      "team": "BAL",
+      "note": "Upper Hand #5 \u2014 Andrews contingency $1\u20132."
     }
   ]
 }
