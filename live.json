@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-13T01:50:02Z",
-  "message": "Pass. Still $43 / max $33. Next: Flowers / Black / Higgins.",
+  "updated_at": "2026-09-13T01:52:27Z",
+  "message": "Bucky locked. Cash updated. Still hunting Flowers / Black / Higgins.",
   "nick": {
-    "cash": 43,
-    "spent": 157,
-    "open_spots": 11,
-    "max_bid": 33,
+    "cash": 34,
+    "spent": 166,
+    "open_spots": 10,
+    "max_bid": 25,
     "roster": [
       {
         "player": "Josh Allen",
@@ -21,6 +21,11 @@
         "player": "Christian McCaffrey",
         "pos": "RB",
         "price": 49
+      },
+      {
+        "player": "Bucky Irving",
+        "pos": "RB",
+        "price": 9
       }
     ]
   },
@@ -297,8 +302,8 @@
     },
     {
       "name": "Nick",
-      "cash": 43,
-      "spent": 157,
+      "cash": 34,
+      "spent": 166,
       "roster": [
         {
           "player": "Josh Allen",
@@ -314,8 +319,14 @@
           "player": "Christian McCaffrey",
           "pos": "RB",
           "price": 49
+        },
+        {
+          "player": "Bucky Irving",
+          "pos": "RB",
+          "price": 9
         }
-      ]
+      ],
+      "open_spots": 13
     },
     {
       "name": "Sean",
@@ -970,6 +981,15 @@
       "pos": "TE",
       "at": "2026-09-13T01:50:02Z",
       "manager": "Patrick"
+    },
+    {
+      "player": "Bucky Irving",
+      "price": 9,
+      "winner": "nick",
+      "mine": true,
+      "pos": "RB",
+      "at": "2026-09-13T01:52:27Z",
+      "manager": "Nick"
     }
   ],
   "tips": [
@@ -985,7 +1005,8 @@
     "Pickens $23 Mike \u2014 over your $19. Pivot: Flowers $18 / Black $5 / Higgins $16.",
     "Judkins $11 Kyle \u2014 cheap RB market moving; Stevenson/Breece still on board.",
     "Jordan Love $13 Mike. Kyle's $26 Love = Jeremiyah (RB) \u2014 corrected.",
-    "Warren $10 Patrick \u2014 TE mid-tier gone; Kraft/Schultz still $1\u20133 streamers."
+    "Warren $10 Patrick \u2014 TE mid-tier gone; Kraft/Schultz still $1\u20133 streamers.",
+    "YOU: Bucky Irving $9 \u2014 cheap RB2 locked under ~$11 pay."
   ],
   "roster_spots": 14
 }
