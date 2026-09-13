@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-13T02:07:08Z",
-  "message": "Pass. You $34 / max $25. Next: Flowers / Black / Egbuka.",
+  "updated_at": "2026-09-13T02:09:11Z",
+  "message": "Flowers locked. Cash tight. NEXT: Black $5, then cheap WR/TE darts.",
   "nick": {
-    "cash": 34,
-    "spent": 166,
-    "open_spots": 10,
-    "max_bid": 25,
+    "cash": 14,
+    "spent": 186,
+    "open_spots": 9,
+    "max_bid": 6,
     "roster": [
       {
         "player": "Josh Allen",
@@ -26,6 +26,11 @@
         "player": "Bucky Irving",
         "pos": "RB",
         "price": 9
+      },
+      {
+        "player": "Zay Flowers",
+        "pos": "WR",
+        "price": 20
       }
     ]
   },
@@ -335,8 +340,8 @@
     },
     {
       "name": "Nick",
-      "cash": 34,
-      "spent": 166,
+      "cash": 14,
+      "spent": 186,
       "roster": [
         {
           "player": "Josh Allen",
@@ -357,9 +362,14 @@
           "player": "Bucky Irving",
           "pos": "RB",
           "price": 9
+        },
+        {
+          "player": "Zay Flowers",
+          "pos": "WR",
+          "price": 20
         }
       ],
-      "open_spots": 13
+      "open_spots": 12
     },
     {
       "name": "Sean",
@@ -1091,6 +1101,15 @@
       "pos": "RB",
       "at": "2026-09-13T02:07:08Z",
       "manager": "Rich"
+    },
+    {
+      "player": "Zay Flowers",
+      "price": 20,
+      "winner": "nick",
+      "mine": true,
+      "pos": "WR",
+      "at": "2026-09-13T02:09:11Z",
+      "manager": "Nick"
     }
   ],
   "tips": [
@@ -1099,7 +1118,8 @@
     "Alts: Wilson/BTJ $14 \u00b7 DK $13 \u00b7 Sutton/DJ/Higgins $12",
     "TE Kraft/Schultz $1\u20133 last",
     "Javonte $16 Rich \u2014 RB mid-tier; Black still $5 cuff.",
-    "Etienne $11 Rich \u2014 RB depth; stay on Flowers/Black/Egbuka."
+    "Etienne $11 Rich \u2014 RB depth; stay on Flowers/Black/Egbuka.",
+    "YOU: Flowers $20 \u2014 WR1 locked (slight over $18). Max now tight \u2014 Black $5 next."
   ],
   "roster_spots": 14,
   "remaining_wrs": [
