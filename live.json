@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T02:17:48Z",
+  "updated_at": "2026-09-13T02:18:41Z",
   "message": "Pass. You $14 / max $6. NEXT: Worthy\u2264$6 \u00b7 Pearsall/Shakir $5 \u00b7 Kraft $3\u20134.",
   "nick": {
     "cash": 14,
@@ -420,8 +420,8 @@
     },
     {
       "name": "Patrick",
-      "cash": 22,
-      "spent": 178,
+      "cash": 17,
+      "spent": 183,
       "roster": [
         {
           "player": "Joe Burrow",
@@ -452,9 +452,14 @@
           "player": "Tyler Warren",
           "pos": "TE",
           "price": 10
+        },
+        {
+          "player": "Jadarian Price",
+          "pos": "RB",
+          "price": 5
         }
       ],
-      "open_spots": 12
+      "open_spots": 11
     },
     {
       "name": "Adam",
@@ -1152,6 +1157,15 @@
       "pos": "WR",
       "at": "2026-09-13T02:17:48Z",
       "manager": "Adam"
+    },
+    {
+      "player": "Jadarian Price",
+      "price": 5,
+      "winner": "Patrick",
+      "mine": false,
+      "pos": "RB",
+      "at": "2026-09-13T02:18:41Z",
+      "manager": "Patrick"
     }
   ],
   "tips": [
@@ -1159,7 +1173,8 @@
     "WR: Worthy/Godwin/Jeudy \u2264$6 \u00b7 Diggs/Pearsall/Shakir $5 \u00b7 Downs/Jennings/Doubs $4",
     "TE: Kraft $4 \u00b7 Schultz $3 \u00b7 Goedert/Kincaid/Likely $2",
     "RB: only Pacheco/Rhamondre/Jones \u2264$6 if they fall \u2014 Black $1-3 last",
-    "Garrett Wilson $12 Adam \u2014 over your max $6."
+    "Garrett Wilson $12 Adam \u2014 over your max $6.",
+    "Jadarian Price $5 Patrick \u2014 RB dart under your max; stay on Worthy/Shakir/Kraft."
   ],
   "roster_spots": 14,
   "remaining_wrs": [
