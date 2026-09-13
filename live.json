@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T01:48:12Z",
+  "updated_at": "2026-09-13T01:50:02Z",
   "message": "Pass. Still $43 / max $33. Next: Flowers / Black / Higgins.",
   "nick": {
     "cash": 43,
@@ -356,8 +356,8 @@
     },
     {
       "name": "Patrick",
-      "cash": 32,
-      "spent": 168,
+      "cash": 22,
+      "spent": 178,
       "roster": [
         {
           "player": "Joe Burrow",
@@ -383,9 +383,14 @@
           "player": "Drake London",
           "pos": "WR",
           "price": 28
+        },
+        {
+          "player": "Tyler Warren",
+          "pos": "TE",
+          "price": 10
         }
       ],
-      "open_spots": 13
+      "open_spots": 12
     },
     {
       "name": "Adam",
@@ -956,6 +961,15 @@
       "pos": "QB",
       "at": "2026-09-13T01:48:12Z",
       "manager": "Mike"
+    },
+    {
+      "player": "Tyler Warren",
+      "price": 10,
+      "winner": "Patrick",
+      "mine": false,
+      "pos": "TE",
+      "at": "2026-09-13T01:50:02Z",
+      "manager": "Patrick"
     }
   ],
   "tips": [
@@ -970,7 +984,8 @@
     "Kyler $21 Adam \u2014 SF2 buys still going; you can wait on cheap QB3.",
     "Pickens $23 Mike \u2014 over your $19. Pivot: Flowers $18 / Black $5 / Higgins $16.",
     "Judkins $11 Kyle \u2014 cheap RB market moving; Stevenson/Breece still on board.",
-    "Jordan Love $13 Mike. Kyle's $26 Love = Jeremiyah (RB) \u2014 corrected."
+    "Jordan Love $13 Mike. Kyle's $26 Love = Jeremiyah (RB) \u2014 corrected.",
+    "Warren $10 Patrick \u2014 TE mid-tier gone; Kraft/Schultz still $1\u20133 streamers."
   ],
   "roster_spots": 14
 }
