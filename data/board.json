@@ -360,7 +360,7 @@
       "section": "darts",
       "action": "dart",
       "fight_to": "1-4",
-      "note": "Optional.",
+      "note": "Preferred TE spend after WR punch \u2014 $1\u20133.",
       "team": "HOU",
       "pay": "3"
     },
@@ -624,9 +624,9 @@
       "section": "soak",
       "action": "soak",
       "fight_to": "~33",
-      "note": "TE1 tax \u2014 great soak if you\u2019re streaming TE.",
+      "note": "Elite TE VORP \u2014 SKIP at your budget. Would wipe WR/Black plan.",
       "team": "LV",
-      "pay": "soak"
+      "pay": "0"
     },
     {
       "id": "mcbride",
@@ -635,20 +635,20 @@
       "section": "soak",
       "action": "soak",
       "fight_to": "~28",
-      "note": "TE2 soak.",
+      "note": "TE2 tax \u2014 skip unless crashes under $10 (won\u2019t).",
       "team": "ARI",
-      "pay": "soak"
+      "pay": "0"
     },
     {
       "id": "loveland",
       "name": "Colston Loveland",
       "pos": "TE",
-      "section": "soak",
-      "action": "soak",
+      "section": "darts",
+      "action": "dart",
       "fight_to": "~22",
       "note": "TE hype soak.",
       "team": "CHI",
-      "pay": "soak"
+      "pay": "4"
     },
     {
       "id": "dak-soak",
@@ -990,6 +990,94 @@
       "note": "Walker cuff.",
       "team": "SEA",
       "pay": "2"
+    },
+    {
+      "id": "sam-laporta",
+      "name": "Sam LaPorta",
+      "pos": "TE",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "8-12",
+      "pay": "4",
+      "team": "DET",
+      "note": "Stream-plus if cheap after WR punch."
+    },
+    {
+      "id": "tucker-kraft",
+      "name": "Tucker Kraft",
+      "pos": "TE",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "7-10",
+      "pay": "3",
+      "team": "GB",
+      "note": "Fine $1\u20133 streamer."
+    },
+    {
+      "id": "tyler-warren",
+      "name": "Tyler Warren",
+      "pos": "TE",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "12-17",
+      "pay": "3",
+      "team": "IND",
+      "note": "Hype \u2014 only deep dart."
+    },
+    {
+      "id": "kyle-pitts",
+      "name": "Kyle Pitts",
+      "pos": "TE",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "6-10",
+      "pay": "2",
+      "team": "ATL",
+      "note": "$1\u20133 streamer."
+    },
+    {
+      "id": "george-kittle",
+      "name": "George Kittle",
+      "pos": "TE",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "4-8",
+      "pay": "3",
+      "team": "SF",
+      "note": "Achilles ramp \u2014 dart only."
+    },
+    {
+      "id": "travis-kelce",
+      "name": "Travis Kelce",
+      "pos": "TE",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "3-6",
+      "pay": "2",
+      "team": "KC",
+      "note": "Name only \u2014 $1\u20132."
+    },
+    {
+      "id": "hunter-henry",
+      "name": "Hunter Henry",
+      "pos": "TE",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "1-3",
+      "pay": "1",
+      "team": "NE",
+      "note": "Streamer."
+    },
+    {
+      "id": "jake-ferguson",
+      "name": "Jake Ferguson",
+      "pos": "TE",
+      "section": "darts",
+      "action": "dart",
+      "fight_to": "1-3",
+      "pay": "1",
+      "team": "DAL",
+      "note": "Streamer."
     }
   ]
 }
