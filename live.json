@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T00:05:31Z",
+  "updated_at": "2026-09-13T00:05:56Z",
   "message": "TLaw $49 David. Purdy board fix.",
   "nick": {
     "cash": 43,
@@ -201,9 +201,9 @@
     {
       "team": 8,
       "name": "Alex",
-      "cash": 128,
-      "spent": 72,
-      "open_spots": 11,
+      "cash": 100,
+      "spent": 100,
+      "open_spots": 10,
       "roster": [
         {
           "player": "Saquon Barkley",
@@ -214,6 +214,11 @@
           "player": "Ladd McConkey",
           "pos": "WR",
           "price": 23
+        },
+        {
+          "player": "Bo Nix",
+          "pos": "QB",
+          "price": 28
         }
       ]
     },
@@ -647,10 +652,20 @@
       "pos": "RB",
       "at": "2026-09-13T00:01:54Z",
       "manager": "Adam"
+    },
+    {
+      "player": "Bo Nix",
+      "price": 28,
+      "winner": "Alex",
+      "mine": false,
+      "pos": "QB",
+      "at": "2026-09-13T00:05:56Z",
+      "manager": "Alex"
     }
   ],
   "tips": [
     "NEXT 3: (1) DeVonta/Pickens pay  (2) Flowers pay  (3) Black pay ",
-    "TE sleepers: Kraft , Warren , Goedert/Kincaid/Likely  \u2014 after WR+Black"
+    "TE sleepers: Kraft , Warren , Goedert/Kincaid/Likely  \u2014 after WR+Black",
+    "NEXT 3: (1) DeVonta/Pickens pay $19 (2) Flowers pay $18 (3) Black pay $5"
   ]
 }
