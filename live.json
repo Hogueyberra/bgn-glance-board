@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T01:54:48Z",
+  "updated_at": "2026-09-13T01:56:07Z",
   "message": "Pass. You $34 / max $25. Next: Flowers / Black / Higgins.",
   "nick": {
     "cash": 34,
@@ -92,8 +92,8 @@
     },
     {
       "name": "Jeff",
-      "cash": 38,
-      "spent": 162,
+      "cash": 36,
+      "spent": 164,
       "roster": [
         {
           "player": "Sam Darnold",
@@ -119,9 +119,14 @@
           "player": "Jaylen Warren",
           "pos": "RB",
           "price": 4
+        },
+        {
+          "player": "Aaron Rodgers",
+          "pos": "QB",
+          "price": 2
         }
       ],
-      "open_spots": 13
+      "open_spots": 12
     },
     {
       "name": "Wes",
@@ -1020,6 +1025,15 @@
       "pos": "QB",
       "at": "2026-09-13T01:54:48Z",
       "manager": "Wes"
+    },
+    {
+      "player": "Aaron Rodgers",
+      "price": 2,
+      "winner": "Jeff",
+      "mine": false,
+      "pos": "QB",
+      "at": "2026-09-13T01:56:07Z",
+      "manager": "Jeff"
     }
   ],
   "tips": [
@@ -1038,7 +1052,8 @@
     "Warren $10 Patrick \u2014 TE mid-tier gone; Kraft/Schultz still $1\u20133 streamers.",
     "YOU: Bucky Irving $9 \u2014 cheap RB2 locked under ~$11 pay.",
     "Jaylen Warren $4 Jeff \u2014 handcuff market; your Black still $5 priority.",
-    "Malik Willis $13 Wes \u2014 QB dart; doesn't touch your WR plan."
+    "Malik Willis $13 Wes \u2014 QB dart; doesn't touch your WR plan.",
+    "Rodgers $2 Jeff \u2014 endgame QB dart."
   ],
   "roster_spots": 14
 }
