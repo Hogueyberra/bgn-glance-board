@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T01:29:04Z",
-  "message": "Pass on Jamo. Still hunting Pickens / Flowers / Black.",
+  "updated_at": "2026-09-13T01:30:27Z",
+  "message": "Pass. Still $43 / max $33. Hunt Pickens / Flowers / Black.",
   "nick": {
     "cash": 43,
     "spent": 157,
@@ -226,8 +226,8 @@
     },
     {
       "name": "Alex",
-      "cash": 53,
-      "spent": 147,
+      "cash": 43,
+      "spent": 157,
       "roster": [
         {
           "player": "Saquon Barkley",
@@ -253,8 +253,14 @@
           "player": "Nico Collins",
           "pos": "WR",
           "price": 23
+        },
+        {
+          "player": "Daniel Jones",
+          "pos": "QB",
+          "price": 10
         }
-      ]
+      ],
+      "open_spots": 13
     },
     {
       "name": "Nick",
@@ -824,12 +830,22 @@
       "pos": "WR",
       "at": "2026-09-13T01:28:46Z",
       "manager": "David"
+    },
+    {
+      "player": "Daniel Jones",
+      "price": 10,
+      "winner": "Alex",
+      "mine": false,
+      "pos": "QB",
+      "at": "2026-09-13T01:30:27Z",
+      "manager": "Alex"
     }
   ],
   "tips": [
     "You: $43 cash \u00b7 max $33.",
     "NEXT 3: (1) Pickens $19 (2) Flowers $18 (3) Black $5",
-    "QC: Chase\u2192Ryan, Adams=Davante (not DeVonta), Love=Jordan QB."
+    "QC: Chase\u2192Ryan, Adams=Davante (not DeVonta), Love=Jordan QB.",
+    "Daniel Jones $10 Alex \u2014 cheap QB2s going; you can wait."
   ],
   "roster_spots": 14
 }
