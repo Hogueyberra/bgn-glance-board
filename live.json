@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T01:45:39Z",
+  "updated_at": "2026-09-13T01:48:12Z",
   "message": "Pass. Still $43 / max $33. Next: Flowers / Black / Higgins.",
   "nick": {
     "cash": 43,
@@ -136,8 +136,8 @@
     },
     {
       "name": "Mike",
-      "cash": 21,
-      "spent": 179,
+      "cash": 8,
+      "spent": 192,
       "roster": [
         {
           "player": "Bhayshul Tuten",
@@ -173,9 +173,14 @@
           "player": "George Pickens",
           "pos": "WR",
           "price": 23
+        },
+        {
+          "player": "Jordan Love",
+          "pos": "QB",
+          "price": 13
         }
       ],
-      "open_spots": 13
+      "open_spots": 12
     },
     {
       "name": "Kyle",
@@ -198,8 +203,8 @@
           "price": 51
         },
         {
-          "player": "Jordan Love",
-          "pos": "QB",
+          "player": "Jeremiyah Love",
+          "pos": "RB",
           "price": 26
         },
         {
@@ -719,11 +724,11 @@
       "manager": "David"
     },
     {
-      "player": "Jordan Love",
+      "player": "Jeremiyah Love",
       "price": 26,
       "winner": "Kyle",
       "mine": false,
-      "pos": "QB",
+      "pos": "RB",
       "at": "2026-09-12T23:56:45Z",
       "manager": "Kyle"
     },
@@ -942,6 +947,15 @@
       "pos": "RB",
       "at": "2026-09-13T01:45:39Z",
       "manager": "Kyle"
+    },
+    {
+      "player": "Jordan Love",
+      "price": 13,
+      "winner": "Mike",
+      "mine": false,
+      "pos": "QB",
+      "at": "2026-09-13T01:48:12Z",
+      "manager": "Mike"
     }
   ],
   "tips": [
@@ -955,7 +969,8 @@
     "Baker $20 Alex \u2014 SF QB depth drying; you can still stream later.",
     "Kyler $21 Adam \u2014 SF2 buys still going; you can wait on cheap QB3.",
     "Pickens $23 Mike \u2014 over your $19. Pivot: Flowers $18 / Black $5 / Higgins $16.",
-    "Judkins $11 Kyle \u2014 cheap RB market moving; Stevenson/Breece still on board."
+    "Judkins $11 Kyle \u2014 cheap RB market moving; Stevenson/Breece still on board.",
+    "Jordan Love $13 Mike. Kyle's $26 Love = Jeremiyah (RB) \u2014 corrected."
   ],
   "roster_spots": 14
 }
